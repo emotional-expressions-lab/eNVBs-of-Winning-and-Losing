@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Study 1 – Winners: Study1_Winners_Result_Pooled_AU.html</title>
+  
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+         font-size: 13px; color: #000; margin: 0; padding: 0; background: #fff; }
+  h1   { font-size: 20px; font-weight: 700; padding: 14px 20px 4px; margin: 0; }
+  h2   { font-size: 15px; font-weight: 700; margin: 22px 0 6px; color: #111; }
+  h3   { font-size: 13px; font-weight: 700; margin: 18px 0 2px; color: #333;
+         border-bottom: 1px solid #ddd; padding-bottom: 3px; }
+  .subtitle { font-size: 11px; color: #555; margin: 3px 20px 14px; line-height: 1.8; }
+  .tab-bar  { background: #f0f0f0; border-bottom: 2px solid #bbb;
+              padding: 8px 12px 0; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tab-btn  { padding: 7px 15px; border: 1px solid #bbb; border-bottom: none;
+              background: #e0e0e0; cursor: pointer; font-size: 12px;
+              border-radius: 4px 4px 0 0; font-family: inherit; }
+  .tab-btn.active { background: #fff; border-bottom: 2px solid #fff; font-weight: bold; }
+  .tab-btn:hover  { background: #d5d5d5; }
+  .tab-panel      { padding: 18px 26px; display: none; }
+  .tab-panel.active { display: block; }
+  table { border-collapse: collapse; margin: 4px 0 20px; font-size: 12px; min-width: 360px; }
+  table caption { font-style: italic; font-size: 12px; text-align: left;
+                  padding: 0 0 3px; caption-side: top; }
+  thead tr.top th { border-top: 2px solid #000; }
+  thead th { border-bottom: 1px solid #000; padding: 4px 14px 3px;
+             text-align: center; font-weight: 400; white-space: nowrap; }
+  thead th.L { text-align: left; }
+  tbody td   { padding: 2px 14px; text-align: center; }
+  tbody td.L { text-align: left; }
+  tbody tr.sig td { font-weight: bold; }
+  tfoot td { border-top: 2px solid #000; padding: 5px 4px 3px;
+             font-style: italic; font-size: 11px; color: #444; }
+  .panel-info { font-size: 11px; color: #555; margin: 0 0 14px; }
+  table.apa { border-collapse: collapse; width: 100%; font-size: 12px;
+              font-family: "Times New Roman", Times, serif; margin-bottom: 28px; }
+  table.apa caption { font-style: italic; font-weight: bold; text-align: left;
+                      font-size: 12px; margin-bottom: 4px; caption-side: top; }
+  table.apa thead tr.apa-top th { border-top: 2px solid #000; }
+  table.apa thead th  { border-bottom: 1px solid #000; padding: 4px 10px 3px;
+                        text-align: center; font-weight: normal; }
+  table.apa thead th.apa-L { text-align: left; }
+  table.apa tbody td   { padding: 3px 10px; text-align: center; }
+  table.apa tbody td.apa-L { text-align: left; }
+  table.apa tbody tr.apa-sig td { font-style: italic; }
+  table.apa tfoot td { border-top: 2px solid #000; padding: 5px 2px 2px;
+                       font-style: italic; font-size: 11px; text-align: left; }
+  .apa-section { margin-bottom: 32px; }
+  .copy-hint { font-size: 11px; color: #555; font-style: italic; margin: 0 0 20px;
+               padding: 7px 12px; background: #fffbe6; border-left: 3px solid #e6b800; }
+  hr { border: none; border-top: 1px solid #e8e8e8; margin: 6px 0 18px; }
+</style>
+<script>
+function showTab(i) {
+  document.querySelectorAll(".sx-panel").forEach(function(p, j) { p.classList.toggle("active", i === j); });
+  document.querySelectorAll(".sx-btn").forEach(function(b, j) { b.classList.toggle("active", i === j); });
+}
+</script>
+
+</head>
+<body>
+<h1>Study 1 – Winners: Facial Action-Unit Analysis</h1>
+<p class="subtitle">
+  Source: Result_PROCESSED_v4.6_R.xlsx &nbsp;|&nbsp; Measure: mean across frames (pooled) &nbsp;|&nbsp; N = 167 winners<br>
+  DV set: 20 Action Units (bilateral)<br>
+  Test order: Descriptives &rarr; Shapiro-Wilk &rarr; Levene's (median-centred) &rarr;
+  Welch's t-test (+ Hedges' g, BH FDR q) &rarr; Bayesian t-test<br>
+  Bayesian prior: Cauchy <em>r</em> = 0.7071 (JASP medium) &nbsp;|&nbsp; <em>p</em>-values: APA format
+</p>
+<div class="tab-bar"><button class="sx-btn active tab-btn active" onclick="showTab(0)">Study 1: Winners – Blind Only, High PD vs Low PD</button>
+<button class="sx-btn tab-btn" onclick="showTab(1)">Study 1: Winners – Sighted Only, High PD vs Low PD</button>
+<button class="sx-btn tab-btn" onclick="showTab(2)">Study 1: Winners – High PD Only, Sighted vs Blind</button>
+<button class="sx-btn tab-btn" onclick="showTab(3)">Study 1: Winners – Low PD Only, Sighted vs Blind</button>
+<button class="sx-btn tab-btn" style="border-left:3px solid #e6b800;" onclick="showTab(4)">APA Summary Tables</button></div>
+<div><div class="sx-panel tab-panel active" id="sx-p0"><h2>Study 1: Winners – Blind Only, High PD vs Low PD</h2>
+<p class="panel-info">High: n = 51 &nbsp;|&nbsp; Low: n = 24 &nbsp;|&nbsp; Total N = 75</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody><tr><td class="L" rowspan="2">AU01 Inner Brow Raiser</td><td class="L">High</td><td>50</td><td>0.090</td><td>0.100</td><td>0.014</td><td>1.109</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.070</td><td>0.082</td><td>0.017</td><td>1.160</td></tr>
+<tr><td class="L" rowspan="2">AU02 Outer Brow Raiser</td><td class="L">High</td><td>50</td><td>0.066</td><td>0.089</td><td>0.013</td><td>1.333</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.080</td><td>0.090</td><td>0.019</td><td>1.117</td></tr>
+<tr><td class="L" rowspan="2">AU04 Brow Lowerer</td><td class="L">High</td><td>50</td><td>0.081</td><td>0.074</td><td>0.011</td><td>0.917</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.090</td><td>0.091</td><td>0.019</td><td>1.013</td></tr>
+<tr><td class="L" rowspan="2">AU05 Upper Lid Raiser</td><td class="L">High</td><td>50</td><td>0.033</td><td>0.049</td><td>0.007</td><td>1.498</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.015</td><td>0.022</td><td>0.005</td><td>1.514</td></tr>
+<tr><td class="L" rowspan="2">AU06 Cheek Raiser</td><td class="L">High</td><td>50</td><td>0.078</td><td>0.081</td><td>0.011</td><td>1.038</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.148</td><td>0.170</td><td>0.036</td><td>1.152</td></tr>
+<tr><td class="L" rowspan="2">AU07 Lid Tightener</td><td class="L">High</td><td>50</td><td>0.077</td><td>0.076</td><td>0.011</td><td>0.995</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.072</td><td>0.057</td><td>0.012</td><td>0.800</td></tr>
+<tr><td class="L" rowspan="2">AU09 Nose Wrinkler</td><td class="L">High</td><td>50</td><td>0.013</td><td>0.027</td><td>0.004</td><td>1.988</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.008</td><td>0.008</td><td>0.002</td><td>0.993</td></tr>
+<tr><td class="L" rowspan="2">AU10 Upper Lip Raiser</td><td class="L">High</td><td>50</td><td>0.074</td><td>0.077</td><td>0.011</td><td>1.043</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.095</td><td>0.066</td><td>0.014</td><td>0.690</td></tr>
+<tr><td class="L" rowspan="2">AU12 Lip Corner Puller</td><td class="L">High</td><td>50</td><td>0.184</td><td>0.184</td><td>0.026</td><td>0.999</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.263</td><td>0.248</td><td>0.053</td><td>0.943</td></tr>
+<tr><td class="L" rowspan="2">AU14 Dimpler</td><td class="L">High</td><td>50</td><td>0.021</td><td>0.028</td><td>0.004</td><td>1.320</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.021</td><td>0.021</td><td>0.004</td><td>0.986</td></tr>
+<tr><td class="L" rowspan="2">AU15 Lip Corner Depressor</td><td class="L">High</td><td>50</td><td>0.013</td><td>0.016</td><td>0.002</td><td>1.215</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.018</td><td>0.023</td><td>0.005</td><td>1.270</td></tr>
+<tr><td class="L" rowspan="2">AU17 Chin Raiser</td><td class="L">High</td><td>50</td><td>0.038</td><td>0.040</td><td>0.006</td><td>1.058</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.032</td><td>0.040</td><td>0.009</td><td>1.239</td></tr>
+<tr><td class="L" rowspan="2">AU18 Lip Pucker</td><td class="L">High</td><td>50</td><td>0.020</td><td>0.023</td><td>0.003</td><td>1.115</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.037</td><td>0.082</td><td>0.017</td><td>2.221</td></tr>
+<tr><td class="L" rowspan="2">AU20 Lip Stretcher</td><td class="L">High</td><td>50</td><td>0.038</td><td>0.048</td><td>0.007</td><td>1.264</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.028</td><td>0.043</td><td>0.009</td><td>1.532</td></tr>
+<tr><td class="L" rowspan="2">AU23 Lip Tightener</td><td class="L">High</td><td>50</td><td>0.039</td><td>0.049</td><td>0.007</td><td>1.271</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.024</td><td>0.026</td><td>0.005</td><td>1.058</td></tr>
+<tr><td class="L" rowspan="2">AU24 Lip Pressor</td><td class="L">High</td><td>50</td><td>0.038</td><td>0.053</td><td>0.007</td><td>1.403</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.034</td><td>0.033</td><td>0.007</td><td>0.956</td></tr>
+<tr><td class="L" rowspan="2">AU25 Lips Part</td><td class="L">High</td><td>50</td><td>0.305</td><td>0.209</td><td>0.030</td><td>0.685</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.393</td><td>0.274</td><td>0.058</td><td>0.698</td></tr>
+<tr><td class="L" rowspan="2">AU26 Jaw Drop</td><td class="L">High</td><td>50</td><td>0.128</td><td>0.137</td><td>0.019</td><td>1.068</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.099</td><td>0.089</td><td>0.019</td><td>0.904</td></tr>
+<tr><td class="L" rowspan="2">AU27 Mouth Stretch</td><td class="L">High</td><td>50</td><td>0.010</td><td>0.035</td><td>0.005</td><td>3.624</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.028</td><td>0.068</td><td>0.014</td><td>2.413</td></tr>
+<tr><td class="L" rowspan="2">AU43 Eye Closure</td><td class="L">High</td><td>50</td><td>0.266</td><td>0.152</td><td>0.022</td><td>0.572</td></tr>
+<tr><td class="L">Low</td><td>22</td><td>0.286</td><td>0.142</td><td>0.030</td><td>0.497</td></tr>
+</tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr class="sig"><td class="L">AU01 Inner Brow Raiser</td><td>0.797</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU02 Outer Brow Raiser</td><td>0.773</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU04 Brow Lowerer</td><td>0.872</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>0.656</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>0.808</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU07 Lid Tightener</td><td>0.833</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU09 Nose Wrinkler</td><td>0.477</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU10 Upper Lip Raiser</td><td>0.826</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>0.875</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU14 Dimpler</td><td>0.679</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU15 Lip Corner Depressor</td><td>0.750</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU17 Chin Raiser</td><td>0.780</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU18 Lip Pucker</td><td>0.504</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU20 Lip Stretcher</td><td>0.735</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>0.700</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>0.690</td><td>&lt; .001</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.974</td><td>.136</td></tr>
+<tr class="sig"><td class="L">AU26 Jaw Drop</td><td>0.862</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>0.480</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU43 Eye Closure</td><td>0.945</td><td>.003</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.311</td><td>1</td><td>70</td><td>.579</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.498</td><td>1</td><td>70</td><td>.483</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.923</td><td>1</td><td>70</td><td>.340</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>2.052</td><td>1</td><td>70</td><td>.156</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>3.653</td><td>1</td><td>70</td><td>.060</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.367</td><td>1</td><td>70</td><td>.547</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.702</td><td>1</td><td>70</td><td>.405</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.000</td><td>1</td><td>70</td><td>.990</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>1.095</td><td>1</td><td>70</td><td>.299</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.003</td><td>1</td><td>70</td><td>.957</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.838</td><td>1</td><td>70</td><td>.363</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.197</td><td>1</td><td>70</td><td>.658</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>2.105</td><td>1</td><td>70</td><td>.151</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.422</td><td>1</td><td>70</td><td>.518</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>1.346</td><td>1</td><td>70</td><td>.250</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.060</td><td>1</td><td>70</td><td>.807</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>3.121</td><td>1</td><td>70</td><td>.082</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>1.711</td><td>1</td><td>70</td><td>.195</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>2.286</td><td>1</td><td>70</td><td>.135</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.180</td><td>1</td><td>70</td><td>.672</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.877</td><td>48.7</td><td>.385</td><td>.619</td><td>0.207</td><td>0.205</td><td>0.256</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>-0.601</td><td>39.8</td><td>.552</td><td>.749</td><td>-0.154</td><td>-0.153</td><td>0.256</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>-0.381</td><td>34.0</td><td>.705</td><td>.795</td><td>-0.105</td><td>-0.104</td><td>0.256</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>2.108</td><td>69.8</td><td>.039</td><td>.602</td><td>0.415</td><td>0.411</td><td>0.258</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>-1.837</td><td>25.3</td><td>.078</td><td>.602</td><td>-0.607</td><td>-0.600</td><td>0.261</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.314</td><td>52.9</td><td>.755</td><td>.795</td><td>0.072</td><td>0.071</td><td>0.256</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>1.187</td><td>65.8</td><td>.240</td><td>.602</td><td>0.217</td><td>0.215</td><td>0.256</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>-1.189</td><td>46.9</td><td>.240</td><td>.602</td><td>-0.285</td><td>-0.282</td><td>0.257</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>-1.348</td><td>31.6</td><td>.187</td><td>.602</td><td>-0.387</td><td>-0.383</td><td>0.258</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.046</td><td>53.7</td><td>.963</td><td>.963</td><td>0.011</td><td>0.010</td><td>0.256</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>-0.850</td><td>30.8</td><td>.402</td><td>.619</td><td>-0.247</td><td>-0.245</td><td>0.257</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.539</td><td>40.2</td><td>.593</td><td>.749</td><td>0.138</td><td>0.136</td><td>0.256</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>-0.926</td><td>22.4</td><td>.364</td><td>.619</td><td>-0.337</td><td>-0.334</td><td>0.257</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.874</td><td>44.7</td><td>.387</td><td>.619</td><td>0.214</td><td>0.212</td><td>0.256</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>1.635</td><td>67.8</td><td>.107</td><td>.602</td><td>0.333</td><td>0.329</td><td>0.257</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.351</td><td>62.1</td><td>.726</td><td>.795</td><td>0.075</td><td>0.074</td><td>0.256</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>-1.333</td><td>32.2</td><td>.192</td><td>.602</td><td>-0.379</td><td>-0.375</td><td>0.258</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>1.087</td><td>59.7</td><td>.281</td><td>.619</td><td>0.237</td><td>0.234</td><td>0.257</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>-1.200</td><td>26.1</td><td>.241</td><td>.602</td><td>-0.387</td><td>-0.383</td><td>0.258</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>-0.529</td><td>42.9</td><td>.599</td><td>.749</td><td>-0.132</td><td>-0.130</td><td>0.256</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.343</td><td>0.010</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.303</td><td>0.010</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.280</td><td>0.011</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.783</td><td>0.009</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>2.666</td><td>0.008</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.269</td><td>0.011</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.353</td><td>0.010</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.439</td><td>0.010</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.679</td><td>0.009</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.261</td><td>0.011</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.386</td><td>0.010</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.294</td><td>0.010</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.540</td><td>0.010</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.349</td><td>0.010</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>0.529</td><td>0.010</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.270</td><td>0.011</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.652</td><td>0.009</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.373</td><td>0.010</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>0.678</td><td>0.009</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.291</td><td>0.011</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p1"><h2>Study 1: Winners – Sighted Only, High PD vs Low PD</h2>
+<p class="panel-info">High: n = 44 &nbsp;|&nbsp; Low: n = 48 &nbsp;|&nbsp; Total N = 92</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody><tr><td class="L" rowspan="2">AU01 Inner Brow Raiser</td><td class="L">High</td><td>43</td><td>0.112</td><td>0.133</td><td>0.020</td><td>1.189</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.127</td><td>0.159</td><td>0.023</td><td>1.247</td></tr>
+<tr><td class="L" rowspan="2">AU02 Outer Brow Raiser</td><td class="L">High</td><td>43</td><td>0.098</td><td>0.123</td><td>0.019</td><td>1.254</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.074</td><td>0.116</td><td>0.017</td><td>1.568</td></tr>
+<tr><td class="L" rowspan="2">AU04 Brow Lowerer</td><td class="L">High</td><td>43</td><td>0.089</td><td>0.150</td><td>0.023</td><td>1.683</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.097</td><td>0.132</td><td>0.020</td><td>1.371</td></tr>
+<tr><td class="L" rowspan="2">AU05 Upper Lid Raiser</td><td class="L">High</td><td>43</td><td>0.038</td><td>0.074</td><td>0.011</td><td>1.939</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.053</td><td>0.111</td><td>0.016</td><td>2.091</td></tr>
+<tr><td class="L" rowspan="2">AU06 Cheek Raiser</td><td class="L">High</td><td>43</td><td>0.170</td><td>0.170</td><td>0.026</td><td>1.000</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.185</td><td>0.182</td><td>0.027</td><td>0.983</td></tr>
+<tr><td class="L" rowspan="2">AU07 Lid Tightener</td><td class="L">High</td><td>43</td><td>0.107</td><td>0.102</td><td>0.016</td><td>0.947</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.087</td><td>0.093</td><td>0.014</td><td>1.079</td></tr>
+<tr><td class="L" rowspan="2">AU09 Nose Wrinkler</td><td class="L">High</td><td>43</td><td>0.034</td><td>0.085</td><td>0.013</td><td>2.534</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.024</td><td>0.059</td><td>0.009</td><td>2.406</td></tr>
+<tr><td class="L" rowspan="2">AU10 Upper Lip Raiser</td><td class="L">High</td><td>43</td><td>0.094</td><td>0.115</td><td>0.018</td><td>1.234</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.119</td><td>0.136</td><td>0.020</td><td>1.143</td></tr>
+<tr><td class="L" rowspan="2">AU12 Lip Corner Puller</td><td class="L">High</td><td>43</td><td>0.287</td><td>0.238</td><td>0.036</td><td>0.829</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.295</td><td>0.225</td><td>0.033</td><td>0.764</td></tr>
+<tr><td class="L" rowspan="2">AU14 Dimpler</td><td class="L">High</td><td>43</td><td>0.014</td><td>0.013</td><td>0.002</td><td>0.891</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.019</td><td>0.023</td><td>0.003</td><td>1.210</td></tr>
+<tr><td class="L" rowspan="2">AU15 Lip Corner Depressor</td><td class="L">High</td><td>43</td><td>0.013</td><td>0.014</td><td>0.002</td><td>1.013</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.019</td><td>0.031</td><td>0.005</td><td>1.686</td></tr>
+<tr><td class="L" rowspan="2">AU17 Chin Raiser</td><td class="L">High</td><td>43</td><td>0.036</td><td>0.046</td><td>0.007</td><td>1.268</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.060</td><td>0.099</td><td>0.015</td><td>1.648</td></tr>
+<tr><td class="L" rowspan="2">AU18 Lip Pucker</td><td class="L">High</td><td>43</td><td>0.021</td><td>0.025</td><td>0.004</td><td>1.193</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.015</td><td>0.019</td><td>0.003</td><td>1.238</td></tr>
+<tr><td class="L" rowspan="2">AU20 Lip Stretcher</td><td class="L">High</td><td>43</td><td>0.036</td><td>0.049</td><td>0.008</td><td>1.349</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.023</td><td>0.046</td><td>0.007</td><td>2.003</td></tr>
+<tr><td class="L" rowspan="2">AU23 Lip Tightener</td><td class="L">High</td><td>43</td><td>0.019</td><td>0.022</td><td>0.003</td><td>1.149</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.013</td><td>0.009</td><td>0.001</td><td>0.717</td></tr>
+<tr><td class="L" rowspan="2">AU24 Lip Pressor</td><td class="L">High</td><td>43</td><td>0.021</td><td>0.021</td><td>0.003</td><td>1.028</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.041</td><td>0.059</td><td>0.009</td><td>1.457</td></tr>
+<tr><td class="L" rowspan="2">AU25 Lips Part</td><td class="L">High</td><td>43</td><td>0.518</td><td>0.250</td><td>0.038</td><td>0.484</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.462</td><td>0.246</td><td>0.036</td><td>0.533</td></tr>
+<tr><td class="L" rowspan="2">AU26 Jaw Drop</td><td class="L">High</td><td>43</td><td>0.149</td><td>0.135</td><td>0.021</td><td>0.907</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.134</td><td>0.117</td><td>0.017</td><td>0.867</td></tr>
+<tr><td class="L" rowspan="2">AU27 Mouth Stretch</td><td class="L">High</td><td>43</td><td>0.110</td><td>0.206</td><td>0.031</td><td>1.869</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.057</td><td>0.128</td><td>0.019</td><td>2.249</td></tr>
+<tr><td class="L" rowspan="2">AU43 Eye Closure</td><td class="L">High</td><td>43</td><td>0.261</td><td>0.158</td><td>0.024</td><td>0.606</td></tr>
+<tr><td class="L">Low</td><td>46</td><td>0.276</td><td>0.171</td><td>0.025</td><td>0.619</td></tr>
+</tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr class="sig"><td class="L">AU01 Inner Brow Raiser</td><td>0.781</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU02 Outer Brow Raiser</td><td>0.700</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU04 Brow Lowerer</td><td>0.685</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>0.534</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>0.872</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU07 Lid Tightener</td><td>0.824</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU09 Nose Wrinkler</td><td>0.430</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU10 Upper Lip Raiser</td><td>0.728</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>0.920</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU14 Dimpler</td><td>0.776</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU15 Lip Corner Depressor</td><td>0.604</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU17 Chin Raiser</td><td>0.648</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU18 Lip Pucker</td><td>0.753</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU20 Lip Stretcher</td><td>0.593</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>0.831</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>0.660</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU25 Lips Part</td><td>0.968</td><td>.027</td></tr>
+<tr class="sig"><td class="L">AU26 Jaw Drop</td><td>0.895</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>0.633</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU43 Eye Closure</td><td>0.942</td><td>&lt; .001</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.441</td><td>1</td><td>87</td><td>.509</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.538</td><td>1</td><td>87</td><td>.465</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.085</td><td>1</td><td>87</td><td>.771</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.594</td><td>1</td><td>87</td><td>.443</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>0.291</td><td>1</td><td>87</td><td>.591</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>1.153</td><td>1</td><td>87</td><td>.286</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.347</td><td>1</td><td>87</td><td>.557</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.875</td><td>1</td><td>87</td><td>.352</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.190</td><td>1</td><td>87</td><td>.664</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>1.651</td><td>1</td><td>87</td><td>.202</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.884</td><td>1</td><td>87</td><td>.350</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>1.704</td><td>1</td><td>87</td><td>.195</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>2.170</td><td>1</td><td>87</td><td>.144</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>1.242</td><td>1</td><td>87</td><td>.268</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>9.699</td><td>1</td><td>87</td><td>.002</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>3.742</td><td>1</td><td>87</td><td>.056</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.000</td><td>1</td><td>87</td><td>.996</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.240</td><td>1</td><td>87</td><td>.625</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>2.193</td><td>1</td><td>87</td><td>.142</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.025</td><td>1</td><td>87</td><td>.874</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>-0.484</td><td>86.1</td><td>.630</td><td>.768</td><td>-0.102</td><td>-0.101</td><td>0.212</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.970</td><td>85.5</td><td>.335</td><td>.575</td><td>0.206</td><td>0.204</td><td>0.213</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>-0.257</td><td>84.0</td><td>.798</td><td>.840</td><td>-0.055</td><td>-0.054</td><td>0.212</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>-0.740</td><td>79.0</td><td>.461</td><td>.710</td><td>-0.155</td><td>-0.154</td><td>0.212</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>-0.398</td><td>87.0</td><td>.691</td><td>.768</td><td>-0.084</td><td>-0.084</td><td>0.212</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>1.000</td><td>85.0</td><td>.320</td><td>.575</td><td>0.213</td><td>0.211</td><td>0.213</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.588</td><td>74.0</td><td>.558</td><td>.768</td><td>0.126</td><td>0.125</td><td>0.212</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>-0.950</td><td>86.2</td><td>.345</td><td>.575</td><td>-0.200</td><td>-0.199</td><td>0.213</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>-0.162</td><td>85.7</td><td>.872</td><td>.872</td><td>-0.034</td><td>-0.034</td><td>0.212</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>-1.190</td><td>71.3</td><td>.238</td><td>.575</td><td>-0.248</td><td>-0.246</td><td>0.213</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>-1.009</td><td>62.4</td><td>.317</td><td>.575</td><td>-0.209</td><td>-0.207</td><td>0.213</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>-1.453</td><td>64.7</td><td>.151</td><td>.575</td><td>-0.302</td><td>-0.299</td><td>0.213</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>1.257</td><td>77.4</td><td>.213</td><td>.575</td><td>0.269</td><td>0.267</td><td>0.213</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>1.306</td><td>85.7</td><td>.195</td><td>.575</td><td>0.278</td><td>0.275</td><td>0.213</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>1.868</td><td>54.6</td><td>.067</td><td>.575</td><td>0.406</td><td>0.403</td><td>0.214</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>-2.121</td><td>57.3</td><td>.038</td><td>.575</td><td>-0.438</td><td>-0.434</td><td>0.215</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>1.046</td><td>86.4</td><td>.298</td><td>.575</td><td>0.222</td><td>0.220</td><td>0.213</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.554</td><td>83.1</td><td>.581</td><td>.768</td><td>0.118</td><td>0.117</td><td>0.212</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>1.459</td><td>69.3</td><td>.149</td><td>.575</td><td>0.314</td><td>0.312</td><td>0.213</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>-0.432</td><td>87.0</td><td>.667</td><td>.768</td><td>-0.091</td><td>-0.091</td><td>0.212</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.246</td><td>0.020</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.336</td><td>0.018</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.229</td><td>0.021</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.281</td><td>0.019</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>0.238</td><td>0.021</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.345</td><td>0.018</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.259</td><td>0.020</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.328</td><td>0.018</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.225</td><td>0.021</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.404</td><td>0.017</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.340</td><td>0.018</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.537</td><td>0.016</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.450</td><td>0.017</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.470</td><td>0.016</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>1.093</td><td>0.012</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>1.415</td><td>0.011</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.359</td><td>0.018</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.254</td><td>0.020</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>0.579</td><td>0.015</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.241</td><td>0.020</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p2"><h2>Study 1: Winners – High PD Only, Sighted vs Blind</h2>
+<p class="panel-info">Sighted: n = 44 &nbsp;|&nbsp; Blind: n = 51 &nbsp;|&nbsp; Total N = 95</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody><tr><td class="L" rowspan="2">AU01 Inner Brow Raiser</td><td class="L">Sighted</td><td>43</td><td>0.112</td><td>0.133</td><td>0.020</td><td>1.189</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.090</td><td>0.100</td><td>0.014</td><td>1.109</td></tr>
+<tr><td class="L" rowspan="2">AU02 Outer Brow Raiser</td><td class="L">Sighted</td><td>43</td><td>0.098</td><td>0.123</td><td>0.019</td><td>1.254</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.066</td><td>0.089</td><td>0.013</td><td>1.333</td></tr>
+<tr><td class="L" rowspan="2">AU04 Brow Lowerer</td><td class="L">Sighted</td><td>43</td><td>0.089</td><td>0.150</td><td>0.023</td><td>1.683</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.081</td><td>0.074</td><td>0.011</td><td>0.917</td></tr>
+<tr><td class="L" rowspan="2">AU05 Upper Lid Raiser</td><td class="L">Sighted</td><td>43</td><td>0.038</td><td>0.074</td><td>0.011</td><td>1.939</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.033</td><td>0.049</td><td>0.007</td><td>1.498</td></tr>
+<tr><td class="L" rowspan="2">AU06 Cheek Raiser</td><td class="L">Sighted</td><td>43</td><td>0.170</td><td>0.170</td><td>0.026</td><td>1.000</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.078</td><td>0.081</td><td>0.011</td><td>1.038</td></tr>
+<tr><td class="L" rowspan="2">AU07 Lid Tightener</td><td class="L">Sighted</td><td>43</td><td>0.107</td><td>0.102</td><td>0.016</td><td>0.947</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.077</td><td>0.076</td><td>0.011</td><td>0.995</td></tr>
+<tr><td class="L" rowspan="2">AU09 Nose Wrinkler</td><td class="L">Sighted</td><td>43</td><td>0.034</td><td>0.085</td><td>0.013</td><td>2.534</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.013</td><td>0.027</td><td>0.004</td><td>1.988</td></tr>
+<tr><td class="L" rowspan="2">AU10 Upper Lip Raiser</td><td class="L">Sighted</td><td>43</td><td>0.094</td><td>0.115</td><td>0.018</td><td>1.234</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.074</td><td>0.077</td><td>0.011</td><td>1.043</td></tr>
+<tr><td class="L" rowspan="2">AU12 Lip Corner Puller</td><td class="L">Sighted</td><td>43</td><td>0.287</td><td>0.238</td><td>0.036</td><td>0.829</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.184</td><td>0.184</td><td>0.026</td><td>0.999</td></tr>
+<tr><td class="L" rowspan="2">AU14 Dimpler</td><td class="L">Sighted</td><td>43</td><td>0.014</td><td>0.013</td><td>0.002</td><td>0.891</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.021</td><td>0.028</td><td>0.004</td><td>1.320</td></tr>
+<tr><td class="L" rowspan="2">AU15 Lip Corner Depressor</td><td class="L">Sighted</td><td>43</td><td>0.013</td><td>0.014</td><td>0.002</td><td>1.013</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.013</td><td>0.016</td><td>0.002</td><td>1.215</td></tr>
+<tr><td class="L" rowspan="2">AU17 Chin Raiser</td><td class="L">Sighted</td><td>43</td><td>0.036</td><td>0.046</td><td>0.007</td><td>1.268</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.038</td><td>0.040</td><td>0.006</td><td>1.058</td></tr>
+<tr><td class="L" rowspan="2">AU18 Lip Pucker</td><td class="L">Sighted</td><td>43</td><td>0.021</td><td>0.025</td><td>0.004</td><td>1.193</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.020</td><td>0.023</td><td>0.003</td><td>1.115</td></tr>
+<tr><td class="L" rowspan="2">AU20 Lip Stretcher</td><td class="L">Sighted</td><td>43</td><td>0.036</td><td>0.049</td><td>0.008</td><td>1.349</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.038</td><td>0.048</td><td>0.007</td><td>1.264</td></tr>
+<tr><td class="L" rowspan="2">AU23 Lip Tightener</td><td class="L">Sighted</td><td>43</td><td>0.019</td><td>0.022</td><td>0.003</td><td>1.149</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.039</td><td>0.049</td><td>0.007</td><td>1.271</td></tr>
+<tr><td class="L" rowspan="2">AU24 Lip Pressor</td><td class="L">Sighted</td><td>43</td><td>0.021</td><td>0.021</td><td>0.003</td><td>1.028</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.038</td><td>0.053</td><td>0.007</td><td>1.403</td></tr>
+<tr><td class="L" rowspan="2">AU25 Lips Part</td><td class="L">Sighted</td><td>43</td><td>0.518</td><td>0.250</td><td>0.038</td><td>0.484</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.305</td><td>0.209</td><td>0.030</td><td>0.685</td></tr>
+<tr><td class="L" rowspan="2">AU26 Jaw Drop</td><td class="L">Sighted</td><td>43</td><td>0.149</td><td>0.135</td><td>0.021</td><td>0.907</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.128</td><td>0.137</td><td>0.019</td><td>1.068</td></tr>
+<tr><td class="L" rowspan="2">AU27 Mouth Stretch</td><td class="L">Sighted</td><td>43</td><td>0.110</td><td>0.206</td><td>0.031</td><td>1.869</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.010</td><td>0.035</td><td>0.005</td><td>3.624</td></tr>
+<tr><td class="L" rowspan="2">AU43 Eye Closure</td><td class="L">Sighted</td><td>43</td><td>0.261</td><td>0.158</td><td>0.024</td><td>0.606</td></tr>
+<tr><td class="L">Blind</td><td>50</td><td>0.266</td><td>0.152</td><td>0.022</td><td>0.572</td></tr>
+</tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr class="sig"><td class="L">AU01 Inner Brow Raiser</td><td>0.794</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU02 Outer Brow Raiser</td><td>0.753</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU04 Brow Lowerer</td><td>0.705</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>0.580</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>0.884</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU07 Lid Tightener</td><td>0.855</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU09 Nose Wrinkler</td><td>0.435</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU10 Upper Lip Raiser</td><td>0.699</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>0.916</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU14 Dimpler</td><td>0.662</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU15 Lip Corner Depressor</td><td>0.793</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU17 Chin Raiser</td><td>0.778</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU18 Lip Pucker</td><td>0.783</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU20 Lip Stretcher</td><td>0.727</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>0.710</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>0.674</td><td>&lt; .001</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.976</td><td>.085</td></tr>
+<tr class="sig"><td class="L">AU26 Jaw Drop</td><td>0.859</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>0.601</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU43 Eye Closure</td><td>0.953</td><td>.002</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>1.179</td><td>1</td><td>91</td><td>.280</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>1.524</td><td>1</td><td>91</td><td>.220</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>1.013</td><td>1</td><td>91</td><td>.317</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.329</td><td>1</td><td>91</td><td>.568</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>10.280</td><td>1</td><td>91</td><td>.002</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>2.955</td><td>1</td><td>91</td><td>.089</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>2.641</td><td>1</td><td>91</td><td>.108</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.938</td><td>1</td><td>91</td><td>.335</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>4.316</td><td>1</td><td>91</td><td>.041</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>1.633</td><td>1</td><td>91</td><td>.204</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.003</td><td>1</td><td>91</td><td>.956</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.138</td><td>1</td><td>91</td><td>.711</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.078</td><td>1</td><td>91</td><td>.780</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.068</td><td>1</td><td>91</td><td>.794</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>2.861</td><td>1</td><td>91</td><td>.094</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>3.054</td><td>1</td><td>91</td><td>.084</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>1.315</td><td>1</td><td>91</td><td>.254</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.080</td><td>1</td><td>91</td><td>.779</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>11.549</td><td>1</td><td>91</td><td>.001</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.424</td><td>1</td><td>91</td><td>.516</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.894</td><td>76.9</td><td>.374</td><td>.623</td><td>0.190</td><td>0.188</td><td>0.208</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>1.413</td><td>74.9</td><td>.162</td><td>.324</td><td>0.301</td><td>0.299</td><td>0.209</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.308</td><td>59.5</td><td>.759</td><td>.947</td><td>0.067</td><td>0.066</td><td>0.208</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.430</td><td>70.7</td><td>.668</td><td>.947</td><td>0.092</td><td>0.091</td><td>0.208</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>3.259</td><td>58.0</td><td>.002</td><td>.019</td><td>0.711</td><td>0.705</td><td>0.214</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>1.625</td><td>77.0</td><td>.108</td><td>.309</td><td>0.345</td><td>0.342</td><td>0.209</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>1.492</td><td>49.1</td><td>.142</td><td>.316</td><td>0.330</td><td>0.328</td><td>0.209</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.930</td><td>71.6</td><td>.355</td><td>.623</td><td>0.199</td><td>0.197</td><td>0.208</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>2.304</td><td>78.5</td><td>.024</td><td>.095</td><td>0.489</td><td>0.485</td><td>0.211</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>-1.545</td><td>70.9</td><td>.127</td><td>.316</td><td>-0.306</td><td>-0.303</td><td>0.209</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.051</td><td>91.0</td><td>.960</td><td>.960</td><td>0.010</td><td>0.010</td><td>0.208</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>-0.136</td><td>83.6</td><td>.892</td><td>.947</td><td>-0.029</td><td>-0.028</td><td>0.208</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.173</td><td>85.2</td><td>.863</td><td>.947</td><td>0.036</td><td>0.036</td><td>0.208</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>-0.127</td><td>88.1</td><td>.899</td><td>.947</td><td>-0.026</td><td>-0.026</td><td>0.208</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>-2.466</td><td>70.8</td><td>.016</td><td>.080</td><td>-0.488</td><td>-0.484</td><td>0.211</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>-2.066</td><td>66.6</td><td>.043</td><td>.143</td><td>-0.407</td><td>-0.403</td><td>0.210</td></tr>
+<tr class="sig"><td class="L">AU25 Lips Part</td><td>4.395</td><td>82.2</td><td>&lt; .001</td><td>&lt; .001</td><td>0.926</td><td>0.919</td><td>0.219</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.738</td><td>89.3</td><td>.462</td><td>.711</td><td>0.153</td><td>0.152</td><td>0.208</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>3.160</td><td>44.1</td><td>.003</td><td>.019</td><td>0.706</td><td>0.700</td><td>0.214</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>-0.147</td><td>87.8</td><td>.884</td><td>.947</td><td>-0.031</td><td>-0.030</td><td>0.208</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.315</td><td>0.020</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.548</td><td>0.016</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.228</td><td>0.022</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.238</td><td>0.022</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>31.469</td><td>8.793 &times; 10<sup>-8</sup></td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.729</td><td>0.015</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.660</td><td>0.015</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.327</td><td>0.020</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>2.395</td><td>0.009</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.563</td><td>0.016</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.218</td><td>0.022</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.220</td><td>0.022</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.221</td><td>0.022</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.220</td><td>0.022</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>2.384</td><td>0.009</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>1.159</td><td>0.012</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>790.576</td><td>1.747 &times; 10<sup>-10</sup></td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.277</td><td>0.021</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>29.412</td><td>9.559 &times; 10<sup>-8</sup></td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.220</td><td>0.022</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p3"><h2>Study 1: Winners – Low PD Only, Sighted vs Blind</h2>
+<p class="panel-info">Sighted: n = 48 &nbsp;|&nbsp; Blind: n = 24 &nbsp;|&nbsp; Total N = 72</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody><tr><td class="L" rowspan="2">AU01 Inner Brow Raiser</td><td class="L">Sighted</td><td>46</td><td>0.127</td><td>0.159</td><td>0.023</td><td>1.247</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.070</td><td>0.082</td><td>0.017</td><td>1.160</td></tr>
+<tr><td class="L" rowspan="2">AU02 Outer Brow Raiser</td><td class="L">Sighted</td><td>46</td><td>0.074</td><td>0.116</td><td>0.017</td><td>1.568</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.080</td><td>0.090</td><td>0.019</td><td>1.117</td></tr>
+<tr><td class="L" rowspan="2">AU04 Brow Lowerer</td><td class="L">Sighted</td><td>46</td><td>0.097</td><td>0.132</td><td>0.020</td><td>1.371</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.090</td><td>0.091</td><td>0.019</td><td>1.013</td></tr>
+<tr><td class="L" rowspan="2">AU05 Upper Lid Raiser</td><td class="L">Sighted</td><td>46</td><td>0.053</td><td>0.111</td><td>0.016</td><td>2.091</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.015</td><td>0.022</td><td>0.005</td><td>1.514</td></tr>
+<tr><td class="L" rowspan="2">AU06 Cheek Raiser</td><td class="L">Sighted</td><td>46</td><td>0.185</td><td>0.182</td><td>0.027</td><td>0.983</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.148</td><td>0.170</td><td>0.036</td><td>1.152</td></tr>
+<tr><td class="L" rowspan="2">AU07 Lid Tightener</td><td class="L">Sighted</td><td>46</td><td>0.087</td><td>0.093</td><td>0.014</td><td>1.079</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.072</td><td>0.057</td><td>0.012</td><td>0.800</td></tr>
+<tr><td class="L" rowspan="2">AU09 Nose Wrinkler</td><td class="L">Sighted</td><td>46</td><td>0.024</td><td>0.059</td><td>0.009</td><td>2.406</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.008</td><td>0.008</td><td>0.002</td><td>0.993</td></tr>
+<tr><td class="L" rowspan="2">AU10 Upper Lip Raiser</td><td class="L">Sighted</td><td>46</td><td>0.119</td><td>0.136</td><td>0.020</td><td>1.143</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.095</td><td>0.066</td><td>0.014</td><td>0.690</td></tr>
+<tr><td class="L" rowspan="2">AU12 Lip Corner Puller</td><td class="L">Sighted</td><td>46</td><td>0.295</td><td>0.225</td><td>0.033</td><td>0.764</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.263</td><td>0.248</td><td>0.053</td><td>0.943</td></tr>
+<tr><td class="L" rowspan="2">AU14 Dimpler</td><td class="L">Sighted</td><td>46</td><td>0.019</td><td>0.023</td><td>0.003</td><td>1.210</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.021</td><td>0.021</td><td>0.004</td><td>0.986</td></tr>
+<tr><td class="L" rowspan="2">AU15 Lip Corner Depressor</td><td class="L">Sighted</td><td>46</td><td>0.019</td><td>0.031</td><td>0.005</td><td>1.686</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.018</td><td>0.023</td><td>0.005</td><td>1.270</td></tr>
+<tr><td class="L" rowspan="2">AU17 Chin Raiser</td><td class="L">Sighted</td><td>46</td><td>0.060</td><td>0.099</td><td>0.015</td><td>1.648</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.032</td><td>0.040</td><td>0.009</td><td>1.239</td></tr>
+<tr><td class="L" rowspan="2">AU18 Lip Pucker</td><td class="L">Sighted</td><td>46</td><td>0.015</td><td>0.019</td><td>0.003</td><td>1.238</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.037</td><td>0.082</td><td>0.017</td><td>2.221</td></tr>
+<tr><td class="L" rowspan="2">AU20 Lip Stretcher</td><td class="L">Sighted</td><td>46</td><td>0.023</td><td>0.046</td><td>0.007</td><td>2.003</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.028</td><td>0.043</td><td>0.009</td><td>1.532</td></tr>
+<tr><td class="L" rowspan="2">AU23 Lip Tightener</td><td class="L">Sighted</td><td>46</td><td>0.013</td><td>0.009</td><td>0.001</td><td>0.717</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.024</td><td>0.026</td><td>0.005</td><td>1.058</td></tr>
+<tr><td class="L" rowspan="2">AU24 Lip Pressor</td><td class="L">Sighted</td><td>46</td><td>0.041</td><td>0.059</td><td>0.009</td><td>1.457</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.034</td><td>0.033</td><td>0.007</td><td>0.956</td></tr>
+<tr><td class="L" rowspan="2">AU25 Lips Part</td><td class="L">Sighted</td><td>46</td><td>0.462</td><td>0.246</td><td>0.036</td><td>0.533</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.393</td><td>0.274</td><td>0.058</td><td>0.698</td></tr>
+<tr><td class="L" rowspan="2">AU26 Jaw Drop</td><td class="L">Sighted</td><td>46</td><td>0.134</td><td>0.117</td><td>0.017</td><td>0.867</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.099</td><td>0.089</td><td>0.019</td><td>0.904</td></tr>
+<tr><td class="L" rowspan="2">AU27 Mouth Stretch</td><td class="L">Sighted</td><td>46</td><td>0.057</td><td>0.128</td><td>0.019</td><td>2.249</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.028</td><td>0.068</td><td>0.014</td><td>2.413</td></tr>
+<tr><td class="L" rowspan="2">AU43 Eye Closure</td><td class="L">Sighted</td><td>46</td><td>0.276</td><td>0.171</td><td>0.025</td><td>0.619</td></tr>
+<tr><td class="L">Blind</td><td>22</td><td>0.286</td><td>0.142</td><td>0.030</td><td>0.497</td></tr>
+</tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr class="sig"><td class="L">AU01 Inner Brow Raiser</td><td>0.805</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU02 Outer Brow Raiser</td><td>0.688</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU04 Brow Lowerer</td><td>0.769</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>0.531</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU06 Cheek Raiser</td><td>0.858</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU07 Lid Tightener</td><td>0.783</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU09 Nose Wrinkler</td><td>0.450</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU10 Upper Lip Raiser</td><td>0.784</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU12 Lip Corner Puller</td><td>0.912</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU14 Dimpler</td><td>0.770</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU15 Lip Corner Depressor</td><td>0.586</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU17 Chin Raiser</td><td>0.626</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU18 Lip Pucker</td><td>0.456</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU20 Lip Stretcher</td><td>0.522</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>0.785</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU24 Lip Pressor</td><td>0.674</td><td>&lt; .001</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.966</td><td>.059</td></tr>
+<tr class="sig"><td class="L">AU26 Jaw Drop</td><td>0.914</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU27 Mouth Stretch</td><td>0.550</td><td>&lt; .001</td></tr>
+<tr class="sig"><td class="L">AU43 Eye Closure</td><td>0.945</td><td>.005</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>2.577</td><td>1</td><td>66</td><td>.113</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.068</td><td>1</td><td>66</td><td>.795</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.361</td><td>1</td><td>66</td><td>.550</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>2.397</td><td>1</td><td>66</td><td>.126</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>1.042</td><td>1</td><td>66</td><td>.311</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.740</td><td>1</td><td>66</td><td>.393</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>1.645</td><td>1</td><td>66</td><td>.204</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>2.116</td><td>1</td><td>66</td><td>.151</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.025</td><td>1</td><td>66</td><td>.875</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.045</td><td>1</td><td>66</td><td>.833</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.007</td><td>1</td><td>66</td><td>.933</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>1.655</td><td>1</td><td>66</td><td>.203</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>3.302</td><td>1</td><td>66</td><td>.074</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.266</td><td>1</td><td>66</td><td>.607</td></tr>
+<tr class="sig"><td class="L">AU23 Lip Tightener</td><td>9.171</td><td>1</td><td>66</td><td>.004</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.223</td><td>1</td><td>66</td><td>.638</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.504</td><td>1</td><td>66</td><td>.480</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>2.936</td><td>1</td><td>66</td><td>.091</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>0.978</td><td>1</td><td>66</td><td>.326</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>1.105</td><td>1</td><td>66</td><td>.297</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>1.948</td><td>65.6</td><td>.056</td><td>.372</td><td>0.409</td><td>0.404</td><td>0.262</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>-0.250</td><td>52.3</td><td>.803</td><td>.857</td><td>-0.059</td><td>-0.059</td><td>0.259</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.257</td><td>57.7</td><td>.798</td><td>.857</td><td>0.058</td><td>0.058</td><td>0.259</td></tr>
+<tr class="sig"><td class="L">AU05 Upper Lid Raiser</td><td>2.239</td><td>52.3</td><td>.029</td><td>.372</td><td>0.413</td><td>0.408</td><td>0.262</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>0.830</td><td>44.1</td><td>.411</td><td>.694</td><td>0.210</td><td>0.208</td><td>0.260</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.819</td><td>61.8</td><td>.416</td><td>.694</td><td>0.180</td><td>0.178</td><td>0.260</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>1.803</td><td>48.7</td><td>.078</td><td>.388</td><td>0.327</td><td>0.324</td><td>0.261</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.959</td><td>66.0</td><td>.341</td><td>.682</td><td>0.198</td><td>0.196</td><td>0.260</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.500</td><td>38.0</td><td>.620</td><td>.857</td><td>0.134</td><td>0.133</td><td>0.259</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>-0.338</td><td>45.9</td><td>.737</td><td>.857</td><td>-0.084</td><td>-0.083</td><td>0.259</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.108</td><td>55.3</td><td>.914</td><td>.914</td><td>0.025</td><td>0.025</td><td>0.259</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>1.647</td><td>64.8</td><td>.104</td><td>.417</td><td>0.328</td><td>0.325</td><td>0.261</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>-1.220</td><td>22.1</td><td>.235</td><td>.588</td><td>-0.442</td><td>-0.437</td><td>0.262</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>-0.409</td><td>44.9</td><td>.685</td><td>.857</td><td>-0.103</td><td>-0.102</td><td>0.259</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>-2.050</td><td>23.6</td><td>.052</td><td>.372</td><td>-0.708</td><td>-0.700</td><td>0.266</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.580</td><td>64.5</td><td>.564</td><td>.857</td><td>0.124</td><td>0.123</td><td>0.259</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>1.014</td><td>37.7</td><td>.317</td><td>.682</td><td>0.273</td><td>0.270</td><td>0.260</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>1.387</td><td>52.8</td><td>.171</td><td>.570</td><td>0.328</td><td>0.324</td><td>0.261</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>1.211</td><td>65.2</td><td>.230</td><td>.588</td><td>0.256</td><td>0.253</td><td>0.260</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>-0.237</td><td>49.2</td><td>.814</td><td>.857</td><td>-0.057</td><td>-0.057</td><td>0.259</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td>0.743</td><td>0.009</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td>0.269</td><td>0.010</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td>0.269</td><td>0.010</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td>0.757</td><td>0.009</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td>0.347</td><td>0.010</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td>0.322</td><td>0.010</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td>0.512</td><td>0.009</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td>0.337</td><td>0.010</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td>0.295</td><td>0.010</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td>0.275</td><td>0.010</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td>0.264</td><td>0.010</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td>0.515</td><td>0.009</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td>0.884</td><td>0.009</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td>0.281</td><td>0.010</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td>5.547</td><td>7.577 &times; 10<sup>-7</sup></td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td>0.290</td><td>0.010</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td>0.419</td><td>0.010</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td>0.513</td><td>0.009</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td>0.396</td><td>0.010</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td>0.269</td><td>0.010</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p4"><div class="copy-hint">&#128203; APA 7th edition format. Select and paste into Word, or File &rarr; Print &rarr; Save as PDF.</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 1.</strong> Study 1: Winners – Blind Only, High PD vs Low PD</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">High</th>
+      <th colspan="2">Low</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td>
+        <td>0.09</td><td>0.10</td><td>0.07</td><td>0.08</td>
+        <td>0.877</td><td>48.7</td><td>.619</td><td>0.207</td><td>0.205</td><td>0.343</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td>
+        <td>0.07</td><td>0.09</td><td>0.08</td><td>0.09</td>
+        <td>-0.601</td><td>39.8</td><td>.749</td><td>-0.154</td><td>-0.153</td><td>0.303</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td>
+        <td>0.08</td><td>0.07</td><td>0.09</td><td>0.09</td>
+        <td>-0.381</td><td>34.0</td><td>.795</td><td>-0.105</td><td>-0.104</td><td>0.280</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td>
+        <td>0.03</td><td>0.05</td><td>0.01</td><td>0.02</td>
+        <td>2.108</td><td>69.8</td><td>.602</td><td>0.415</td><td>0.411</td><td>0.783</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td>
+        <td>0.08</td><td>0.08</td><td>0.15</td><td>0.17</td>
+        <td>-1.837</td><td>25.3</td><td>.602</td><td>-0.607</td><td>-0.600</td><td>2.666</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td>
+        <td>0.08</td><td>0.08</td><td>0.07</td><td>0.06</td>
+        <td>0.314</td><td>52.9</td><td>.795</td><td>0.072</td><td>0.071</td><td>0.269</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td>
+        <td>0.01</td><td>0.03</td><td>0.01</td><td>0.01</td>
+        <td>1.187</td><td>65.8</td><td>.602</td><td>0.217</td><td>0.215</td><td>0.353</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td>
+        <td>0.07</td><td>0.08</td><td>0.10</td><td>0.07</td>
+        <td>-1.189</td><td>46.9</td><td>.602</td><td>-0.285</td><td>-0.282</td><td>0.439</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td>
+        <td>0.18</td><td>0.18</td><td>0.26</td><td>0.25</td>
+        <td>-1.348</td><td>31.6</td><td>.602</td><td>-0.387</td><td>-0.383</td><td>0.679</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td>
+        <td>0.02</td><td>0.03</td><td>0.02</td><td>0.02</td>
+        <td>0.046</td><td>53.7</td><td>.963</td><td>0.011</td><td>0.010</td><td>0.261</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td>
+        <td>0.01</td><td>0.02</td><td>0.02</td><td>0.02</td>
+        <td>-0.850</td><td>30.8</td><td>.619</td><td>-0.247</td><td>-0.245</td><td>0.386</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td>
+        <td>0.04</td><td>0.04</td><td>0.03</td><td>0.04</td>
+        <td>0.539</td><td>40.2</td><td>.749</td><td>0.138</td><td>0.136</td><td>0.294</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td>
+        <td>0.02</td><td>0.02</td><td>0.04</td><td>0.08</td>
+        <td>-0.926</td><td>22.4</td><td>.619</td><td>-0.337</td><td>-0.334</td><td>0.540</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td>
+        <td>0.04</td><td>0.05</td><td>0.03</td><td>0.04</td>
+        <td>0.874</td><td>44.7</td><td>.619</td><td>0.214</td><td>0.212</td><td>0.349</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td>
+        <td>0.04</td><td>0.05</td><td>0.02</td><td>0.03</td>
+        <td>1.635</td><td>67.8</td><td>.602</td><td>0.333</td><td>0.329</td><td>0.529</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td>
+        <td>0.04</td><td>0.05</td><td>0.03</td><td>0.03</td>
+        <td>0.351</td><td>62.1</td><td>.795</td><td>0.075</td><td>0.074</td><td>0.270</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td>
+        <td>0.31</td><td>0.21</td><td>0.39</td><td>0.27</td>
+        <td>-1.333</td><td>32.2</td><td>.602</td><td>-0.379</td><td>-0.375</td><td>0.652</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td>
+        <td>0.13</td><td>0.14</td><td>0.10</td><td>0.09</td>
+        <td>1.087</td><td>59.7</td><td>.619</td><td>0.237</td><td>0.234</td><td>0.373</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td>
+        <td>0.01</td><td>0.04</td><td>0.03</td><td>0.07</td>
+        <td>-1.200</td><td>26.1</td><td>.602</td><td>-0.387</td><td>-0.383</td><td>0.678</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td>
+        <td>0.27</td><td>0.15</td><td>0.29</td><td>0.14</td>
+        <td>-0.529</td><td>42.9</td><td>.749</td><td>-0.132</td><td>-0.130</td><td>0.291</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 2.</strong> Study 1: Winners – Sighted Only, High PD vs Low PD</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">High</th>
+      <th colspan="2">Low</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td>
+        <td>0.11</td><td>0.13</td><td>0.13</td><td>0.16</td>
+        <td>-0.484</td><td>86.1</td><td>.768</td><td>-0.102</td><td>-0.101</td><td>0.246</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td>
+        <td>0.10</td><td>0.12</td><td>0.07</td><td>0.12</td>
+        <td>0.970</td><td>85.5</td><td>.575</td><td>0.206</td><td>0.204</td><td>0.336</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td>
+        <td>0.09</td><td>0.15</td><td>0.10</td><td>0.13</td>
+        <td>-0.257</td><td>84.0</td><td>.840</td><td>-0.055</td><td>-0.054</td><td>0.229</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td>
+        <td>0.04</td><td>0.07</td><td>0.05</td><td>0.11</td>
+        <td>-0.740</td><td>79.0</td><td>.710</td><td>-0.155</td><td>-0.154</td><td>0.281</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td>
+        <td>0.17</td><td>0.17</td><td>0.19</td><td>0.18</td>
+        <td>-0.398</td><td>87.0</td><td>.768</td><td>-0.084</td><td>-0.084</td><td>0.238</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td>
+        <td>0.11</td><td>0.10</td><td>0.09</td><td>0.09</td>
+        <td>1.000</td><td>85.0</td><td>.575</td><td>0.213</td><td>0.211</td><td>0.345</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td>
+        <td>0.03</td><td>0.09</td><td>0.02</td><td>0.06</td>
+        <td>0.588</td><td>74.0</td><td>.768</td><td>0.126</td><td>0.125</td><td>0.259</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td>
+        <td>0.09</td><td>0.12</td><td>0.12</td><td>0.14</td>
+        <td>-0.950</td><td>86.2</td><td>.575</td><td>-0.200</td><td>-0.199</td><td>0.328</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td>
+        <td>0.29</td><td>0.24</td><td>0.29</td><td>0.22</td>
+        <td>-0.162</td><td>85.7</td><td>.872</td><td>-0.034</td><td>-0.034</td><td>0.225</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td>
+        <td>0.01</td><td>0.01</td><td>0.02</td><td>0.02</td>
+        <td>-1.190</td><td>71.3</td><td>.575</td><td>-0.248</td><td>-0.246</td><td>0.404</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td>
+        <td>0.01</td><td>0.01</td><td>0.02</td><td>0.03</td>
+        <td>-1.009</td><td>62.4</td><td>.575</td><td>-0.209</td><td>-0.207</td><td>0.340</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td>
+        <td>0.04</td><td>0.05</td><td>0.06</td><td>0.10</td>
+        <td>-1.453</td><td>64.7</td><td>.575</td><td>-0.302</td><td>-0.299</td><td>0.537</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td>
+        <td>0.02</td><td>0.03</td><td>0.02</td><td>0.02</td>
+        <td>1.257</td><td>77.4</td><td>.575</td><td>0.269</td><td>0.267</td><td>0.450</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td>
+        <td>0.04</td><td>0.05</td><td>0.02</td><td>0.05</td>
+        <td>1.306</td><td>85.7</td><td>.575</td><td>0.278</td><td>0.275</td><td>0.470</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td>
+        <td>0.02</td><td>0.02</td><td>0.01</td><td>0.01</td>
+        <td>1.868</td><td>54.6</td><td>.575</td><td>0.406</td><td>0.403</td><td>1.093</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td>
+        <td>0.02</td><td>0.02</td><td>0.04</td><td>0.06</td>
+        <td>-2.121</td><td>57.3</td><td>.575</td><td>-0.438</td><td>-0.434</td><td>1.415</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td>
+        <td>0.52</td><td>0.25</td><td>0.46</td><td>0.25</td>
+        <td>1.046</td><td>86.4</td><td>.575</td><td>0.222</td><td>0.220</td><td>0.359</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td>
+        <td>0.15</td><td>0.14</td><td>0.13</td><td>0.12</td>
+        <td>0.554</td><td>83.1</td><td>.768</td><td>0.118</td><td>0.117</td><td>0.254</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td>
+        <td>0.11</td><td>0.21</td><td>0.06</td><td>0.13</td>
+        <td>1.459</td><td>69.3</td><td>.575</td><td>0.314</td><td>0.312</td><td>0.579</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td>
+        <td>0.26</td><td>0.16</td><td>0.28</td><td>0.17</td>
+        <td>-0.432</td><td>87.0</td><td>.768</td><td>-0.091</td><td>-0.091</td><td>0.241</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 3.</strong> Study 1: Winners – High PD Only, Sighted vs Blind</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">Sighted</th>
+      <th colspan="2">Blind</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td>
+        <td>0.11</td><td>0.13</td><td>0.09</td><td>0.10</td>
+        <td>0.894</td><td>76.9</td><td>.623</td><td>0.190</td><td>0.188</td><td>0.315</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td>
+        <td>0.10</td><td>0.12</td><td>0.07</td><td>0.09</td>
+        <td>1.413</td><td>74.9</td><td>.324</td><td>0.301</td><td>0.299</td><td>0.548</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td>
+        <td>0.09</td><td>0.15</td><td>0.08</td><td>0.07</td>
+        <td>0.308</td><td>59.5</td><td>.947</td><td>0.067</td><td>0.066</td><td>0.228</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td>
+        <td>0.04</td><td>0.07</td><td>0.03</td><td>0.05</td>
+        <td>0.430</td><td>70.7</td><td>.947</td><td>0.092</td><td>0.091</td><td>0.238</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td>
+        <td>0.17</td><td>0.17</td><td>0.08</td><td>0.08</td>
+        <td>3.259</td><td>58.0</td><td>.019<sup>*</sup></td><td>0.711</td><td>0.705</td><td>31.469</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td>
+        <td>0.11</td><td>0.10</td><td>0.08</td><td>0.08</td>
+        <td>1.625</td><td>77.0</td><td>.309</td><td>0.345</td><td>0.342</td><td>0.729</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td>
+        <td>0.03</td><td>0.09</td><td>0.01</td><td>0.03</td>
+        <td>1.492</td><td>49.1</td><td>.316</td><td>0.330</td><td>0.328</td><td>0.660</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td>
+        <td>0.09</td><td>0.12</td><td>0.07</td><td>0.08</td>
+        <td>0.930</td><td>71.6</td><td>.623</td><td>0.199</td><td>0.197</td><td>0.327</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td>
+        <td>0.29</td><td>0.24</td><td>0.18</td><td>0.18</td>
+        <td>2.304</td><td>78.5</td><td>.095</td><td>0.489</td><td>0.485</td><td>2.395</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td>
+        <td>0.01</td><td>0.01</td><td>0.02</td><td>0.03</td>
+        <td>-1.545</td><td>70.9</td><td>.316</td><td>-0.306</td><td>-0.303</td><td>0.563</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td>
+        <td>0.01</td><td>0.01</td><td>0.01</td><td>0.02</td>
+        <td>0.051</td><td>91.0</td><td>.960</td><td>0.010</td><td>0.010</td><td>0.218</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td>
+        <td>0.04</td><td>0.05</td><td>0.04</td><td>0.04</td>
+        <td>-0.136</td><td>83.6</td><td>.947</td><td>-0.029</td><td>-0.028</td><td>0.220</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td>
+        <td>0.02</td><td>0.03</td><td>0.02</td><td>0.02</td>
+        <td>0.173</td><td>85.2</td><td>.947</td><td>0.036</td><td>0.036</td><td>0.221</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td>
+        <td>0.04</td><td>0.05</td><td>0.04</td><td>0.05</td>
+        <td>-0.127</td><td>88.1</td><td>.947</td><td>-0.026</td><td>-0.026</td><td>0.220</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td>
+        <td>0.02</td><td>0.02</td><td>0.04</td><td>0.05</td>
+        <td>-2.466</td><td>70.8</td><td>.080</td><td>-0.488</td><td>-0.484</td><td>2.384</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td>
+        <td>0.02</td><td>0.02</td><td>0.04</td><td>0.05</td>
+        <td>-2.066</td><td>66.6</td><td>.143</td><td>-0.407</td><td>-0.403</td><td>1.159</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td>
+        <td>0.52</td><td>0.25</td><td>0.31</td><td>0.21</td>
+        <td>4.395</td><td>82.2</td><td>< .001<sup>***</sup></td><td>0.926</td><td>0.919</td><td>790.576</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td>
+        <td>0.15</td><td>0.14</td><td>0.13</td><td>0.14</td>
+        <td>0.738</td><td>89.3</td><td>.711</td><td>0.153</td><td>0.152</td><td>0.277</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td>
+        <td>0.11</td><td>0.21</td><td>0.01</td><td>0.04</td>
+        <td>3.160</td><td>44.1</td><td>.019<sup>*</sup></td><td>0.706</td><td>0.700</td><td>29.412</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td>
+        <td>0.26</td><td>0.16</td><td>0.27</td><td>0.15</td>
+        <td>-0.147</td><td>87.8</td><td>.947</td><td>-0.031</td><td>-0.030</td><td>0.220</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 4.</strong> Study 1: Winners – Low PD Only, Sighted vs Blind</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">Sighted</th>
+      <th colspan="2">Blind</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td>
+        <td>0.13</td><td>0.16</td><td>0.07</td><td>0.08</td>
+        <td>1.948</td><td>65.6</td><td>.372</td><td>0.409</td><td>0.404</td><td>0.743</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td>
+        <td>0.07</td><td>0.12</td><td>0.08</td><td>0.09</td>
+        <td>-0.250</td><td>52.3</td><td>.857</td><td>-0.059</td><td>-0.059</td><td>0.269</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td>
+        <td>0.10</td><td>0.13</td><td>0.09</td><td>0.09</td>
+        <td>0.257</td><td>57.7</td><td>.857</td><td>0.058</td><td>0.058</td><td>0.269</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td>
+        <td>0.05</td><td>0.11</td><td>0.01</td><td>0.02</td>
+        <td>2.239</td><td>52.3</td><td>.372</td><td>0.413</td><td>0.408</td><td>0.757</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td>
+        <td>0.19</td><td>0.18</td><td>0.15</td><td>0.17</td>
+        <td>0.830</td><td>44.1</td><td>.694</td><td>0.210</td><td>0.208</td><td>0.347</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td>
+        <td>0.09</td><td>0.09</td><td>0.07</td><td>0.06</td>
+        <td>0.819</td><td>61.8</td><td>.694</td><td>0.180</td><td>0.178</td><td>0.322</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td>
+        <td>0.02</td><td>0.06</td><td>0.01</td><td>0.01</td>
+        <td>1.803</td><td>48.7</td><td>.388</td><td>0.327</td><td>0.324</td><td>0.512</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td>
+        <td>0.12</td><td>0.14</td><td>0.10</td><td>0.07</td>
+        <td>0.959</td><td>66.0</td><td>.682</td><td>0.198</td><td>0.196</td><td>0.337</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td>
+        <td>0.29</td><td>0.22</td><td>0.26</td><td>0.25</td>
+        <td>0.500</td><td>38.0</td><td>.857</td><td>0.134</td><td>0.133</td><td>0.295</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td>
+        <td>0.02</td><td>0.02</td><td>0.02</td><td>0.02</td>
+        <td>-0.338</td><td>45.9</td><td>.857</td><td>-0.084</td><td>-0.083</td><td>0.275</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td>
+        <td>0.02</td><td>0.03</td><td>0.02</td><td>0.02</td>
+        <td>0.108</td><td>55.3</td><td>.914</td><td>0.025</td><td>0.025</td><td>0.264</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td>
+        <td>0.06</td><td>0.10</td><td>0.03</td><td>0.04</td>
+        <td>1.647</td><td>64.8</td><td>.417</td><td>0.328</td><td>0.325</td><td>0.515</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td>
+        <td>0.02</td><td>0.02</td><td>0.04</td><td>0.08</td>
+        <td>-1.220</td><td>22.1</td><td>.588</td><td>-0.442</td><td>-0.437</td><td>0.884</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td>
+        <td>0.02</td><td>0.05</td><td>0.03</td><td>0.04</td>
+        <td>-0.409</td><td>44.9</td><td>.857</td><td>-0.103</td><td>-0.102</td><td>0.281</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td>
+        <td>0.01</td><td>0.01</td><td>0.02</td><td>0.03</td>
+        <td>-2.050</td><td>23.6</td><td>.372</td><td>-0.708</td><td>-0.700</td><td>5.547</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td>
+        <td>0.04</td><td>0.06</td><td>0.03</td><td>0.03</td>
+        <td>0.580</td><td>64.5</td><td>.857</td><td>0.124</td><td>0.123</td><td>0.290</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td>
+        <td>0.46</td><td>0.25</td><td>0.39</td><td>0.27</td>
+        <td>1.014</td><td>37.7</td><td>.682</td><td>0.273</td><td>0.270</td><td>0.419</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td>
+        <td>0.13</td><td>0.12</td><td>0.10</td><td>0.09</td>
+        <td>1.387</td><td>52.8</td><td>.570</td><td>0.328</td><td>0.324</td><td>0.513</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td>
+        <td>0.06</td><td>0.13</td><td>0.03</td><td>0.07</td>
+        <td>1.211</td><td>65.2</td><td>.588</td><td>0.256</td><td>0.253</td><td>0.396</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td>
+        <td>0.28</td><td>0.17</td><td>0.29</td><td>0.14</td>
+        <td>-0.237</td><td>49.2</td><td>.857</td><td>-0.057</td><td>-0.057</td><td>0.269</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div></div></div>
+</body>
+</html>

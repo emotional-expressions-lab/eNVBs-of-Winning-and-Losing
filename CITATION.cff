@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the Data Descriptor and the archived repository."
+title: "Facial-emotion measures of Olympic and Paralympic athletes across match timepoints"
+type: dataset
+authors:
+  - family-names: Mehta
+    given-names: Saumya
+    affiliation: "German Sport University Cologne"
+  - family-names: Thies
+    given-names: Noemi
+    affiliation: "German Sport University Cologne"
+  - family-names: Pallare-Herbeck
+    given-names: Max
+    affiliation: "German Sport University Cologne"
+  - family-names: Memmert
+    given-names: Daniel
+    affiliation: "German Sport University Cologne"
+  - family-names: Furley
+    given-names: Philip
+    affiliation: "German Sport University Cologne"
+
+version: 1.0.0
+date-released: "2026-01-01"
+license: CC-BY-4.0
+doi: 10.5281/zenodo.XXXXXXX
+repository-code: "https://github.com/USER/REPO"
+keywords:
+  - facial expression
+  - emotion
+  - FaceReader
+  - Action Units
+  - Olympic
+  - Paralympic
+  - visual impairment
+  - power distance
+preferred-citation:
+  type: article
+  title: "Facial-emotion measures of Olympic and Paralympic athletes across match timepoints"
+  authors:
+    - given-names: ""
+      family-names: ""
+  journal: "Scientific Data"
+  year: 2026
+  # doi: 10.1038/s41597-XXX-XXXXX-X

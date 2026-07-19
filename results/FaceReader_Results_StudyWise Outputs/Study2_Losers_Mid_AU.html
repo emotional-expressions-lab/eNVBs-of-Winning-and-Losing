@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Study 2 – Losers: Study2_Losers_Mid_AU.html</title>
+  
+<style>
+  * { box-sizing: border-box; }
+  body { font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+         font-size: 13px; color: #000; margin: 0; padding: 0; background: #fff; }
+  h1   { font-size: 20px; font-weight: 700; padding: 14px 20px 4px; margin: 0; }
+  h2   { font-size: 15px; font-weight: 700; margin: 22px 0 6px; color: #111; }
+  h3   { font-size: 13px; font-weight: 700; margin: 18px 0 2px; color: #333;
+         border-bottom: 1px solid #ddd; padding-bottom: 3px; }
+  .subtitle { font-size: 11px; color: #555; margin: 3px 20px 14px; line-height: 1.8; }
+  .tab-bar  { background: #f0f0f0; border-bottom: 2px solid #bbb;
+              padding: 8px 12px 0; display: flex; flex-wrap: wrap; gap: 4px; }
+  .tab-btn  { padding: 7px 15px; border: 1px solid #bbb; border-bottom: none;
+              background: #e0e0e0; cursor: pointer; font-size: 12px;
+              border-radius: 4px 4px 0 0; font-family: inherit; }
+  .tab-btn.active { background: #fff; border-bottom: 2px solid #fff; font-weight: bold; }
+  .tab-btn:hover  { background: #d5d5d5; }
+  .tab-panel      { padding: 18px 26px; display: none; }
+  .tab-panel.active { display: block; }
+  table { border-collapse: collapse; margin: 4px 0 20px; font-size: 12px; min-width: 360px; }
+  table caption { font-style: italic; font-size: 12px; text-align: left;
+                  padding: 0 0 3px; caption-side: top; }
+  thead tr.top th { border-top: 2px solid #000; }
+  thead th { border-bottom: 1px solid #000; padding: 4px 14px 3px;
+             text-align: center; font-weight: 400; white-space: nowrap; }
+  thead th.L { text-align: left; }
+  tbody td   { padding: 2px 14px; text-align: center; }
+  tbody td.L { text-align: left; }
+  tbody tr.sig td { font-weight: bold; }
+  tfoot td { border-top: 2px solid #000; padding: 5px 4px 3px;
+             font-style: italic; font-size: 11px; color: #444; }
+  .panel-info { font-size: 11px; color: #555; margin: 0 0 14px; }
+  table.apa { border-collapse: collapse; width: 100%; font-size: 12px;
+              font-family: "Times New Roman", Times, serif; margin-bottom: 28px; }
+  table.apa caption { font-style: italic; font-weight: bold; text-align: left;
+                      font-size: 12px; margin-bottom: 4px; caption-side: top; }
+  table.apa thead tr.apa-top th { border-top: 2px solid #000; }
+  table.apa thead th  { border-bottom: 1px solid #000; padding: 4px 10px 3px;
+                        text-align: center; font-weight: normal; }
+  table.apa thead th.apa-L { text-align: left; }
+  table.apa tbody td   { padding: 3px 10px; text-align: center; }
+  table.apa tbody td.apa-L { text-align: left; }
+  table.apa tbody tr.apa-sig td { font-style: italic; }
+  table.apa tfoot td { border-top: 2px solid #000; padding: 5px 2px 2px;
+                       font-style: italic; font-size: 11px; text-align: left; }
+  .apa-section { margin-bottom: 32px; }
+  .copy-hint { font-size: 11px; color: #555; font-style: italic; margin: 0 0 20px;
+               padding: 7px 12px; background: #fffbe6; border-left: 3px solid #e6b800; }
+  hr { border: none; border-top: 1px solid #e8e8e8; margin: 6px 0 18px; }
+</style>
+<script>
+function showTab(i) {
+  document.querySelectorAll(".sx-panel").forEach(function(p, j) { p.classList.toggle("active", i === j); });
+  document.querySelectorAll(".sx-btn").forEach(function(b, j) { b.classList.toggle("active", i === j); });
+}
+</script>
+
+</head>
+<body>
+<h1>Study 2 – Losers: Facial Action-Unit Analysis</h1>
+<p class="subtitle">
+  Source: Mid_Analysed_Participants.xlsx &nbsp;|&nbsp; Measure: mean across frames (pooled, all-analyses) &nbsp;|&nbsp; N = 199 losers<br>
+  DV set: 20 Action Units (bilateral)<br>
+  Test order: Descriptives &rarr; Shapiro-Wilk &rarr; Levene's (median-centred) &rarr;
+  Welch's t-test (+ Hedges' g, BH FDR q) &rarr; Bayesian t-test<br>
+  Bayesian prior: Cauchy <em>r</em> = 0.7071 (JASP medium) &nbsp;|&nbsp; <em>p</em>-values: APA format
+</p>
+<div class="tab-bar"><button class="sx-btn active tab-btn active" onclick="showTab(0)">Study 2: Losers – Sighted Only, High PD vs Low PD</button>
+<button class="sx-btn tab-btn" onclick="showTab(1)">Study 2: Losers – High PD Only, Sighted vs Blind</button>
+<button class="sx-btn tab-btn" onclick="showTab(2)">Study 2: Losers – Low PD Only, Sighted vs Blind</button>
+<button class="sx-btn tab-btn" onclick="showTab(3)">Study 2: Losers – Blind Only, High PD vs Low PD</button>
+<button class="sx-btn tab-btn" style="border-left:3px solid #e6b800;" onclick="showTab(4)">APA Summary Tables</button></div>
+<div><div class="sx-panel tab-panel active" id="sx-p0"><h2>Study 2: Losers – Sighted Only, High PD vs Low PD</h2>
+<p class="panel-info">High: n = 73 &nbsp;|&nbsp; Low: n = 42 &nbsp;|&nbsp; Total N = 115</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody></tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="4">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="7">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p1"><h2>Study 2: Losers – High PD Only, Sighted vs Blind</h2>
+<p class="panel-info">Sighted: n = 73 &nbsp;|&nbsp; Blind: n = 49 &nbsp;|&nbsp; Total N = 122</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody></tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="4">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="7">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p2"><h2>Study 2: Losers – Low PD Only, Sighted vs Blind</h2>
+<p class="panel-info">Sighted: n = 42 &nbsp;|&nbsp; Blind: n = 35 &nbsp;|&nbsp; Total N = 77</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody></tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="4">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="7">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p3"><h2>Study 2: Losers – Blind Only, High PD vs Low PD</h2>
+<p class="panel-info">High: n = 49 &nbsp;|&nbsp; Low: n = 35 &nbsp;|&nbsp; Total N = 84</p>
+
+<h3>1. Group Descriptives</h3>
+<table>
+  <caption>Descriptives</caption>
+  <thead><tr class="top"><th class="L"></th><th class="L">Group</th>
+    <th>N</th><th>Mean</th><th>SD</th><th>SE</th><th>Coefficient of variation</th></tr></thead>
+  <tbody></tbody>
+</table>
+<h3>2. Test of Normality (Shapiro-Wilk)</h3>
+<table>
+  <caption>Test of Normality (Shapiro-Wilk)</caption>
+  <thead><tr class="top"><th class="L">Residuals</th><th>W</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Computed on pooled within-group residuals.
+    Significant results suggest a deviation from normality. Bold = p &lt; .05.</td></tr></tfoot>
+</table>
+<h3>3. Test of Equality of Variances (Levene's)</h3>
+<table>
+  <caption>Test of Equality of Variances (Levene's)</caption>
+  <thead><tr class="top"><th class="L"></th><th>F</th><th>df1</th><th>df2</th><th>p</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="4">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="4">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="5">Note. median-centred (Brown–Forsythe). Bold = p &lt; .05 indicating unequal variances.</td></tr></tfoot>
+</table><h3>4. MANOVA</h3><p style="font-style:italic;color:#888;margin:4px 0 20px;">
+Omnibus MANOVA omitted for the Action-Unit set (20 DVs is too many to estimate
+stably at these cell sizes). Inference is univariate with FDR control.</p>
+
+<h3>5. Independent Samples T-Test (Welch's)</h3>
+<table>
+  <caption>Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>t</th><th>df</th><th>p</th><th>q (BH)</th>
+    <th>Cohen's d</th><th>Hedges' g</th><th>SE g</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="7">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="7">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="8">Note. Welch's t-test (var.equal = FALSE).
+    Bold = raw p &lt; .05. <em>q</em> = BH-adjusted p across the 20 DVs in this panel. Cohen's d uses the pooled SD; Hedges' g applies the
+    small-sample bias correction and is the preferred estimate.</td></tr></tfoot>
+</table>
+<h3>6. Bayesian Independent Samples T-Test</h3>
+<table>
+  <caption>Bayesian Independent Samples T-Test</caption>
+  <thead><tr class="top"><th class="L"></th><th>BF&#x2081;&#x2080;</th><th>error %</th></tr></thead>
+  <tbody><tr><td class="L">AU01 Inner Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU02 Outer Brow Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU04 Brow Lowerer</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU05 Upper Lid Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU06 Cheek Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU07 Lid Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU09 Nose Wrinkler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU10 Upper Lip Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU12 Lip Corner Puller</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU14 Dimpler</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU15 Lip Corner Depressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU17 Chin Raiser</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU18 Lip Pucker</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU20 Lip Stretcher</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU23 Lip Tightener</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU24 Lip Pressor</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU25 Lips Part</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU26 Jaw Drop</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU27 Mouth Stretch</td><td colspan="2">—</td></tr>
+<tr><td class="L">AU43 Eye Closure</td><td colspan="2">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="3">Note. Cauchy prior width r = 0.7071.
+    BF&#x2081;&#x2080; &gt; 3: moderate evidence for H&#x2081;; &gt; 10: strong;
+    &lt; 0.333: evidence for H&#x2080;. Bayes factors do not require multiplicity
+    correction.</td></tr></tfoot>
+</table></div>
+<div class="sx-panel tab-panel" id="sx-p4"><div class="copy-hint">&#128203; APA 7th edition format. Select and paste into Word, or File &rarr; Print &rarr; Save as PDF.</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 1.</strong> Study 2: Losers – Sighted Only, High PD vs Low PD</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">High</th>
+      <th colspan="2">Low</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td><td colspan="10" style="color:#999;">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 2.</strong> Study 2: Losers – High PD Only, Sighted vs Blind</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">Sighted</th>
+      <th colspan="2">Blind</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td><td colspan="10" style="color:#999;">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 3.</strong> Study 2: Losers – Low PD Only, Sighted vs Blind</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">Sighted</th>
+      <th colspan="2">Blind</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td><td colspan="10" style="color:#999;">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div>
+
+<div class="apa-section">
+<table class="apa">
+  <caption><strong>Table 4.</strong> Study 2: Losers – Blind Only, High PD vs Low PD</caption>
+  <thead>
+    <tr class="apa-top">
+      <th class="apa-L" rowspan="2">Variable</th>
+      <th colspan="2">High</th>
+      <th colspan="2">Low</th>
+      <th rowspan="2"><em>t</em></th>
+      <th rowspan="2"><em>df</em></th>
+      <th rowspan="2"><em>q</em></th>
+      <th rowspan="2"><em>d</em></th>
+      <th rowspan="2"><em>g</em></th>
+      <th rowspan="2">BF<sub>10</sub></th>
+    </tr>
+    <tr><th><em>M</em></th><th><em>SD</em></th><th><em>M</em></th><th><em>SD</em></th></tr>
+  </thead>
+  <tbody><tr><td class="apa-L">AU01 Inner Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU02 Outer Brow Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU04 Brow Lowerer</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU05 Upper Lid Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU06 Cheek Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU07 Lid Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU09 Nose Wrinkler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU10 Upper Lip Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU12 Lip Corner Puller</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU14 Dimpler</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU15 Lip Corner Depressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU17 Chin Raiser</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU18 Lip Pucker</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU20 Lip Stretcher</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU23 Lip Tightener</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU24 Lip Pressor</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU25 Lips Part</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU26 Jaw Drop</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU27 Mouth Stretch</td><td colspan="10" style="color:#999;">—</td></tr>
+<tr><td class="apa-L">AU43 Eye Closure</td><td colspan="10" style="color:#999;">—</td></tr>
+</tbody>
+  <tfoot><tr><td colspan="11">
+    <em>Note.</em> Group comparison via Welch&rsquo;s independent-samples <em>t</em>-test.
+    <em>M</em> = mean; <em>SD</em> = standard deviation; <em>t</em> = Welch&rsquo;s <em>t</em>;
+    <em>df</em> = Welch&ndash;Satterthwaite degrees of freedom; <em>q</em> = Benjamini&ndash;Hochberg FDR-adjusted <em>p</em>-value across the 20 dependent variables in this panel.
+    <em>d</em> = Cohen&rsquo;s <em>d</em>; <em>g</em> = Hedges&rsquo; <em>g</em>;
+    BF<sub>10</sub> = Bayes factor (Cauchy prior <em>r</em> = 0.707).
+    <sup>*</sup><em>q</em> &lt; .05, <sup>**</sup><em>q</em> &lt; .01, <sup>***</sup><em>q</em> &lt; .001.
+  </td></tr></tfoot>
+</table>
+</div></div></div>
+</body>
+</html>

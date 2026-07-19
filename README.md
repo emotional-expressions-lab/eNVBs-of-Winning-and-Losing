@@ -1,6 +1,6 @@
 # Facial-emotion measures of Olympic and Paralympic athletes across match timepoints
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+[![DOI](https://zenodo.org/badge/1292152281.svg)](https://doi.org/10.5281/zenodo.21446738)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 Data and analysis code accompanying the Data Descriptor:
@@ -15,8 +15,8 @@ competition timepoints (Pre, Mid, Result, Post). Athletes are grouped by vision
 status (Sighted / Blind) and cultural Power Distance (High / Low), and split into
 Study 1 (Winners) and Study 2 (Losers).
 
-A permanent, versioned copy of this repository is archived on Zenodo at
-https://doi.org/10.5281/zenodo.XXXXXXX. Please cite the Zenodo DOI rather than the
+A permanent, versioned copy of this repository is archived on Zenodo at https://doi.org/10.5281/zenodo.21446738
+ Please cite the Zenodo DOI rather than the
 GitHub URL, which is the working copy and may change.
 
 ## Repository structure

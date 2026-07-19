@@ -22,8 +22,8 @@ authors:
 version: 1.0.0
 date-released: "2026-01-01"
 license: CC-BY-4.0
-doi: 10.5281/zenodo.XXXXXXX
-repository-code: "https://github.com/USER/REPO"
+doi: 10.5281/zenodo.21446739
+repository-code: "https://github.com/emotional-expressions-lab/eNVBs-of-Winning-and-Losing.git"
 keywords:
   - facial expression
   - emotion

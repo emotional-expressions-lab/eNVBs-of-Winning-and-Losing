@@ -133,9 +133,8 @@ the Data Descriptor, and writes `univariate_results.csv` and
 `manova_results.csv` to `results/`. It prints `sessionInfo()` on completion so the
 run environment is recorded alongside the output.
 
-If you prefer not to use `renv`, install the packages listed in
-[`requirements.txt`](requirements.txt) manually; the script depends only on CRAN
-packages.
+All required packages are listed in
+[`requirements.txt`](requirements.txt).
 
 To generate the frame-retention report, place the aggregator outputs
 (`*_PROCESSED_v9_PY.xlsx`) in `data/` alongside the analysis-ready files, then:
@@ -159,7 +158,7 @@ Within each timepoint and study, four two-group contrasts are tested:
 | Sighted vs Blind | High-PD athletes | Vision |
 | Sighted vs Blind | Low-PD athletes | Vision |
 
-Each contrast is tested across the nine affect channels and, separately, the
+Each contrast is tested across the nine emotion score and, separately, the
 twenty Action Units, reporting Welch's t-test, Cohen's d, Hedges' g, a Bayesian
 t-test, Levene's and Shapiro-Wilk assumption checks, and Benjamini-Hochberg
 FDR-adjusted p-values. For the affect channels, a parametric MANOVA (Pillai's

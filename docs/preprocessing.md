@@ -2,46 +2,39 @@
 
 This document describes how the analysis-ready data files were produced from the
 raw Noldus FaceReader exports. It is provided so that the derivation of every
-value in the dataset is transparent and reproducible. The pipeline is a sequence
+value in the dataset is transparent. The pipeline is a sequence
 of Python scripts (preprocessing and aggregation) followed by the R analysis;
 the analysis-ready files in `data/` are produced from the aggregator output.
 
 ## Overview
 
 Raw FaceReader output is frame-level: for each analysed video, every frame
-carries an intensity value per emotion channel and per Action Unit, or an error
-token (for example a face-detection or model-fit failure) where no valid reading
+carries an intensity value per emotion category and per Action Unit, or an error
+token (like a face-detection or model-fit failure) where no valid reading
 was obtained. Multi-event athletes share a single serial number, so events that
 belong to the same athlete but different competitions must be separated before
 any averaging. The pipeline resolves event identity, attaches the verified
 competition result, pools valid frames to one value per athlete-event, and emits
-the study-split, analysis-ready files.
+the study-split, analysis-ready files. It uses a master athlete list where all this information is stored.
 
 ## Pipeline steps
 
 The steps run per timepoint (Pre, Mid, Result, Post).
 
 1. **`extract_frx_mapping.py` — extract event mapping from the FaceReader project.**
-   Reads `Meta.xml` inside the FaceReader `.frx` project archive and records,
+   Reads the FaceReader `.frx` project archive and records,
    for every (Participant, Analysis) pair, the source video's folder name and
-   filename. The folder name is what distinguishes an athlete's separate
-   competitions; the video filename (`Serial_Gender-Event-Year_Moment-Index-
-   Outcome-Medal`, e.g. `0001_2Oly24_Pre1WGol.mov`) is what later steps use to
-   verify Win/Loss. Only the folder name and filename are used, never the full
-   path — footage is stored across several external hard disks, and the same
-   disk can mount under a different drive letter on different machines, so
-   matching on drive-letter-inclusive paths would silently break across
-   machines. This step only reads the `.frx`; nothing is modified.
+   filename. For mapping, only the folder name and filename are used, no other information is needed.
 
 2. **`relabel_raw_export.py` — relabel the raw frame-level export.**
-   Athletes whose Analyses came from more than one distinct source folder (real
-   multi-event athletes) have their `Participant Name` replaced, on each
+   Athletes whose Analyses came from folders that share serial numbers but have differing event codes have their `Participant Name` replaced, on each
    frame-level row, with the actual source folder name for that row's Analysis.
+   This helps distinguish athlete with the same serial number (same athlete) who appear in multiple competition, and allows to treat them independently. 
    Single-event athletes are left untouched. A cross-check audit file is written
    alongside the relabelled export, flagging any athlete where the number of
    labels produced doesn't match the number of distinct events expected.
 
-3. **`inject_v6_results.py` — inject the verified competition result and apply exclusions.**
+4. **`inject_v6_results.py` — inject the verified competition result and apply exclusions.**
    The authoritative Win/Loss result for each event is written onto every row,
    keyed on serial *and* event (not serial alone, since a multi-event athlete
    can win one competition and lose another). The result is sourced from a
@@ -54,35 +47,28 @@ The steps run per timepoint (Pre, Mid, Result, Post).
    aggregator. The step fails rather than writing a silent blank if any
    retained row ends up without a result.
 
-4. **`faceReader_aggregator.py` — aggregate to one value per athlete-event.**
+5. **`faceReader_aggregator.py` — aggregate to one value per athlete-event.**
    Frames are grouped strictly by the full `Participant Name` label produced in
-   step 2, never by serial number alone, so multi-event athletes stay split.
-   (This is why aggregation is done in Python: an earlier R aggregator
-   mis-parsed the relabelled duplicate labels and collapsed split events back
-   together, dropping participants; grouping on the exact full-label string
-   avoids this.) Values matching a fixed set of error tokens (`fit_failed`,
+   step 2, so multi-event athletes stay split.
+   Values matching a fixed set of error tokens (`fit_failed`,
    `find_failed`, `no_face`, `missing`, `n/a`, `na`, `error`, `invalid`,
    `none`, and blank) are treated as missing and excluded before averaging. The
    pooled value for each channel is the mean over the remaining valid frames,
    pooled across all of that athlete-event's Analyses. The aggregator also
    records, per athlete-event, the total frame count, valid frame count, and
-   validity percentage, and separately flags any Analysis with more than 30% or
-   50% invalid frames — these are reporting flags only and do not remove rows
-   from the pooled output. The Win/Loss result is taken from the per-row
-   `Result` column injected in step 3 where present; where a participant's
-   injected rows disagree, the majority value is used, and where no injected
-   result exists it falls back to the master list by serial number. Other
-   metadata (name, nationality, PD, gender, competition) is taken from the
+   validity percentage. The Win/Loss result is taken from the per-row
+   `Result` column injected in step 3 where present or falls back to the master list by serial number.
+   Other metadata (name, nationality, PD, gender, competition) is taken from the
    master list by serial number. Output is three sheets
    (`Pooled_By_Participant`, `Analysis_Quality`, `Verification`) written as
    `<Timepoint>_PROCESSED_v9_PY.xlsx`.
 
-5. **`make_analysis_ready.py` — produce the analysis-ready files.**
+7. **`make_analysis_ready.py` — produce the analysis-ready files.**
    The pooled data is split by study and result into the two sheets
    (`Study1_Winners`, `Study2_Losers`) and reduced to one value per channel with
    the identifier and grouping columns. This is the output shipped in `data/`.
 
-6. **Analysis and downstream documentation.**
+8. **Analysis and downstream documentation.**
    `scripts/technical_validation.R` runs the group comparisons on the
    analysis-ready files. Athlete-level attributes (such as blindness status) are
    joined by full participant name, which is the stable key across pipeline

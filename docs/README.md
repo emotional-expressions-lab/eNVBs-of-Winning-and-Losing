@@ -24,14 +24,14 @@ GitHub URL, which is the working copy and may change.
 ```
 .
 ├── README.md                              This file
-├── LICENSE                                MIT (code) + CC BY 4.0 (data/docs)
+├── LICENSE                                
 ├── CITATION.cff                           Citation metadata
 ├── renv.lock                              Exact R package versions for reproducibility
-├── requirements.txt                       Package list (summary of renv.lock), covers full pipeline
+├── requirements.txt                       Packages list
 ├── .gitignore
 ├── scripts/
-│   ├── extract_frx_mapping.py             Step 1: event mapping from .frx project files
-│   ├── relabel_raw_export.py              Step 2: relabel raw export for multi-event athletes
+│   ├── extract_frx_mapping.py             Step 1: event mapping from project files
+│   ├── relabel_raw_export.py              Step 2: relabel raw export for multi-event athletes who share serial numbers
 │   ├── inject_v6_results.py               Step 3: inject verified Win/Loss, apply exclusions
 │   ├── faceReader_aggregator.py           Step 4: pool frames to one value per athlete-event
 │   ├── make_analysis_ready.py             Step 5: split into Study1_Winners / Study2_Losers
@@ -43,8 +43,8 @@ GitHub URL, which is the working copy and may change.
 │   ├── Mid_Analysed_Participants.xlsx
 │   ├── Result_Analysed_Participants.xlsx
 │   ├── Post_Analysed_Participants.xlsx
-│   └── (aggregator outputs *_PROCESSED_v9_PY.xlsx, produced by the Python aggregator)
-├── results/                               Output written by the scripts (created on run)
+│   └── (aggregator outputs *_PROCESSED_v9_PY.xlsx, produced by the aggregator)
+├── results/                               Output written by the scripts
 │   ├── univariate_results.csv
 │   ├── manova_results.csv
 │   ├── frame_retention_per_participant.csv
@@ -55,7 +55,7 @@ GitHub URL, which is the working copy and may change.
 ├── BAPCS/                                 Supplementary manual BAPCS annotations (see note below)
 └── docs/
     ├── data_dictionary.md                 Column-by-column description of the data
-    ├── preprocessing.md                   How the data was produced (pipeline)
+    ├── preprocessing.md                   How the data was produced and processed
     └── CHANGELOG.md                       Version history of the released dataset
 ```
 
@@ -65,20 +65,18 @@ GitHub URL, which is the working copy and may change.
 tables generated per Study (Winners/Losers) x Timepoint (Pre/Mid/Result/Post)
 x channel type (Emotions/AU), plus per-study sample-breakdown tables and a
 summary appendix (`Appendix_FaceReader_Emotion_Tables.html`). These are
-reporting output, not pipeline input — they are generated from the
-analysis-ready files, not consumed by any script.
+reporting study outputs - all of which are used to validate the dataset based on expected directions of results.
 
 ## Supplementary manual annotations (FACS, BAPCS)
 
-`FACS/` and `BAPCS/` contain manual coding carried out independently of the
+`FACS/` and `BAPCS/` contain manual coding annotations carried out independent of 
 automated FaceReader pipeline described above: expert-rater Facial Action
 Coding System (FACS) annotations and Body Action and Posture Coding System
 (BAPCS) gesture codes, with their own descriptive and inferential outputs
 (`FACS/Study 1_FACS Descriptives.xlsx`, `FACS/Study 2_FACS Descriptives.xlsx`,
 `BAPCS/BAPCS_submitfiles/BAPCS_analysis.R`, and associated results). These are
 supplementary reference material reported alongside the FaceReader findings in
-the Data Descriptor; they are not inputs to, and do not feed back into, any
-step of the automated FaceReader pipeline in `scripts/`.
+the Data Descriptor.
 
 ## Data records
 
@@ -165,9 +163,9 @@ FDR-adjusted p-values. For the affect channels, a parametric MANOVA (Pillai's
 trace) and a robust MANOVA (modified ANOVA-type statistic with a bootstrap
 p-value) are additionally computed.
 
-Data completeness (the number of FaceReader-analysed frames per athlete-event, and
+Frame-leel diagnostics (the number of FaceReader-analysed frames per athlete-event, and
 the number retained as valid after excluding face-detection and model-fit
-failures) is reported by `scripts/frame_retention_per_participant.R`. It covers
+failures) are reported by `scripts/frame_retention_per_participant.R`. It covers
 only the final analysed sample: the set of participants is taken from the
 analysis-ready files, and frame counts are joined from the aggregator output on
 `Participant_Name_Full`. It writes a per-participant table and a per timepoint x

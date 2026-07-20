@@ -68,12 +68,6 @@ summary appendix (`Appendix_FaceReader_Emotion_Tables.html`). These are
 reporting output, not pipeline input — they are generated from the
 analysis-ready files, not consumed by any script.
 
-> **Check before pushing:** `Analysed_Participants_Final.xlsx` in this folder
-> has a name close enough to the four `data/*_Analysed_Participants.xlsx`
-> files that it's worth confirming whether it's the same data (in which case
-> one copy is redundant) or a distinct, earlier/final-only snapshot (in which
-> case the naming should be more clearly differentiated).
-
 ## Supplementary manual annotations (FACS, BAPCS)
 
 `FACS/` and `BAPCS/` contain manual coding carried out independently of the
@@ -121,7 +115,7 @@ reproduce every reported result are included here in `data/`.
 
 ## Reproducing the technical validation
 
-The analysis runs in R (>= 4.2). To reproduce every table in the Technical
+The analysis runs in R. To reproduce every table in the Technical
 Validation section:
 
 ```r
@@ -154,7 +148,7 @@ source("frame_retention_per_participant.R")
 This writes `frame_retention_per_participant.csv` and
 `frame_retention_summary.csv` to `results/`.
 
-## What the code does
+## What the script does
 
 Within each timepoint and study, four two-group contrasts are tested:
 

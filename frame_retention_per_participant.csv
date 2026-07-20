@@ -1,0 +1,1734 @@
+"Timepoint","Study","Participant_Name_Full","Sr_No","Vision","PD","Total_Frames","Valid_Frames","Invalid_Frames","Valid_Pct"
+"Pre","Winners","1",1,"Sighted","High",128,112,16,87.5
+"Pre","Winners","3",3,"Sighted","High",79,79,0,100
+"Pre","Winners","4",4,"Sighted","Low",162,126,36,77.8
+"Pre","Winners","7",7,"Sighted","High",75,75,0,100
+"Pre","Winners","9",9,"Sighted","High",32,9,23,28.1
+"Pre","Winners","10",10,"Sighted","High",109,67,42,61.5
+"Pre","Winners","13",13,"Sighted","Low",127,127,0,100
+"Pre","Winners","15",15,"Sighted","High",128,100,28,78.1
+"Pre","Winners","16",16,"Sighted","High",213,116,97,54.5
+"Pre","Winners","19",19,"Sighted","High",223,203,20,91
+"Pre","Winners","21",21,"Sighted","High",103,88,15,85.4
+"Pre","Winners","22",22,"Sighted","High",79,41,38,51.9
+"Pre","Winners","25",25,"Sighted","High",28,0,28,0
+"Pre","Winners","27",27,"Sighted","Low",269,107,162,39.8
+"Pre","Winners","28",28,"Sighted","High",28,3,25,10.7
+"Pre","Winners","34",34,"Sighted","High",117,44,73,37.6
+"Pre","Winners","37",37,"Sighted","High",151,90,61,59.6
+"Pre","Winners","39",39,"Sighted","High",54,18,36,33.3
+"Pre","Winners","40",40,"Sighted","High",235,211,24,89.8
+"Pre","Winners","43",43,"Sighted","High",36,26,10,72.2
+"Pre","Winners","45",45,"Sighted","High",38,32,6,84.2
+"Pre","Winners","46",46,"Sighted","High",30,28,2,93.3
+"Pre","Winners","49",49,"Sighted","High",51,40,11,78.4
+"Pre","Winners","51",51,"Sighted","High",186,83,103,44.6
+"Pre","Winners","52",52,"Sighted","High",111,87,24,78.4
+"Pre","Winners","55",55,"Sighted","High",34,34,0,100
+"Pre","Winners","57",57,"Sighted","High",88,60,28,68.2
+"Pre","Winners","58",58,"Sighted","High",78,66,12,84.6
+"Pre","Winners","63",63,"Sighted","High",37,12,25,32.4
+"Pre","Winners","64",64,"Sighted","High",35,17,18,48.6
+"Pre","Winners","67",67,"Sighted","High",64,55,9,85.9
+"Pre","Winners","69",69,"Sighted","High",102,73,29,71.6
+"Pre","Winners","70",70,"Sighted","High",56,56,0,100
+"Pre","Winners","73",73,"Sighted","High",52,25,27,48.1
+"Pre","Winners","75",75,"Sighted","Low",21,0,21,0
+"Pre","Winners","76",76,"Sighted","High",37,31,6,83.8
+"Pre","Winners","79",79,"Sighted","High",129,124,5,96.1
+"Pre","Winners","81",81,"Sighted","High",125,119,6,95.2
+"Pre","Winners","82",82,"Sighted","High",55,47,8,85.5
+"Pre","Winners","0085_2Para20_ - Prematch",85,"Blind","High",168,66,102,39.3
+"Pre","Winners","0085_2Para24_ - Pre",85,"Blind","High",43,43,0,100
+"Pre","Winners","87",87,"Blind","High",21,21,0,100
+"Pre","Winners","88",88,"Blind","High",41,24,17,58.5
+"Pre","Winners","91",91,"Blind","High",27,27,0,100
+"Pre","Winners","0092_2ParaWCHPor23 - Pre",92,"Blind","Low",101,99,2,98
+"Pre","Winners","93",93,"Blind","High",69,69,0,100
+"Pre","Winners","94",94,"Blind","Low",49,49,0,100
+"Pre","Winners","97",97,"Blind","High",65,62,3,95.4
+"Pre","Winners","0099_2Para24 - 0099_2Para24_Pre",99,"Blind","High",125,90,35,72
+"Pre","Winners","0100_2Para24 - 0100_2Para24_Pre",100,"Blind","Low",94,80,14,85.1
+"Pre","Winners","0101_2ParaACH23_ - Pre",101,"Blind","High",84,84,0,100
+"Pre","Winners","0103_2Para24_ - Pre",103,"Blind","High",75,74,1,98.7
+"Pre","Winners","105",105,"Blind","High",70,70,0,100
+"Pre","Winners","106",106,"Blind","Low",53,53,0,100
+"Pre","Winners","109",109,"Blind","High",64,55,9,85.9
+"Pre","Winners","111",111,"Blind","High",93,91,2,97.8
+"Pre","Winners","112",112,"Blind","High",80,57,23,71.2
+"Pre","Winners","115",115,"Blind","High",49,49,0,100
+"Pre","Winners","117",117,"Blind","High",40,40,0,100
+"Pre","Winners","118",118,"Blind","High",70,70,0,100
+"Pre","Winners","121",121,"Blind","High",84,84,0,100
+"Pre","Winners","123",123,"Blind","High",53,52,1,98.1
+"Pre","Winners","124",124,"Blind","High",44,43,1,97.7
+"Pre","Winners","127",127,"Blind","High",156,149,7,95.5
+"Pre","Winners","129",129,"Blind","High",70,70,0,100
+"Pre","Winners","130",130,"Blind","High",71,71,0,100
+"Pre","Winners","133",133,"Blind","High",53,50,3,94.3
+"Pre","Winners","139",139,"Blind","High",72,72,0,100
+"Pre","Winners","0141_1Para24_ - 0141_1Para24_Pre",141,"Blind","Low",47,21,26,44.7
+"Pre","Winners","0141_1ParaGPGIza25_ - PRe",141,"Blind","Low",13,12,1,92.3
+"Pre","Winners","0141_1ParaGPHeide24_ - Pre",141,"Blind","Low",54,53,1,98.1
+"Pre","Winners","142",142,"Blind","High",81,66,15,81.5
+"Pre","Winners","0145_1Para24_ - Pre",145,"Blind","High",95,95,0,100
+"Pre","Winners","147",147,"Blind","High",26,24,2,92.3
+"Pre","Winners","148",148,"Blind","High",103,103,0,100
+"Pre","Winners","151",151,"Blind","High",106,106,0,100
+"Pre","Winners","153",153,"Blind","High",63,63,0,100
+"Pre","Winners","154",154,"Blind","High",108,108,0,100
+"Pre","Winners","157",157,"Blind","High",42,42,0,100
+"Pre","Winners","163",163,"Blind","High",82,81,1,98.8
+"Pre","Winners","165",165,"Blind","High",112,91,21,81.2
+"Pre","Winners","166",166,"Blind","Low",74,61,13,82.4
+"Pre","Winners","169",169,"Blind","High",173,173,0,100
+"Pre","Winners","171",171,"Blind","High",58,54,4,93.1
+"Pre","Winners","172",172,"Blind","High",70,69,1,98.6
+"Pre","Winners","175",175,"Blind","High",112,100,12,89.3
+"Pre","Winners","177",177,"Blind","High",89,89,0,100
+"Pre","Winners","178",178,"Blind","Low",69,58,11,84.1
+"Pre","Winners","181",181,"Sighted","High",27,19,8,70.4
+"Pre","Winners","183",183,"Sighted","High",36,22,14,61.1
+"Pre","Winners","185",185,"Sighted","High",75,33,42,44
+"Pre","Winners","187",187,"Sighted","High",14,3,11,21.4
+"Pre","Winners","189",189,"Sighted","Low",213,163,50,76.5
+"Pre","Winners","193",193,"Sighted","Low",76,49,27,64.5
+"Pre","Winners","199",199,"Sighted","Low",45,42,3,93.3
+"Pre","Winners","201",201,"Sighted","High",43,40,3,93
+"Pre","Winners","203",203,"Sighted","Low",124,27,97,21.8
+"Pre","Winners","211",211,"Sighted","Low",28,20,8,71.4
+"Pre","Winners","0301_1Oly24_100m - 0301_1Oly24_Pre",301,"Sighted","Low",292,269,23,92.1
+"Pre","Winners","0301_1Oly24_200m - 0301_1Oly24_Pre",301,"Sighted","Low",72,53,19,73.6
+"Pre","Winners","302",302,"Sighted","Low",155,133,22,85.8
+"Pre","Winners","307",307,"Sighted","Low",23,21,2,91.3
+"Pre","Winners","309",309,"Sighted","Low",12,12,0,100
+"Pre","Winners","311",311,"Sighted","Low",41,37,4,90.2
+"Pre","Winners","0313_1Oly24_Bro5000 - Pre",313,"Sighted","Low",67,67,0,100
+"Pre","Winners","0313_1Oly24_WBro10000 - Pre",313,"Sighted","Low",110,92,18,83.6
+"Pre","Winners","318",318,"Sighted","Low",81,57,24,70.4
+"Pre","Winners","319",319,"Sighted","Low",11,11,0,100
+"Pre","Winners","320",320,"Sighted","Low",47,40,7,85.1
+"Pre","Winners","321",321,"Sighted","Low",26,26,0,100
+"Pre","Winners","326",326,"Sighted","Low",43,36,7,83.7
+"Pre","Winners","327",327,"Sighted","Low",21,21,0,100
+"Pre","Winners","328",328,"Sighted","Low",28,28,0,100
+"Pre","Winners","329",329,"Sighted","Low",23,17,6,73.9
+"Pre","Winners","334",334,"Sighted","Low",82,81,1,98.8
+"Pre","Winners","336",336,"Sighted","Low",24,7,17,29.2
+"Pre","Winners","342",342,"Sighted","Low",39,36,3,92.3
+"Pre","Winners","346",346,"Sighted","Low",67,59,8,88.1
+"Pre","Winners","349",349,"Sighted","Low",78,77,1,98.7
+"Pre","Winners","351",351,"Sighted","Low",137,64,73,46.7
+"Pre","Winners","355",355,"Sighted","Low",36,25,11,69.4
+"Pre","Winners","356",356,"Sighted","Low",88,28,60,31.8
+"Pre","Winners","357",357,"Sighted","Low",41,9,32,22
+"Pre","Winners","359",359,"Sighted","Low",58,42,16,72.4
+"Pre","Winners","402",402,"Blind","Low",31,31,0,100
+"Pre","Winners","0404_2Oly24_Relay - Pre",404,"Sighted","Low",54,48,6,88.9
+"Pre","Winners","0405_2Oly24_100m - Pre",405,"Sighted","Low",108,106,2,98.1
+"Pre","Winners","0405_2Oly24_Relay - Pre",405,"Sighted","Low",10,10,0,100
+"Pre","Winners","407",407,"Sighted","Low",49,48,1,98
+"Pre","Winners","408",408,"Sighted","Low",26,22,4,84.6
+"Pre","Winners","411",411,"Sighted","Low",146,84,62,57.5
+"Pre","Winners","413",413,"Sighted","Low",52,40,12,76.9
+"Pre","Winners","414",414,"Sighted","Low",66,62,4,93.9
+"Pre","Winners","416",416,"Sighted","Low",73,64,9,87.7
+"Pre","Winners","418",418,"Sighted","Low",62,62,0,100
+"Pre","Winners","420",420,"Sighted","Low",71,66,5,93
+"Pre","Winners","422",422,"Sighted","Low",23,22,1,95.7
+"Pre","Winners","425",425,"Sighted","Low",45,41,4,91.1
+"Pre","Winners","426",426,"Sighted","Low",30,22,8,73.3
+"Pre","Winners","427",427,"Sighted","Low",24,21,3,87.5
+"Pre","Winners","428",428,"Sighted","Low",14,14,0,100
+"Pre","Winners","429",429,"Sighted","Low",53,44,9,83
+"Pre","Winners","431",431,"Sighted","Low",63,41,22,65.1
+"Pre","Winners","434",434,"Sighted","Low",27,27,0,100
+"Pre","Winners","438",438,"Sighted","Low",17,17,0,100
+"Pre","Winners","440",440,"Sighted","Low",108,96,12,88.9
+"Pre","Winners","442",442,"Sighted","Low",90,89,1,98.9
+"Pre","Winners","445",445,"Sighted","Low",77,62,15,80.5
+"Pre","Winners","446",446,"Sighted","Low",66,40,26,60.6
+"Pre","Winners","447",447,"Sighted","Low",164,156,8,95.1
+"Pre","Winners","448",448,"Sighted","Low",250,223,27,89.2
+"Pre","Winners","449",449,"Sighted","Low",153,95,58,62.1
+"Pre","Winners","450",450,"Sighted","Low",148,81,67,54.7
+"Pre","Winners","451",451,"Sighted","Low",107,90,17,84.1
+"Pre","Winners","455",455,"Blind","Low",11,4,7,36.4
+"Pre","Winners","456",456,"Blind","Low",21,13,8,61.9
+"Pre","Winners","0477_2Para24_WBro - Pre",477,"Blind","Low",25,16,9,64
+"Pre","Winners","478",478,"Blind","Low",73,73,0,100
+"Pre","Winners","494",494,"Blind","Low",18,18,0,100
+"Pre","Winners","498",498,"Sighted","High",56,55,1,98.2
+"Pre","Winners","499",499,"Sighted","High",14,7,7,50
+"Pre","Winners","501",501,"Sighted","High",72,66,6,91.7
+"Pre","Winners","502",502,"Sighted","High",43,42,1,97.7
+"Pre","Winners","0507_1Para20_ - Pre",507,"Blind","High",22,22,0,100
+"Pre","Winners","0507_1Para24_ - Pre",507,"Blind","High",11,6,5,54.5
+"Pre","Winners","514",514,"Sighted","High",128,116,12,90.6
+"Pre","Winners","516",516,"Sighted","High",78,62,16,79.5
+"Pre","Winners","517",517,"Sighted","High",96,52,44,54.2
+"Pre","Winners","519",519,"Sighted","High",89,83,6,93.3
+"Pre","Winners","521",521,"Sighted","High",64,58,6,90.6
+"Pre","Winners","0528_2Para20 - Pre",528,"Blind","High",32,32,0,100
+"Pre","Winners","0528_2Para24_ - Pre",528,"Blind","High",79,75,4,94.9
+"Pre","Winners","530",530,"Blind","High",34,31,3,91.2
+"Pre","Winners","531",531,"Blind","High",124,124,0,100
+"Pre","Winners","533",533,"Blind","High",46,34,12,73.9
+"Pre","Winners","0548_1Para20_ - Pre",548,"Blind","High",30,22,8,73.3
+"Pre","Winners","0548_1Para24 - Pre",548,"Blind","High",116,109,7,94
+"Pre","Winners","551",551,"Blind","High",39,36,3,92.3
+"Pre","Winners","552",552,"Blind","High",76,62,14,81.6
+"Pre","Winners","0554_1Para20 - Pre",554,"Blind","High",67,65,2,97
+"Pre","Winners","0554_1Para24 - Pre",554,"Blind","High",58,48,10,82.8
+"Pre","Winners","556",556,"Blind","High",32,28,4,87.5
+"Pre","Winners","0558_1Para20 - Pre",558,"Blind","Low",29,28,1,96.6
+"Pre","Winners","565",565,"Blind","High",109,89,20,81.7
+"Pre","Winners","566",566,"Blind","High",40,26,14,65
+"Pre","Winners","568",568,"Blind","High",52,48,4,92.3
+"Pre","Winners","569",569,"Blind","High",46,46,0,100
+"Pre","Winners","571",571,"Blind","High",94,88,6,93.6
+"Pre","Winners","0573_2Para20 - Pre",573,"Blind","High",48,42,6,87.5
+"Pre","Winners","0573_2Para24 - Pre",573,"Blind","High",48,29,19,60.4
+"Pre","Winners","575",575,"Blind","High",26,26,0,100
+"Pre","Winners","577",577,"Blind","High",72,47,25,65.3
+"Pre","Winners","579",579,"Blind","High",124,58,66,46.8
+"Pre","Winners","0580_2WParaDehli25_ - Pre",580,"Blind","Low",13,13,0,100
+"Pre","Winners","581",581,"Sighted","Low",35,32,3,91.4
+"Pre","Winners","0582_1Para20_ - PreMatch",582,"Blind","High",44,17,27,38.6
+"Pre","Winners","0582_2Para24_ - Pre",582,"Blind","High",104,70,34,67.3
+"Pre","Winners","585",585,"Blind","High",11,11,0,100
+"Pre","Winners","586",586,"Blind","High",46,12,34,26.1
+"Pre","Winners","588",588,"Blind","High",19,19,0,100
+"Pre","Winners","589",589,"Blind","High",19,19,0,100
+"Pre","Winners","590",590,"Blind","High",41,39,2,95.1
+"Pre","Winners","591",591,"Blind","High",37,37,0,100
+"Pre","Winners","0595_1Para12_LongJump - Pre",595,"Blind","Low",170,170,0,100
+"Pre","Winners","0598_2Para20_400m - Pre",598,"Blind","High",68,68,0,100
+"Pre","Winners","601",601,"Blind","High",51,51,0,100
+"Pre","Winners","604",604,"Blind","High",36,23,13,63.9
+"Pre","Winners","606",606,"Blind","High",11,11,0,100
+"Pre","Winners","0609_1Para16_ - Pre",609,"Blind","Low",22,22,0,100
+"Pre","Winners","0609_1ParaGPSao23_ - Pre",609,"Blind","Low",21,0,21,0
+"Pre","Winners","0609_1ParaWorld23_ - Pre",609,"Blind","Low",50,46,4,92
+"Pre","Winners","0610_1Para16_ - Pre",610,"Blind","Low",12,10,2,83.3
+"Pre","Winners","0610_1ParaGPSao23_ - Pre",610,"Blind","Low",65,56,9,86.2
+"Pre","Winners","0610_1ParaWorld23_ - Pre",610,"Blind","Low",11,11,0,100
+"Pre","Winners","0611_1Para16_ - Pre",611,"Blind","Low",12,9,3,75
+"Pre","Winners","0617_2Para16_ - Pre",617,"Blind","Low",90,88,2,97.8
+"Pre","Winners","618",618,"Blind","Low",93,24,69,25.8
+"Pre","Winners","0620_2Para16_100m - Pre",620,"Blind","Low",33,31,2,93.9
+"Pre","Winners","0620_2Para16_200m - Pre",620,"Blind","Low",61,49,12,80.3
+"Pre","Winners","621",621,"Blind","Low",45,28,17,62.2
+"Pre","Winners","622",622,"Blind","Low",15,15,0,100
+"Pre","Winners","623",623,"Blind","Low",10,9,1,90
+"Pre","Winners","0627_1Para08_ - Pre",627,"Blind","Low",48,43,5,89.6
+"Pre","Winners","0627_1Para12_1500m - Pre",627,"Blind","Low",11,11,0,100
+"Pre","Winners","0635_1ParaGPGiza25_ - Pre",635,"Blind","Low",12,7,5,58.3
+"Pre","Winners","646",646,"Blind","Low",192,18,174,9.4
+"Pre","Winners","0647_2ParaWCH25_ - Pre",647,"Blind","Low",76,8,68,10.5
+"Pre","Winners","0647_2ParaWCHBirmi23 - Pre",647,"Blind","Low",149,84,65,56.4
+"Pre","Winners","0648_2ParaWCH25_ - Pre",648,"Blind","Low",147,118,29,80.3
+"Pre","Winners","0648_2ParaWCHBirmi23 - Pre",648,"Blind","Low",105,18,87,17.1
+"Pre","Winners","0649_2ParaWCH25_ - Pre",649,"Blind","Low",70,31,39,44.3
+"Pre","Winners","0649_2ParaWCHBirmi23 - Pre",649,"Blind","Low",83,8,75,9.6
+"Pre","Winners","654",654,"Blind","Low",52,1,51,1.9
+"Pre","Winners","655",655,"Blind","Low",45,14,31,31.1
+"Pre","Winners","656",656,"Blind","Low",27,1,26,3.7
+"Pre","Winners","0657_1ParaWCH25_ - Pre",657,"Blind","Low",90,5,85,5.6
+"Pre","Winners","0662_2ParaGPAnta24_ - Pre",662,"Blind","Low",11,10,1,90.9
+"Pre","Winners","0664_2ParaGPTibili24_ - Pre",664,"Blind","Low",58,56,2,96.6
+"Pre","Winners","667",667,"Blind","Low",73,39,34,53.4
+"Pre","Winners","0668_1ParaGPSao23_ - Pre",668,"Blind","Low",69,0,69,0
+"Pre","Winners","0668_1ParaWorld23_ - Pre",668,"Blind","Low",25,25,0,100
+"Pre","Winners","0669_1ParaGPSao23_ - Pre",669,"Blind","Low",85,79,6,92.9
+"Pre","Winners","0669_1ParaWorld23_ - Pre",669,"Blind","Low",11,11,0,100
+"Pre","Winners","711",711,"Blind","Low",112,40,72,35.7
+"Pre","Winners","720",720,"Blind","Low",20,0,20,0
+"Pre","Winners","721",721,"Blind","Low",46,0,46,0
+"Pre","Winners","0722_2ParaEuroCHBerl18_ - Pre",722,"Blind","Low",33,8,25,24.2
+"Pre","Winners","731",731,"Blind","Low",65,26,39,40
+"Pre","Winners","0732_1ParaEuroCHBerl18_ - Pre",732,"Blind","Low",38,8,30,21.1
+"Pre","Winners","0732_1ParaWCHDoha15 - Pre",732,"Blind","Low",49,28,21,57.1
+"Pre","Winners","741",741,"Sighted","Low",12,12,0,100
+"Pre","Winners","743",743,"Sighted","Low",14,14,0,100
+"Pre","Winners","744",744,"Sighted","Low",12,10,2,83.3
+"Pre","Winners","745",745,"Sighted","Low",13,13,0,100
+"Pre","Winners","746",746,"Sighted","Low",13,13,0,100
+"Pre","Winners","747",747,"Sighted","Low",26,26,0,100
+"Pre","Winners","748",748,"Sighted","Low",11,11,0,100
+"Pre","Winners","749",749,"Sighted","Low",24,24,0,100
+"Pre","Winners","750",750,"Sighted","Low",13,12,1,92.3
+"Pre","Winners","762",762,"Sighted","Low",13,13,0,100
+"Pre","Winners","763",763,"Sighted","Low",46,46,0,100
+"Pre","Winners","764",764,"Sighted","Low",15,15,0,100
+"Pre","Winners","765",765,"Sighted","Low",16,16,0,100
+"Pre","Winners","766",766,"Sighted","Low",14,14,0,100
+"Pre","Winners","767",767,"Sighted","Low",14,7,7,50
+"Pre","Winners","768",768,"Sighted","Low",23,22,1,95.7
+"Pre","Winners","769",769,"Sighted","Low",13,13,0,100
+"Pre","Winners","770",770,"Sighted","Low",15,15,0,100
+"Pre","Winners","772",772,"Sighted","Low",37,35,2,94.6
+"Pre","Winners","782",782,"Sighted","High",15,10,5,66.7
+"Pre","Winners","784",784,"Sighted","High",11,11,0,100
+"Pre","Winners","785",785,"Sighted","High",32,32,0,100
+"Pre","Winners","786",786,"Sighted","High",11,4,7,36.4
+"Pre","Winners","787",787,"Sighted","High",14,5,9,35.7
+"Pre","Winners","788",788,"Sighted","High",12,12,0,100
+"Pre","Winners","789",789,"Sighted","High",15,11,4,73.3
+"Pre","Winners","790",790,"Sighted","High",17,12,5,70.6
+"Pre","Winners","791",791,"Sighted","High",17,17,0,100
+"Pre","Winners","792",792,"Sighted","High",11,6,5,54.5
+"Pre","Winners","804",804,"Sighted","High",16,0,16,0
+"Pre","Winners","805",805,"Sighted","High",69,63,6,91.3
+"Pre","Winners","806",806,"Sighted","High",17,17,0,100
+"Pre","Winners","807",807,"Sighted","High",10,10,0,100
+"Pre","Winners","808",808,"Sighted","High",16,16,0,100
+"Pre","Winners","809",809,"Sighted","High",5,3,2,60
+"Pre","Winners","810",810,"Sighted","High",10,10,0,100
+"Pre","Winners","811",811,"Sighted","High",24,18,6,75
+"Pre","Winners","812",812,"Sighted","High",21,21,0,100
+"Pre","Winners","813",813,"Sighted","High",12,11,1,91.7
+"Pre","Winners","814",814,"Sighted","High",19,16,3,84.2
+"Pre","Losers","2",2,"Sighted","High",119,110,9,92.4
+"Pre","Losers","5",5,"Sighted","High",162,101,61,62.3
+"Pre","Losers","6",6,"Sighted","High",147,126,21,85.7
+"Pre","Losers","8",8,"Sighted","High",36,33,3,91.7
+"Pre","Losers","11",11,"Sighted","Low",33,23,10,69.7
+"Pre","Losers","12",12,"Sighted","Low",43,43,0,100
+"Pre","Losers","14",14,"Sighted","High",162,162,0,100
+"Pre","Losers","17",17,"Sighted","High",73,53,20,72.6
+"Pre","Losers","20",20,"Sighted","High",175,129,46,73.7
+"Pre","Losers","24",24,"Sighted","High",194,164,30,84.5
+"Pre","Losers","26",26,"Sighted","Low",33,22,11,66.7
+"Pre","Losers","29",29,"Sighted","High",35,7,28,20
+"Pre","Losers","30",30,"Sighted","Low",38,11,27,28.9
+"Pre","Losers","32",32,"Sighted","Low",242,119,123,49.2
+"Pre","Losers","35",35,"Sighted","Low",214,162,52,75.7
+"Pre","Losers","36",36,"Sighted","High",121,121,0,100
+"Pre","Losers","38",38,"Sighted","Low",268,251,17,93.7
+"Pre","Losers","41",41,"Sighted","High",133,119,14,89.5
+"Pre","Losers","42",42,"Sighted","High",163,34,129,20.9
+"Pre","Losers","44",44,"Sighted","High",30,30,0,100
+"Pre","Losers","47",47,"Sighted","High",30,30,0,100
+"Pre","Losers","48",48,"Sighted","High",48,21,27,43.8
+"Pre","Losers","50",50,"Sighted","High",164,98,66,59.8
+"Pre","Losers","53",53,"Sighted","High",76,56,20,73.7
+"Pre","Losers","54",54,"Sighted","High",80,55,25,68.8
+"Pre","Losers","56",56,"Sighted","High",38,28,10,73.7
+"Pre","Losers","59",59,"Sighted","Low",32,19,13,59.4
+"Pre","Losers","60",60,"Sighted","High",87,50,37,57.5
+"Pre","Losers","65",65,"Sighted","High",7,5,2,71.4
+"Pre","Losers","66",66,"Sighted","Low",27,22,5,81.5
+"Pre","Losers","68",68,"Sighted","High",48,41,7,85.4
+"Pre","Losers","71",71,"Sighted","High",57,57,0,100
+"Pre","Losers","72",72,"Sighted","High",105,91,14,86.7
+"Pre","Losers","74",74,"Sighted","High",37,33,4,89.2
+"Pre","Losers","77",77,"Sighted","Low",43,22,21,51.2
+"Pre","Losers","78",78,"Sighted","High",44,5,39,11.4
+"Pre","Losers","80",80,"Sighted","High",65,64,1,98.5
+"Pre","Losers","83",83,"Sighted","High",86,85,1,98.8
+"Pre","Losers","84",84,"Sighted","High",97,93,4,95.9
+"Pre","Losers","0086_2Para20_ - Prematch",86,"Blind","High",92,87,5,94.6
+"Pre","Losers","0086_2Para24_ - Pre",86,"Blind","High",39,38,1,97.4
+"Pre","Losers","89",89,"Blind","Low",42,42,0,100
+"Pre","Losers","90",90,"Blind","High",75,48,27,64
+"Pre","Losers","0092_2Para24_ - Pre",92,"Blind","Low",58,53,5,91.4
+"Pre","Losers","95",95,"Blind","High",99,99,0,100
+"Pre","Losers","0096_2Para20_ - Prematch",96,"Blind","Low",49,32,17,65.3
+"Pre","Losers","0096_2Para24_ - Pre",96,"Blind","Low",21,21,0,100
+"Pre","Losers","0096_2ParaGPAnta24_ - Pre",96,"Blind","Low",25,24,1,96
+"Pre","Losers","98",98,"Blind","High",64,58,6,90.6
+"Pre","Losers","0099_2ParaWCHBaku22 - Pre",99,"Blind","High",120,120,0,100
+"Pre","Losers","0100_2Para16_ - Pre",100,"Blind","Low",12,0,12,0
+"Pre","Losers","0100_2ParaGPTibili24_ - Pre",100,"Blind","Low",51,51,0,100
+"Pre","Losers","0101_2Para24 - 0101_2Para24_Pre",101,"Blind","High",65,65,0,100
+"Pre","Losers","0101_2ParaWCHBaku22 - Pre",101,"Blind","High",65,65,0,100
+"Pre","Losers","102",102,"Blind","High",51,51,0,100
+"Pre","Losers","0103_2Para20_ - Pre",103,"Blind","High",37,37,0,100
+"Pre","Losers","0104_2Para24_ - Pre",104,"Blind","High",51,51,0,100
+"Pre","Losers","0104_2ParaWCH22_ - Pre",104,"Blind","High",47,44,3,93.6
+"Pre","Losers","0107_2Para24_ - Pre",107,"Blind","High",67,67,0,100
+"Pre","Losers","0107_2ParaWCH22_ - Pre",107,"Blind","High",47,41,6,87.2
+"Pre","Losers","0108_2Para24_ - Pre",108,"Blind","High",77,77,0,100
+"Pre","Losers","0108_2ParaWCH22_ - Pre",108,"Blind","High",73,73,0,100
+"Pre","Losers","110",110,"Blind","High",58,58,0,100
+"Pre","Losers","113",113,"Blind","High",62,61,1,98.4
+"Pre","Losers","114",114,"Blind","Low",78,64,14,82.1
+"Pre","Losers","116",116,"Blind","High",96,96,0,100
+"Pre","Losers","119",119,"Blind","High",63,52,11,82.5
+"Pre","Losers","120",120,"Blind","High",67,67,0,100
+"Pre","Losers","122",122,"Blind","High",55,55,0,100
+"Pre","Losers","125",125,"Blind","High",48,45,3,93.8
+"Pre","Losers","126",126,"Blind","High",50,50,0,100
+"Pre","Losers","128",128,"Blind","High",153,150,3,98
+"Pre","Losers","131",131,"Blind","High",94,90,4,95.7
+"Pre","Losers","132",132,"Blind","Low",119,111,8,93.3
+"Pre","Losers","134",134,"Blind","High",47,46,1,97.9
+"Pre","Losers","140",140,"Blind","High",67,36,31,53.7
+"Pre","Losers","0141_1ParaGPTibili24_ - Pre",141,"Blind","Low",11,8,3,72.7
+"Pre","Losers","143",143,"Blind","High",89,84,5,94.4
+"Pre","Losers","144",144,"Blind","High",68,68,0,100
+"Pre","Losers","0145_1Para20_ - Prematch",145,"Blind","High",27,23,4,85.2
+"Pre","Losers","0146_1Para24_ - Pre",146,"Blind","Low",78,72,6,92.3
+"Pre","Losers","0146_1ParaWCH25_ - Pre",146,"Blind","Low",29,29,0,100
+"Pre","Losers","149",149,"Blind","High",55,55,0,100
+"Pre","Losers","0150_1Para24_ - Pre",150,"Blind","High",86,85,1,98.8
+"Pre","Losers","0150_1ParaWC25 - Pre",150,"Blind","High",13,13,0,100
+"Pre","Losers","152",152,"Blind","High",57,57,0,100
+"Pre","Losers","155",155,"Blind","High",92,92,0,100
+"Pre","Losers","156",156,"Blind","High",59,59,0,100
+"Pre","Losers","158",158,"Blind","High",25,23,2,92
+"Pre","Losers","164",164,"Blind","High",79,56,23,70.9
+"Pre","Losers","167",167,"Blind","High",81,79,2,97.5
+"Pre","Losers","168",168,"Blind","High",84,84,0,100
+"Pre","Losers","170",170,"Blind","High",97,97,0,100
+"Pre","Losers","173",173,"Blind","High",76,66,10,86.8
+"Pre","Losers","174",174,"Blind","Low",69,69,0,100
+"Pre","Losers","176",176,"Blind","High",104,104,0,100
+"Pre","Losers","179",179,"Blind","High",66,62,4,93.9
+"Pre","Losers","180",180,"Blind","High",65,63,2,96.9
+"Pre","Losers","182",182,"Sighted","High",18,16,2,88.9
+"Pre","Losers","184",184,"Sighted","High",72,64,8,88.9
+"Pre","Losers","186",186,"Sighted","Low",35,4,31,11.4
+"Pre","Losers","188",188,"Sighted","High",78,55,23,70.5
+"Pre","Losers","196",196,"Sighted","Low",37,25,12,67.6
+"Pre","Losers","202",202,"Sighted","High",72,53,19,73.6
+"Pre","Losers","204",204,"Sighted","High",58,48,10,82.8
+"Pre","Losers","303",303,"Sighted","Low",63,42,21,66.7
+"Pre","Losers","305",305,"Sighted","Low",80,71,9,88.8
+"Pre","Losers","308",308,"Sighted","Low",21,15,6,71.4
+"Pre","Losers","310",310,"Sighted","Low",65,60,5,92.3
+"Pre","Losers","314",314,"Sighted","Low",45,40,5,88.9
+"Pre","Losers","315",315,"Sighted","Low",30,30,0,100
+"Pre","Losers","317",317,"Sighted","Low",78,78,0,100
+"Pre","Losers","322",322,"Sighted","Low",103,88,15,85.4
+"Pre","Losers","323",323,"Sighted","Low",59,35,24,59.3
+"Pre","Losers","324",324,"Sighted","Low",31,26,5,83.9
+"Pre","Losers","0325_1Oly24_ - Pre",325,"Sighted","Low",13,13,0,100
+"Pre","Losers","0325_1Oly24_LBro - 0325_1Oly24_Pre",325,"Sighted","Low",120,96,24,80
+"Pre","Losers","0325_1Oly24_LBro - Pre",325,"Sighted","Low",13,13,0,100
+"Pre","Losers","330",330,"Sighted","Low",39,39,0,100
+"Pre","Losers","331",331,"Sighted","Low",38,30,8,78.9
+"Pre","Losers","332",332,"Sighted","Low",31,31,0,100
+"Pre","Losers","333",333,"Sighted","Low",33,33,0,100
+"Pre","Losers","335",335,"Sighted","Low",59,53,6,89.8
+"Pre","Losers","337",337,"Sighted","Low",78,66,12,84.6
+"Pre","Losers","338",338,"Sighted","Low",15,15,0,100
+"Pre","Losers","343",343,"Sighted","Low",58,52,6,89.7
+"Pre","Losers","344",344,"Sighted","Low",13,11,2,84.6
+"Pre","Losers","347",347,"Sighted","Low",110,107,3,97.3
+"Pre","Losers","348",348,"Sighted","Low",99,97,2,98
+"Pre","Losers","350",350,"Sighted","Low",176,161,15,91.5
+"Pre","Losers","352",352,"Sighted","Low",286,197,89,68.9
+"Pre","Losers","353",353,"Sighted","Low",176,64,112,36.4
+"Pre","Losers","354",354,"Sighted","Low",222,72,150,32.4
+"Pre","Losers","358",358,"Sighted","Low",62,24,38,38.7
+"Pre","Losers","360",360,"Blind","Low",102,102,0,100
+"Pre","Losers","361",361,"Blind","Low",95,95,0,100
+"Pre","Losers","362",362,"Blind","Low",49,37,12,75.5
+"Pre","Losers","363",363,"Blind","Low",24,24,0,100
+"Pre","Losers","0404_1Oly24_ - Pre",404,"Sighted","Low",159,154,5,96.9
+"Pre","Losers","0406_2Oly24_ - Pre",406,"Sighted","Low",91,83,8,91.2
+"Pre","Losers","0406_2Oly24_Relay - Pre",406,"Sighted","Low",12,12,0,100
+"Pre","Losers","409",409,"Sighted","Low",42,34,8,81
+"Pre","Losers","412",412,"Sighted","Low",59,41,18,69.5
+"Pre","Losers","415",415,"Sighted","Low",42,37,5,88.1
+"Pre","Losers","417",417,"Sighted","Low",45,32,13,71.1
+"Pre","Losers","419",419,"Sighted","Low",93,87,6,93.5
+"Pre","Losers","421",421,"Sighted","Low",95,91,4,95.8
+"Pre","Losers","423",423,"Sighted","Low",14,14,0,100
+"Pre","Losers","424",424,"Sighted","Low",17,17,0,100
+"Pre","Losers","430",430,"Sighted","Low",67,57,10,85.1
+"Pre","Losers","432",432,"Sighted","Low",37,31,6,83.8
+"Pre","Losers","433",433,"Sighted","Low",27,24,3,88.9
+"Pre","Losers","435",435,"Sighted","Low",18,9,9,50
+"Pre","Losers","439",439,"Sighted","Low",96,90,6,93.8
+"Pre","Losers","441",441,"Sighted","Low",93,86,7,92.5
+"Pre","Losers","443",443,"Sighted","Low",69,67,2,97.1
+"Pre","Losers","444",444,"Sighted","Low",58,48,10,82.8
+"Pre","Losers","452",452,"Sighted","Low",105,58,47,55.2
+"Pre","Losers","453",453,"Sighted","Low",101,66,35,65.3
+"Pre","Losers","454",454,"Sighted","Low",73,59,14,80.8
+"Pre","Losers","457",457,"Blind","Low",11,10,1,90.9
+"Pre","Losers","0477_2Para20 - Pre",477,"Blind","Low",41,41,0,100
+"Pre","Losers","479",479,"Blind","Low",20,15,5,75
+"Pre","Losers","497",497,"Sighted","Low",74,54,20,73
+"Pre","Losers","500",500,"Sighted","High",34,20,14,58.8
+"Pre","Losers","503",503,"Sighted","High",14,11,3,78.6
+"Pre","Losers","504",504,"Sighted","High",25,19,6,76
+"Pre","Losers","505",505,"Sighted","High",12,12,0,100
+"Pre","Losers","506",506,"Sighted","High",12,12,0,100
+"Pre","Losers","515",515,"Sighted","High",82,52,30,63.4
+"Pre","Losers","518",518,"Sighted","High",58,45,13,77.6
+"Pre","Losers","520",520,"Sighted","High",52,52,0,100
+"Pre","Losers","522",522,"Sighted","High",75,36,39,48
+"Pre","Losers","523",523,"Sighted","High",72,45,27,62.5
+"Pre","Losers","524",524,"Sighted","High",62,43,19,69.4
+"Pre","Losers","526",526,"Sighted","High",49,41,8,83.7
+"Pre","Losers","527",527,"Sighted","High",79,61,18,77.2
+"Pre","Losers","529",529,"Blind","High",163,163,0,100
+"Pre","Losers","532",532,"Blind","High",74,58,16,78.4
+"Pre","Losers","534",534,"Blind","High",69,62,7,89.9
+"Pre","Losers","544",544,"Blind","High",37,9,28,24.3
+"Pre","Losers","545",545,"Blind","High",84,67,17,79.8
+"Pre","Losers","549",549,"Blind","High",32,23,9,71.9
+"Pre","Losers","550",550,"Blind","High",15,15,0,100
+"Pre","Losers","553",553,"Blind","High",13,12,1,92.3
+"Pre","Losers","555",555,"Blind","High",51,33,18,64.7
+"Pre","Losers","0557_1Para20 - Pre",557,"Blind","High",71,64,7,90.1
+"Pre","Losers","0557_1Para24 - Pre",557,"Blind","High",52,37,15,71.2
+"Pre","Losers","0558_1Para16 - Pre",558,"Blind","Low",14,14,0,100
+"Pre","Losers","562",562,"Blind","High",91,91,0,100
+"Pre","Losers","570",570,"Blind","High",63,57,6,90.5
+"Pre","Losers","572",572,"Blind","High",17,17,0,100
+"Pre","Losers","0574_2Para12_shotput - Pre",574,"Blind","Low",76,40,36,52.6
+"Pre","Losers","0574_2Para16_ - Pre",574,"Blind","Low",39,1,38,2.6
+"Pre","Losers","0574_2Para20 - Pre",574,"Blind","Low",43,16,27,37.2
+"Pre","Losers","576",576,"Blind","High",47,45,2,95.7
+"Pre","Losers","578",578,"Blind","High",160,137,23,85.6
+"Pre","Losers","0580_2Para24 - Pre",580,"Blind","Low",32,19,13,59.4
+"Pre","Losers","0580_2ParaWCHByd21 - Pre",580,"Blind","Low",22,19,3,86.4
+"Pre","Losers","583",583,"Blind","High",41,0,41,0
+"Pre","Losers","584",584,"Blind","High",33,33,0,100
+"Pre","Losers","587",587,"Blind","High",41,41,0,100
+"Pre","Losers","593",593,"Blind","High",40,36,4,90
+"Pre","Losers","594",594,"Blind","High",36,30,6,83.3
+"Pre","Losers","0595_1Para20_Longjump - Pre",595,"Blind","Low",192,192,0,100
+"Pre","Losers","596",596,"Blind","High",77,77,0,100
+"Pre","Losers","0598_2Para20_100m - Pre",598,"Blind","High",32,32,0,100
+"Pre","Losers","599",599,"Blind","High",38,37,1,97.4
+"Pre","Losers","603",603,"Blind","High",36,36,0,100
+"Pre","Losers","608",608,"Blind","High",37,20,17,54.1
+"Pre","Losers","0609_1Para24 - Pre",609,"Blind","Low",20,20,0,100
+"Pre","Losers","0610_1Para24 - Pre",610,"Blind","Low",34,15,19,44.1
+"Pre","Losers","0611_1Para24 - Pre",611,"Blind","Low",39,15,24,38.5
+"Pre","Losers","612",612,"Blind","Low",12,2,10,16.7
+"Pre","Losers","613",613,"Blind","Low",23,21,2,91.3
+"Pre","Losers","614",614,"Blind","Low",15,10,5,66.7
+"Pre","Losers","615",615,"Blind","Low",14,13,1,92.9
+"Pre","Losers","616",616,"Blind","Low",56,23,33,41.1
+"Pre","Losers","0617_2ParaGPAnta24_ - Pre",617,"Blind","Low",27,25,2,92.6
+"Pre","Losers","0617_2ParaGPTibili24_ - Pre",617,"Blind","Low",14,13,1,92.9
+"Pre","Losers","619",619,"Blind","Low",12,12,0,100
+"Pre","Losers","0635_1JWC25 - Pre",635,"Blind","Low",12,12,0,100
+"Pre","Losers","638",638,"Blind","High",11,8,3,72.7
+"Pre","Losers","639",639,"Blind","High",26,1,25,3.8
+"Pre","Losers","641",641,"Blind","High",117,107,10,91.5
+"Pre","Losers","642",642,"Blind","High",18,0,18,0
+"Pre","Losers","652",652,"Blind","Low",123,122,1,99.2
+"Pre","Losers","653",653,"Blind","Low",123,70,53,56.9
+"Pre","Losers","0657_1ParaGPTok19_ - Pre",657,"Blind","Low",39,12,27,30.8
+"Pre","Losers","0660_1ParaWCH25_ - Pre",660,"Blind","Low",98,98,0,100
+"Pre","Losers","0660_1ParaWCHPor23 - Pre",660,"Blind","Low",21,18,3,85.7
+"Pre","Losers","0662_2ParaGPHeide24_ - PRe",662,"Blind","Low",95,76,19,80
+"Pre","Losers","0663_2ParaGPAnta24_ - PRe",663,"Blind","Low",21,21,0,100
+"Pre","Losers","0663_2ParaGPTibili24_ - Pre",663,"Blind","Low",12,0,12,0
+"Pre","Losers","0664_2ParaGPAnta24_ - Pre",664,"Blind","Low",12,11,1,91.7
+"Pre","Losers","665",665,"Blind","Low",19,19,0,100
+"Pre","Losers","666",666,"Blind","Low",23,23,0,100
+"Pre","Losers","0700_1ParaGPGiza25_ - Pre",700,"Blind","Low",23,18,5,78.3
+"Pre","Losers","0700_1ParaGPTok19_ - Pre",700,"Blind","Low",99,24,75,24.2
+"Pre","Losers","701",701,"Blind","Low",68,22,46,32.4
+"Pre","Losers","702",702,"Blind","Low",59,22,37,37.3
+"Pre","Losers","710",710,"Blind","High",32,32,0,100
+"Pre","Losers","0722_2ParaEuroChByd21_ - Pre",722,"Blind","Low",79,47,32,59.5
+"Pre","Losers","724",724,"Blind","High",22,22,0,100
+"Pre","Losers","725",725,"Blind","High",13,13,0,100
+"Pre","Losers","726",726,"Blind","High",10,10,0,100
+"Pre","Losers","733",733,"Blind","Low",42,42,0,100
+"Pre","Losers","736",736,"Blind","Low",15,14,1,93.3
+"Pre","Losers","737",737,"Blind","High",14,14,0,100
+"Pre","Losers","738",738,"Blind","High",22,21,1,95.5
+"Pre","Losers","751",751,"Sighted","High",11,10,1,90.9
+"Pre","Losers","752",752,"Sighted","High",11,11,0,100
+"Pre","Losers","753",753,"Sighted","High",11,11,0,100
+"Pre","Losers","754",754,"Sighted","High",15,15,0,100
+"Pre","Losers","755",755,"Sighted","High",14,14,0,100
+"Pre","Losers","756",756,"Sighted","High",16,16,0,100
+"Pre","Losers","757",757,"Sighted","High",48,24,24,50
+"Pre","Losers","758",758,"Sighted","High",21,18,3,85.7
+"Pre","Losers","759",759,"Sighted","High",11,10,1,90.9
+"Pre","Losers","760",760,"Sighted","High",12,12,0,100
+"Pre","Losers","761",761,"Sighted","High",11,11,0,100
+"Pre","Losers","773",773,"Sighted","High",15,15,0,100
+"Pre","Losers","774",774,"Sighted","High",14,14,0,100
+"Pre","Losers","775",775,"Sighted","High",12,12,0,100
+"Pre","Losers","776",776,"Sighted","High",25,25,0,100
+"Pre","Losers","777",777,"Sighted","High",22,22,0,100
+"Pre","Losers","778",778,"Sighted","High",16,16,0,100
+"Pre","Losers","779",779,"Sighted","High",16,16,0,100
+"Pre","Losers","780",780,"Sighted","High",11,11,0,100
+"Pre","Losers","781",781,"Sighted","High",13,13,0,100
+"Pre","Losers","794",794,"Sighted","High",12,10,2,83.3
+"Pre","Losers","795",795,"Sighted","High",18,18,0,100
+"Pre","Losers","796",796,"Sighted","High",11,7,4,63.6
+"Pre","Losers","798",798,"Sighted","High",16,16,0,100
+"Pre","Losers","799",799,"Sighted","High",58,41,17,70.7
+"Pre","Losers","800",800,"Sighted","High",17,15,2,88.2
+"Pre","Losers","803",803,"Sighted","High",26,21,5,80.8
+"Pre","Losers","815",815,"Sighted","High",15,15,0,100
+"Pre","Losers","816",816,"Sighted","High",11,11,0,100
+"Pre","Losers","817",817,"Sighted","High",14,14,0,100
+"Pre","Losers","818",818,"Sighted","High",10,10,0,100
+"Pre","Losers","819",819,"Sighted","High",11,11,0,100
+"Pre","Losers","820",820,"Sighted","High",16,16,0,100
+"Pre","Losers","821",821,"Sighted","High",11,11,0,100
+"Pre","Losers","822",822,"Sighted","High",19,19,0,100
+"Pre","Losers","823",823,"Sighted","High",12,6,6,50
+"Pre","Losers","824",824,"Sighted","High",14,14,0,100
+"Mid","Winners","1",1,"Sighted","High",72,59,13,81.9
+"Mid","Winners","3",3,"Sighted","High",51,49,2,96.1
+"Mid","Winners","4",4,"Sighted","Low",34,22,12,64.7
+"Mid","Winners","7",7,"Sighted","High",26,26,0,100
+"Mid","Winners","9",9,"Sighted","High",58,55,3,94.8
+"Mid","Winners","10",10,"Sighted","High",28,21,7,75
+"Mid","Winners","13",13,"Sighted","Low",107,80,27,74.8
+"Mid","Winners","15",15,"Sighted","High",131,122,9,93.1
+"Mid","Winners","19",19,"Sighted","High",64,55,9,85.9
+"Mid","Winners","21",21,"Sighted","High",31,19,12,61.3
+"Mid","Winners","22",22,"Sighted","High",49,37,12,75.5
+"Mid","Winners","25",25,"Sighted","High",27,25,2,92.6
+"Mid","Winners","27",27,"Sighted","Low",8,8,0,100
+"Mid","Winners","28",28,"Sighted","High",14,14,0,100
+"Mid","Winners","33",33,"Sighted","High",55,53,2,96.4
+"Mid","Winners","34",34,"Sighted","High",25,22,3,88
+"Mid","Winners","37",37,"Sighted","High",144,101,43,70.1
+"Mid","Winners","39",39,"Sighted","High",57,38,19,66.7
+"Mid","Winners","40",40,"Sighted","High",39,33,6,84.6
+"Mid","Winners","43",43,"Sighted","High",12,12,0,100
+"Mid","Winners","45",45,"Sighted","High",9,5,4,55.6
+"Mid","Winners","46",46,"Sighted","High",23,20,3,87
+"Mid","Winners","49",49,"Sighted","High",10,9,1,90
+"Mid","Winners","51",51,"Sighted","High",26,25,1,96.2
+"Mid","Winners","52",52,"Sighted","High",27,27,0,100
+"Mid","Winners","55",55,"Sighted","High",100,71,29,71
+"Mid","Winners","58",58,"Sighted","High",136,88,48,64.7
+"Mid","Winners","63",63,"Sighted","High",15,7,8,46.7
+"Mid","Winners","64",64,"Sighted","High",17,14,3,82.4
+"Mid","Winners","67",67,"Sighted","High",53,52,1,98.1
+"Mid","Winners","69",69,"Sighted","High",79,77,2,97.5
+"Mid","Winners","73",73,"Sighted","High",17,14,3,82.4
+"Mid","Winners","75",75,"Sighted","Low",83,57,26,68.7
+"Mid","Winners","76",76,"Sighted","High",47,26,21,55.3
+"Mid","Winners","79",79,"Sighted","High",50,47,3,94
+"Mid","Winners","81",81,"Sighted","High",41,37,4,90.2
+"Mid","Winners","85",85,"Blind","High",13,0,13,0
+"Mid","Winners","87",87,"Blind","High",9,0,9,0
+"Mid","Winners","91",91,"Blind","High",17,14,3,82.4
+"Mid","Winners","0092_2ParaWCHPor23 - Mid",92,"Blind","Low",71,18,53,25.4
+"Mid","Winners","0093_2Para24_ - Mid",93,"Blind","High",20,7,13,35
+"Mid","Winners","94",94,"Blind","Low",10,4,6,40
+"Mid","Winners","97",97,"Blind","High",56,53,3,94.6
+"Mid","Winners","99",99,"Blind","High",30,0,30,0
+"Mid","Winners","101",101,"Blind","High",11,11,0,100
+"Mid","Winners","103",103,"Blind","High",10,10,0,100
+"Mid","Winners","105",105,"Blind","High",31,4,27,12.9
+"Mid","Winners","106",106,"Blind","Low",13,0,13,0
+"Mid","Winners","111",111,"Blind","High",27,1,26,3.7
+"Mid","Winners","115",115,"Blind","High",22,14,8,63.6
+"Mid","Winners","117",117,"Blind","High",11,9,2,81.8
+"Mid","Winners","121",121,"Blind","High",8,0,8,0
+"Mid","Winners","123",123,"Blind","High",10,7,3,70
+"Mid","Winners","124",124,"Blind","High",11,0,11,0
+"Mid","Winners","127",127,"Blind","High",66,24,42,36.4
+"Mid","Winners","133",133,"Blind","High",64,35,29,54.7
+"Mid","Winners","0141_1Para24_ - 0141_1Para24_Mid",141,"Blind","Low",14,14,0,100
+"Mid","Winners","0141_1ParaGPGIza25_ - Mid",141,"Blind","Low",43,23,20,53.5
+"Mid","Winners","142",142,"Blind","High",87,26,61,29.9
+"Mid","Winners","0145_1Para24_ - Mid",145,"Blind","High",19,17,2,89.5
+"Mid","Winners","148",148,"Blind","High",135,115,20,85.2
+"Mid","Winners","154",154,"Blind","High",115,88,27,76.5
+"Mid","Winners","157",157,"Blind","High",18,14,4,77.8
+"Mid","Winners","163",163,"Blind","High",30,24,6,80
+"Mid","Winners","165",165,"Blind","High",25,0,25,0
+"Mid","Winners","166",166,"Blind","Low",103,8,95,7.8
+"Mid","Winners","169",169,"Blind","High",17,3,14,17.6
+"Mid","Winners","171",171,"Blind","High",56,15,41,26.8
+"Mid","Winners","172",172,"Blind","High",23,9,14,39.1
+"Mid","Winners","175",175,"Blind","High",7,7,0,100
+"Mid","Winners","178",178,"Blind","Low",19,19,0,100
+"Mid","Winners","181",181,"Sighted","High",290,185,105,63.8
+"Mid","Winners","183",183,"Sighted","High",1079,629,450,58.3
+"Mid","Winners","185",185,"Sighted","High",444,163,281,36.7
+"Mid","Winners","187",187,"Sighted","High",393,301,92,76.6
+"Mid","Winners","189",189,"Sighted","Low",943,715,228,75.8
+"Mid","Winners","193",193,"Sighted","Low",678,498,180,73.5
+"Mid","Winners","199",199,"Sighted","Low",784,621,163,79.2
+"Mid","Winners","201",201,"Sighted","High",1453,1070,383,73.6
+"Mid","Winners","203",203,"Sighted","Low",611,449,162,73.5
+"Mid","Winners","211",211,"Sighted","Low",435,223,212,51.3
+"Mid","Winners","0301_1Oly24_100m - 0301_1Oly24_Mid",301,"Sighted","Low",61,51,10,83.6
+"Mid","Winners","0301_1Oly24_200m - 0301_1Oly24_Mid",301,"Sighted","Low",47,1,46,2.1
+"Mid","Winners","0313_1Oly24_Bro5000 - Mid",313,"Sighted","Low",24,24,0,100
+"Mid","Winners","0313_1Oly24_WBro10000 - Mid",313,"Sighted","Low",41,41,0,100
+"Mid","Winners","320",320,"Sighted","Low",45,14,31,31.1
+"Mid","Winners","321",321,"Sighted","Low",28,18,10,64.3
+"Mid","Winners","334",334,"Sighted","Low",62,37,25,59.7
+"Mid","Winners","336",336,"Sighted","Low",104,93,11,89.4
+"Mid","Winners","342",342,"Sighted","Low",355,347,8,97.7
+"Mid","Winners","346",346,"Sighted","Low",432,397,35,91.9
+"Mid","Winners","349",349,"Sighted","Low",1782,1558,224,87.4
+"Mid","Winners","351",351,"Sighted","Low",410,256,154,62.4
+"Mid","Winners","355",355,"Sighted","Low",60,54,6,90
+"Mid","Winners","356",356,"Sighted","Low",97,59,38,60.8
+"Mid","Winners","357",357,"Sighted","Low",62,31,31,50
+"Mid","Winners","359",359,"Sighted","Low",341,269,72,78.9
+"Mid","Winners","402",402,"Blind","Low",138,114,24,82.6
+"Mid","Winners","0404_2Oly24_Relay - Mid",404,"Sighted","Low",8,6,2,75
+"Mid","Winners","405",405,"Sighted","Low",35,28,7,80
+"Mid","Winners","411",411,"Sighted","Low",11,10,1,90.9
+"Mid","Winners","414",414,"Sighted","Low",14,13,1,92.9
+"Mid","Winners","420",420,"Sighted","Low",38,38,0,100
+"Mid","Winners","429",429,"Sighted","Low",240,226,14,94.2
+"Mid","Winners","431",431,"Sighted","Low",179,137,42,76.5
+"Mid","Winners","434",434,"Sighted","Low",77,77,0,100
+"Mid","Winners","438",438,"Sighted","Low",14,13,1,92.9
+"Mid","Winners","440",440,"Sighted","Low",345,334,11,96.8
+"Mid","Winners","442",442,"Sighted","Low",139,115,24,82.7
+"Mid","Winners","445",445,"Sighted","Low",198,156,42,78.8
+"Mid","Winners","446",446,"Sighted","Low",227,216,11,95.2
+"Mid","Winners","447",447,"Sighted","Low",64,52,12,81.2
+"Mid","Winners","448",448,"Sighted","Low",268,233,35,86.9
+"Mid","Winners","449",449,"Sighted","Low",116,99,17,85.3
+"Mid","Winners","450",450,"Sighted","Low",331,202,129,61
+"Mid","Winners","456",456,"Blind","Low",26,26,0,100
+"Mid","Winners","478",478,"Blind","Low",14,14,0,100
+"Mid","Winners","494",494,"Blind","Low",83,82,1,98.8
+"Mid","Winners","499",499,"Sighted","High",40,31,9,77.5
+"Mid","Winners","509",509,"Blind","High",20,18,2,90
+"Mid","Winners","514",514,"Sighted","High",20,20,0,100
+"Mid","Winners","517",517,"Sighted","High",15,1,14,6.7
+"Mid","Winners","528",528,"Blind","High",27,18,9,66.7
+"Mid","Winners","531",531,"Blind","High",47,47,0,100
+"Mid","Winners","533",533,"Blind","High",32,32,0,100
+"Mid","Winners","548",548,"Blind","High",22,22,0,100
+"Mid","Winners","0554_1Para20 - MId",554,"Blind","High",19,19,0,100
+"Mid","Winners","0554_1Para24 - Mid",554,"Blind","High",85,85,0,100
+"Mid","Winners","556",556,"Blind","High",20,14,6,70
+"Mid","Winners","0558_1Para20 - Mid",558,"Blind","Low",40,25,15,62.5
+"Mid","Winners","0558_1Para20_shotput - Mid",558,"Blind","Low",11,10,1,90.9
+"Mid","Winners","560",560,"Blind","High",12,10,2,83.3
+"Mid","Winners","563",563,"Blind","High",51,47,4,92.2
+"Mid","Winners","565",565,"Blind","High",180,147,33,81.7
+"Mid","Winners","566",566,"Blind","High",104,94,10,90.4
+"Mid","Winners","568",568,"Blind","High",50,26,24,52
+"Mid","Winners","569",569,"Blind","High",10,9,1,90
+"Mid","Winners","571",571,"Blind","High",20,20,0,100
+"Mid","Winners","0573_2Para20 - Mid",573,"Blind","High",36,36,0,100
+"Mid","Winners","0573_2Para24 - Mid",573,"Blind","High",96,73,23,76
+"Mid","Winners","575",575,"Blind","High",135,95,40,70.4
+"Mid","Winners","577",577,"Blind","High",551,420,131,76.2
+"Mid","Winners","579",579,"Blind","High",444,343,101,77.3
+"Mid","Winners","0580_2WParaDehli25_ - Mid",580,"Blind","Low",14,0,14,0
+"Mid","Winners","582",582,"Blind","High",17,17,0,100
+"Mid","Winners","585",585,"Blind","High",13,12,1,92.3
+"Mid","Winners","586",586,"Blind","High",39,9,30,23.1
+"Mid","Winners","0595_1Para12_LongJump - Mid",595,"Blind","Low",143,118,25,82.5
+"Mid","Winners","598",598,"Blind","High",21,2,19,9.5
+"Mid","Winners","601",601,"Blind","High",28,11,17,39.3
+"Mid","Winners","604",604,"Blind","High",18,18,0,100
+"Mid","Winners","606",606,"Blind","High",35,13,22,37.1
+"Mid","Winners","0609_1Para16_ - Mid",609,"Blind","Low",26,26,0,100
+"Mid","Winners","0609_1ParaWorld23_ - Mid",609,"Blind","Low",22,5,17,22.7
+"Mid","Winners","0610_1Para16_ - Mid",610,"Blind","Low",26,26,0,100
+"Mid","Winners","0610_1ParaGPSao23_ - Mid",610,"Blind","Low",10,1,9,10
+"Mid","Winners","0610_1ParaWorld23_ - Mid",610,"Blind","Low",10,8,2,80
+"Mid","Winners","0620_2Para16_100m - Mid",620,"Blind","Low",29,29,0,100
+"Mid","Winners","0620_2Para16_200m - Mid",620,"Blind","Low",45,45,0,100
+"Mid","Winners","623",623,"Blind","Low",15,15,0,100
+"Mid","Winners","625",625,"Blind","Low",43,43,0,100
+"Mid","Winners","0627_1Para08_ - Mid",627,"Blind","Low",47,46,1,97.9
+"Mid","Winners","0627_1Para12_5000m - Mid",627,"Blind","Low",45,45,0,100
+"Mid","Winners","0635_1ParaGPGiza25_ - Mid",635,"Blind","Low",18,13,5,72.2
+"Mid","Winners","647",647,"Blind","Low",44,2,42,4.5
+"Mid","Winners","648",648,"Blind","Low",85,16,69,18.8
+"Mid","Winners","649",649,"Blind","Low",76,1,75,1.3
+"Mid","Winners","655",655,"Blind","Low",20,3,17,15
+"Mid","Winners","656",656,"Blind","Low",44,5,39,11.4
+"Mid","Winners","0657_1ParaWCH25_ - Mid",657,"Blind","Low",15,1,14,6.7
+"Mid","Winners","662",662,"Blind","Low",16,0,16,0
+"Mid","Winners","0664_2ParaGPTibili24_ - Mid",664,"Blind","Low",11,6,5,54.5
+"Mid","Winners","667",667,"Blind","Low",63,27,36,42.9
+"Mid","Winners","668",668,"Blind","Low",10,9,1,90
+"Mid","Winners","0669_1ParaGPSao23_ - Mid",669,"Blind","Low",54,10,44,18.5
+"Mid","Winners","0669_1ParaWorld23_ - Mid",669,"Blind","Low",15,9,6,60
+"Mid","Winners","711",711,"Blind","Low",31,6,25,19.4
+"Mid","Winners","720",720,"Blind","Low",28,11,17,39.3
+"Mid","Winners","721",721,"Blind","Low",15,0,15,0
+"Mid","Winners","722",722,"Blind","Low",46,25,21,54.3
+"Mid","Winners","731",731,"Blind","Low",36,36,0,100
+"Mid","Winners","732",732,"Blind","Low",76,67,9,88.2
+"Mid","Winners","745",745,"Sighted","Low",15,15,0,100
+"Mid","Winners","747",747,"Sighted","Low",16,16,0,100
+"Mid","Winners","748",748,"Sighted","Low",16,15,1,93.8
+"Mid","Winners","750",750,"Sighted","Low",17,15,2,88.2
+"Mid","Winners","762",762,"Sighted","Low",39,18,21,46.2
+"Mid","Winners","763",763,"Sighted","Low",12,11,1,91.7
+"Mid","Winners","764",764,"Sighted","Low",26,24,2,92.3
+"Mid","Winners","765",765,"Sighted","Low",12,12,0,100
+"Mid","Winners","767",767,"Sighted","Low",15,13,2,86.7
+"Mid","Winners","769",769,"Sighted","Low",79,63,16,79.7
+"Mid","Winners","772",772,"Sighted","Low",35,29,6,82.9
+"Mid","Winners","782",782,"Sighted","High",25,19,6,76
+"Mid","Winners","784",784,"Sighted","High",11,7,4,63.6
+"Mid","Winners","785",785,"Sighted","High",11,11,0,100
+"Mid","Winners","786",786,"Sighted","High",23,19,4,82.6
+"Mid","Winners","787",787,"Sighted","High",15,0,15,0
+"Mid","Winners","788",788,"Sighted","High",15,14,1,93.3
+"Mid","Winners","789",789,"Sighted","High",51,46,5,90.2
+"Mid","Winners","790",790,"Sighted","High",70,61,9,87.1
+"Mid","Winners","791",791,"Sighted","High",25,12,13,48
+"Mid","Winners","792",792,"Sighted","High",34,26,8,76.5
+"Mid","Winners","804",804,"Sighted","High",15,0,15,0
+"Mid","Winners","805",805,"Sighted","High",63,43,20,68.3
+"Mid","Winners","806",806,"Sighted","High",25,25,0,100
+"Mid","Winners","808",808,"Sighted","High",95,81,14,85.3
+"Mid","Winners","809",809,"Sighted","High",25,25,0,100
+"Mid","Winners","810",810,"Sighted","High",21,16,5,76.2
+"Mid","Winners","811",811,"Sighted","High",16,13,3,81.2
+"Mid","Winners","813",813,"Sighted","High",6,4,2,66.7
+"Mid","Winners","814",814,"Sighted","High",30,17,13,56.7
+"Mid","Losers","2",2,"Sighted","High",32,26,6,81.2
+"Mid","Losers","5",5,"Sighted","High",29,29,0,100
+"Mid","Losers","6",6,"Sighted","High",71,56,15,78.9
+"Mid","Losers","8",8,"Sighted","High",32,15,17,46.9
+"Mid","Losers","11",11,"Sighted","Low",77,36,41,46.8
+"Mid","Losers","12",12,"Sighted","Low",17,15,2,88.2
+"Mid","Losers","14",14,"Sighted","High",65,43,22,66.2
+"Mid","Losers","17",17,"Sighted","High",66,53,13,80.3
+"Mid","Losers","18",18,"Sighted","High",20,20,0,100
+"Mid","Losers","20",20,"Sighted","High",19,10,9,52.6
+"Mid","Losers","24",24,"Sighted","High",92,73,19,79.3
+"Mid","Losers","26",26,"Sighted","Low",41,38,3,92.7
+"Mid","Losers","29",29,"Sighted","High",11,10,1,90.9
+"Mid","Losers","30",30,"Sighted","Low",16,16,0,100
+"Mid","Losers","32",32,"Sighted","Low",46,46,0,100
+"Mid","Losers","35",35,"Sighted","Low",44,35,9,79.5
+"Mid","Losers","36",36,"Sighted","High",32,29,3,90.6
+"Mid","Losers","38",38,"Sighted","Low",23,20,3,87
+"Mid","Losers","41",41,"Sighted","High",70,58,12,82.9
+"Mid","Losers","42",42,"Sighted","High",23,17,6,73.9
+"Mid","Losers","44",44,"Sighted","High",16,16,0,100
+"Mid","Losers","47",47,"Sighted","High",10,7,3,70
+"Mid","Losers","48",48,"Sighted","High",37,27,10,73
+"Mid","Losers","50",50,"Sighted","High",24,15,9,62.5
+"Mid","Losers","53",53,"Sighted","High",80,71,9,88.8
+"Mid","Losers","54",54,"Sighted","High",11,8,3,72.7
+"Mid","Losers","56",56,"Sighted","High",94,61,33,64.9
+"Mid","Losers","60",60,"Sighted","High",17,16,1,94.1
+"Mid","Losers","65",65,"Sighted","High",19,17,2,89.5
+"Mid","Losers","66",66,"Sighted","Low",25,20,5,80
+"Mid","Losers","68",68,"Sighted","High",25,25,0,100
+"Mid","Losers","71",71,"Sighted","High",33,30,3,90.9
+"Mid","Losers","72",72,"Sighted","High",47,46,1,97.9
+"Mid","Losers","74",74,"Sighted","High",37,24,13,64.9
+"Mid","Losers","77",77,"Sighted","Low",55,28,27,50.9
+"Mid","Losers","78",78,"Sighted","High",12,12,0,100
+"Mid","Losers","80",80,"Sighted","High",12,12,0,100
+"Mid","Losers","83",83,"Sighted","High",22,18,4,81.8
+"Mid","Losers","86",86,"Blind","High",58,33,25,56.9
+"Mid","Losers","89",89,"Blind","Low",23,10,13,43.5
+"Mid","Losers","0092_2Para24_ - Mid",92,"Blind","Low",15,14,1,93.3
+"Mid","Losers","0093_2ParaWC25 - Midmatch",93,"Blind","High",31,13,18,41.9
+"Mid","Losers","0096_2Para16_ - Mid",96,"Blind","Low",12,11,1,91.7
+"Mid","Losers","0096_2Para20_ - Midmatch",96,"Blind","Low",75,18,57,24
+"Mid","Losers","0096_2Para24_ - Mid",96,"Blind","Low",10,0,10,0
+"Mid","Losers","0096_2ParaGPAnta24_ - Mid",96,"Blind","Low",18,15,3,83.3
+"Mid","Losers","98",98,"Blind","High",79,71,8,89.9
+"Mid","Losers","100",100,"Blind","Low",10,3,7,30
+"Mid","Losers","102",102,"Blind","High",13,10,3,76.9
+"Mid","Losers","107",107,"Blind","High",13,11,2,84.6
+"Mid","Losers","108",108,"Blind","High",10,1,9,10
+"Mid","Losers","110",110,"Blind","High",35,16,19,45.7
+"Mid","Losers","113",113,"Blind","High",41,6,35,14.6
+"Mid","Losers","114",114,"Blind","Low",16,0,16,0
+"Mid","Losers","116",116,"Blind","High",16,11,5,68.8
+"Mid","Losers","122",122,"Blind","High",9,6,3,66.7
+"Mid","Losers","125",125,"Blind","High",47,46,1,97.9
+"Mid","Losers","126",126,"Blind","High",6,5,1,83.3
+"Mid","Losers","128",128,"Blind","High",17,13,4,76.5
+"Mid","Losers","132",132,"Blind","Low",23,20,3,87
+"Mid","Losers","134",134,"Blind","High",54,47,7,87
+"Mid","Losers","140",140,"Blind","High",13,10,3,76.9
+"Mid","Losers","0141_1ParaGPTibili24_ - Mid",141,"Blind","Low",67,17,50,25.4
+"Mid","Losers","143",143,"Blind","High",34,28,6,82.4
+"Mid","Losers","144",144,"Blind","High",30,27,3,90
+"Mid","Losers","0145_1Para20_ - Midmatch",145,"Blind","High",18,0,18,0
+"Mid","Losers","146",146,"Blind","Low",15,9,6,60
+"Mid","Losers","150",150,"Blind","High",57,40,17,70.2
+"Mid","Losers","156",156,"Blind","High",28,28,0,100
+"Mid","Losers","158",158,"Blind","High",17,0,17,0
+"Mid","Losers","167",167,"Blind","High",47,12,35,25.5
+"Mid","Losers","168",168,"Blind","High",76,9,67,11.8
+"Mid","Losers","170",170,"Blind","High",46,41,5,89.1
+"Mid","Losers","173",173,"Blind","High",146,131,15,89.7
+"Mid","Losers","174",174,"Blind","Low",23,12,11,52.2
+"Mid","Losers","176",176,"Blind","High",13,12,1,92.3
+"Mid","Losers","182",182,"Sighted","High",607,390,217,64.3
+"Mid","Losers","184",184,"Sighted","High",810,570,240,70.4
+"Mid","Losers","186",186,"Sighted","Low",548,375,173,68.4
+"Mid","Losers","188",188,"Sighted","High",849,527,322,62.1
+"Mid","Losers","196",196,"Sighted","Low",527,303,224,57.5
+"Mid","Losers","202",202,"Sighted","High",1048,655,393,62.5
+"Mid","Losers","204",204,"Sighted","High",783,608,175,77.7
+"Mid","Losers","303",303,"Sighted","Low",90,34,56,37.8
+"Mid","Losers","310",310,"Sighted","Low",9,9,0,100
+"Mid","Losers","314",314,"Sighted","Low",18,13,5,72.2
+"Mid","Losers","315",315,"Sighted","Low",32,32,0,100
+"Mid","Losers","317",317,"Sighted","Low",70,65,5,92.9
+"Mid","Losers","335",335,"Sighted","Low",32,8,24,25
+"Mid","Losers","337",337,"Sighted","Low",116,104,12,89.7
+"Mid","Losers","338",338,"Sighted","Low",23,23,0,100
+"Mid","Losers","343",343,"Sighted","Low",564,546,18,96.8
+"Mid","Losers","344",344,"Sighted","Low",160,142,18,88.8
+"Mid","Losers","347",347,"Sighted","Low",423,400,23,94.6
+"Mid","Losers","348",348,"Sighted","Low",275,262,13,95.3
+"Mid","Losers","350",350,"Sighted","Low",671,542,129,80.8
+"Mid","Losers","352",352,"Sighted","Low",351,303,48,86.3
+"Mid","Losers","353",353,"Sighted","Low",249,204,45,81.9
+"Mid","Losers","354",354,"Sighted","Low",69,19,50,27.5
+"Mid","Losers","358",358,"Sighted","Low",46,30,16,65.2
+"Mid","Losers","0404_1Oly24_ - Mid",404,"Sighted","Low",37,14,23,37.8
+"Mid","Losers","415",415,"Sighted","Low",12,12,0,100
+"Mid","Losers","419",419,"Sighted","Low",13,13,0,100
+"Mid","Losers","421",421,"Sighted","Low",40,3,37,7.5
+"Mid","Losers","430",430,"Sighted","Low",110,108,2,98.2
+"Mid","Losers","432",432,"Sighted","Low",86,85,1,98.8
+"Mid","Losers","433",433,"Sighted","Low",420,366,54,87.1
+"Mid","Losers","435",435,"Sighted","Low",214,198,16,92.5
+"Mid","Losers","439",439,"Sighted","Low",144,144,0,100
+"Mid","Losers","441",441,"Sighted","Low",384,327,57,85.2
+"Mid","Losers","443",443,"Sighted","Low",84,67,17,79.8
+"Mid","Losers","444",444,"Sighted","Low",33,7,26,21.2
+"Mid","Losers","452",452,"Sighted","Low",27,27,0,100
+"Mid","Losers","453",453,"Sighted","Low",93,74,19,79.6
+"Mid","Losers","457",457,"Blind","Low",19,19,0,100
+"Mid","Losers","479",479,"Blind","Low",29,21,8,72.4
+"Mid","Losers","500",500,"Sighted","High",40,14,26,35
+"Mid","Losers","522",522,"Sighted","High",490,404,86,82.4
+"Mid","Losers","523",523,"Sighted","High",162,160,2,98.8
+"Mid","Losers","524",524,"Sighted","High",159,142,17,89.3
+"Mid","Losers","526",526,"Sighted","High",253,245,8,96.8
+"Mid","Losers","527",527,"Sighted","High",458,401,57,87.6
+"Mid","Losers","555",555,"Blind","High",10,6,4,60
+"Mid","Losers","557",557,"Blind","High",9,1,8,11.1
+"Mid","Losers","561",561,"Blind","High",25,0,25,0
+"Mid","Losers","562",562,"Blind","High",212,142,70,67
+"Mid","Losers","564",564,"Blind","High",56,42,14,75
+"Mid","Losers","570",570,"Blind","High",9,0,9,0
+"Mid","Losers","572",572,"Blind","High",41,30,11,73.2
+"Mid","Losers","0574_2Para12_shotput - Mid",574,"Blind","Low",155,144,11,92.9
+"Mid","Losers","0574_2Para20 - Mid",574,"Blind","Low",34,28,6,82.4
+"Mid","Losers","576",576,"Blind","High",164,146,18,89
+"Mid","Losers","578",578,"Blind","High",706,640,66,90.7
+"Mid","Losers","0580_2Para24 - Mid",580,"Blind","Low",753,355,398,47.1
+"Mid","Losers","0580_2ParaWCHByd21 - Mid",580,"Blind","Low",15,6,9,40
+"Mid","Losers","583",583,"Blind","High",11,0,11,0
+"Mid","Losers","584",584,"Blind","High",21,20,1,95.2
+"Mid","Losers","587",587,"Blind","High",12,6,6,50
+"Mid","Losers","593",593,"Blind","High",41,41,0,100
+"Mid","Losers","0595_1Para12_TripleJump - Mid",595,"Blind","Low",47,24,23,51.1
+"Mid","Losers","0595_1Para20_Longjump - Mid",595,"Blind","Low",141,141,0,100
+"Mid","Losers","596",596,"Blind","High",92,92,0,100
+"Mid","Losers","597",597,"Blind","High",30,26,4,86.7
+"Mid","Losers","603",603,"Blind","High",36,3,33,8.3
+"Mid","Losers","608",608,"Blind","High",128,120,8,93.8
+"Mid","Losers","0610_1Para24 - Mid",610,"Blind","Low",13,13,0,100
+"Mid","Losers","615",615,"Blind","Low",16,1,15,6.2
+"Mid","Losers","616",616,"Blind","Low",12,7,5,58.3
+"Mid","Losers","0617_2ParaGPAnta24_ - Mid",617,"Blind","Low",14,0,14,0
+"Mid","Losers","0617_2ParaGPTibili24_ - Mid",617,"Blind","Low",16,11,5,68.8
+"Mid","Losers","0635_1JWC25 - Mid",635,"Blind","Low",18,18,0,100
+"Mid","Losers","638",638,"Blind","High",38,12,26,31.6
+"Mid","Losers","642",642,"Blind","High",59,33,26,55.9
+"Mid","Losers","0657_1ParaGPTok19_ - Mid",657,"Blind","Low",12,6,6,50
+"Mid","Losers","0663_2ParaGPAnta24_ - Mid",663,"Blind","Low",23,20,3,87
+"Mid","Losers","0663_2ParaGPTibili24_ - Mid",663,"Blind","Low",21,4,17,19
+"Mid","Losers","0664_2ParaGPAnta24_ - Mid",664,"Blind","Low",16,7,9,43.8
+"Mid","Losers","665",665,"Blind","Low",40,20,20,50
+"Mid","Losers","666",666,"Blind","Low",34,21,13,61.8
+"Mid","Losers","0700_1ParaGPGiza25_ - Mid",700,"Blind","Low",10,6,4,60
+"Mid","Losers","0700_1ParaGPTok19_ - Mid",700,"Blind","Low",54,28,26,51.9
+"Mid","Losers","701",701,"Blind","Low",11,1,10,9.1
+"Mid","Losers","710",710,"Blind","High",11,8,3,72.7
+"Mid","Losers","724",724,"Blind","High",27,24,3,88.9
+"Mid","Losers","725",725,"Blind","High",15,1,14,6.7
+"Mid","Losers","726",726,"Blind","High",33,2,31,6.1
+"Mid","Losers","751",751,"Sighted","High",11,11,0,100
+"Mid","Losers","752",752,"Sighted","High",11,4,7,36.4
+"Mid","Losers","753",753,"Sighted","High",38,25,13,65.8
+"Mid","Losers","754",754,"Sighted","High",28,28,0,100
+"Mid","Losers","755",755,"Sighted","High",43,39,4,90.7
+"Mid","Losers","756",756,"Sighted","High",12,11,1,91.7
+"Mid","Losers","757",757,"Sighted","High",15,15,0,100
+"Mid","Losers","758",758,"Sighted","High",33,33,0,100
+"Mid","Losers","759",759,"Sighted","High",23,20,3,87
+"Mid","Losers","760",760,"Sighted","High",18,18,0,100
+"Mid","Losers","761",761,"Sighted","High",70,61,9,87.1
+"Mid","Losers","773",773,"Sighted","High",14,12,2,85.7
+"Mid","Losers","774",774,"Sighted","High",26,26,0,100
+"Mid","Losers","775",775,"Sighted","High",11,8,3,72.7
+"Mid","Losers","776",776,"Sighted","High",13,11,2,84.6
+"Mid","Losers","778",778,"Sighted","High",11,11,0,100
+"Mid","Losers","779",779,"Sighted","High",41,41,0,100
+"Mid","Losers","780",780,"Sighted","High",12,7,5,58.3
+"Mid","Losers","781",781,"Sighted","High",12,9,3,75
+"Mid","Losers","794",794,"Sighted","High",41,35,6,85.4
+"Mid","Losers","799",799,"Sighted","High",50,41,9,82
+"Mid","Losers","800",800,"Sighted","High",25,25,0,100
+"Mid","Losers","803",803,"Sighted","High",73,54,19,74
+"Mid","Losers","815",815,"Sighted","High",22,6,16,27.3
+"Mid","Losers","816",816,"Sighted","High",50,36,14,72
+"Mid","Losers","817",817,"Sighted","High",25,17,8,68
+"Mid","Losers","818",818,"Sighted","High",21,0,21,0
+"Mid","Losers","819",819,"Sighted","High",28,16,12,57.1
+"Mid","Losers","820",820,"Sighted","High",50,32,18,64
+"Mid","Losers","821",821,"Sighted","High",14,14,0,100
+"Mid","Losers","822",822,"Sighted","High",10,5,5,50
+"Mid","Losers","823",823,"Sighted","High",31,19,12,61.3
+"Mid","Losers","824",824,"Sighted","High",13,5,8,38.5
+"Result","Winners","4",4,"Sighted","Low",27,19,8,70.4
+"Result","Winners","7",7,"Sighted","High",80,70,10,87.5
+"Result","Winners","9",9,"Sighted","High",66,51,15,77.3
+"Result","Winners","10",10,"Sighted","High",63,43,20,68.3
+"Result","Winners","13",13,"Sighted","Low",85,70,15,82.4
+"Result","Winners","15",15,"Sighted","High",29,19,10,65.5
+"Result","Winners","16",16,"Sighted","High",86,63,23,73.3
+"Result","Winners","19",19,"Sighted","High",25,20,5,80
+"Result","Winners","25",25,"Sighted","High",104,99,5,95.2
+"Result","Winners","27",27,"Sighted","Low",128,97,31,75.8
+"Result","Winners","28",28,"Sighted","High",89,73,16,82
+"Result","Winners","33",33,"Sighted","High",51,43,8,84.3
+"Result","Winners","34",34,"Sighted","High",85,79,6,92.9
+"Result","Winners","37",37,"Sighted","High",64,64,0,100
+"Result","Winners","40",40,"Sighted","High",31,17,14,54.8
+"Result","Winners","43",43,"Sighted","High",101,55,46,54.5
+"Result","Winners","45",45,"Sighted","High",27,26,1,96.3
+"Result","Winners","46",46,"Sighted","High",24,18,6,75
+"Result","Winners","49",49,"Sighted","High",99,35,64,35.4
+"Result","Winners","51",51,"Sighted","High",76,52,24,68.4
+"Result","Winners","52",52,"Sighted","High",65,58,7,89.2
+"Result","Winners","55",55,"Sighted","High",40,31,9,77.5
+"Result","Winners","57",57,"Sighted","High",35,33,2,94.3
+"Result","Winners","58",58,"Sighted","High",82,52,30,63.4
+"Result","Winners","63",63,"Sighted","High",46,32,14,69.6
+"Result","Winners","64",64,"Sighted","High",83,62,21,74.7
+"Result","Winners","67",67,"Sighted","High",15,15,0,100
+"Result","Winners","70",70,"Sighted","High",26,26,0,100
+"Result","Winners","73",73,"Sighted","High",13,10,3,76.9
+"Result","Winners","75",75,"Sighted","Low",21,21,0,100
+"Result","Winners","76",76,"Sighted","High",71,56,15,78.9
+"Result","Winners","79",79,"Sighted","High",76,70,6,92.1
+"Result","Winners","82",82,"Sighted","High",18,16,2,88.9
+"Result","Winners","85",85,"Blind","High",32,20,12,62.5
+"Result","Winners","87",87,"Blind","High",49,17,32,34.7
+"Result","Winners","88",88,"Blind","High",20,20,0,100
+"Result","Winners","91",91,"Blind","High",13,11,2,84.6
+"Result","Winners","0092_2ParaWCHPor23 - Res",92,"Blind","Low",21,1,20,4.8
+"Result","Winners","94",94,"Blind","Low",21,14,7,66.7
+"Result","Winners","0099_2Para24 - 0099_2Para24_Res",99,"Blind","High",63,53,10,84.1
+"Result","Winners","0100_2Para24 - 0100_2Para24_Res",100,"Blind","Low",47,26,21,55.3
+"Result","Winners","103",103,"Blind","High",59,26,33,44.1
+"Result","Winners","105",105,"Blind","High",70,35,35,50
+"Result","Winners","106",106,"Blind","Low",39,29,10,74.4
+"Result","Winners","109",109,"Blind","High",16,14,2,87.5
+"Result","Winners","111",111,"Blind","High",26,5,21,19.2
+"Result","Winners","112",112,"Blind","High",35,24,11,68.6
+"Result","Winners","115",115,"Blind","High",15,15,0,100
+"Result","Winners","117",117,"Blind","High",63,47,16,74.6
+"Result","Winners","118",118,"Blind","High",37,23,14,62.2
+"Result","Winners","121",121,"Blind","High",43,42,1,97.7
+"Result","Winners","123",123,"Blind","High",14,11,3,78.6
+"Result","Winners","124",124,"Blind","High",60,48,12,80
+"Result","Winners","129",129,"Blind","High",17,17,0,100
+"Result","Winners","133",133,"Blind","High",31,21,10,67.7
+"Result","Winners","141",141,"Blind","Low",31,25,6,80.6
+"Result","Winners","142",142,"Blind","High",17,11,6,64.7
+"Result","Winners","0145_1Para24_ - Res",145,"Blind","High",32,24,8,75
+"Result","Winners","147",147,"Blind","High",32,29,3,90.6
+"Result","Winners","148",148,"Blind","High",7,6,1,85.7
+"Result","Winners","151",151,"Blind","High",40,35,5,87.5
+"Result","Winners","153",153,"Blind","High",24,24,0,100
+"Result","Winners","154",154,"Blind","High",31,31,0,100
+"Result","Winners","157",157,"Blind","High",34,24,10,70.6
+"Result","Winners","163",163,"Blind","High",20,0,20,0
+"Result","Winners","165",165,"Blind","High",15,5,10,33.3
+"Result","Winners","169",169,"Blind","High",14,5,9,35.7
+"Result","Winners","171",171,"Blind","High",21,14,7,66.7
+"Result","Winners","172",172,"Blind","High",14,13,1,92.9
+"Result","Winners","175",175,"Blind","High",9,9,0,100
+"Result","Winners","178",178,"Blind","Low",30,20,10,66.7
+"Result","Winners","181",181,"Sighted","High",24,24,0,100
+"Result","Winners","185",185,"Sighted","High",22,8,14,36.4
+"Result","Winners","187",187,"Sighted","High",11,10,1,90.9
+"Result","Winners","189",189,"Sighted","Low",32,18,14,56.2
+"Result","Winners","193",193,"Sighted","Low",60,36,24,60
+"Result","Winners","199",199,"Sighted","Low",74,34,40,45.9
+"Result","Winners","211",211,"Sighted","Low",49,32,17,65.3
+"Result","Winners","0301_1Oly24_100m - 0301_1Oly24_Res",301,"Sighted","Low",46,42,4,91.3
+"Result","Winners","0301_1Oly24_200m - 0301_1Oly24_Res",301,"Sighted","Low",11,11,0,100
+"Result","Winners","302",302,"Sighted","Low",18,10,8,55.6
+"Result","Winners","309",309,"Sighted","Low",17,5,12,29.4
+"Result","Winners","311",311,"Sighted","Low",14,3,11,21.4
+"Result","Winners","313",313,"Sighted","Low",10,10,0,100
+"Result","Winners","319",319,"Sighted","Low",80,55,25,68.8
+"Result","Winners","321",321,"Sighted","Low",71,12,59,16.9
+"Result","Winners","326",326,"Sighted","Low",6,6,0,100
+"Result","Winners","329",329,"Sighted","Low",11,11,0,100
+"Result","Winners","334",334,"Sighted","Low",36,31,5,86.1
+"Result","Winners","336",336,"Sighted","Low",88,68,20,77.3
+"Result","Winners","342",342,"Sighted","Low",17,14,3,82.4
+"Result","Winners","346",346,"Sighted","Low",20,20,0,100
+"Result","Winners","349",349,"Sighted","Low",167,118,49,70.7
+"Result","Winners","351",351,"Sighted","Low",138,50,88,36.2
+"Result","Winners","355",355,"Sighted","Low",46,41,5,89.1
+"Result","Winners","356",356,"Sighted","Low",139,71,68,51.1
+"Result","Winners","357",357,"Sighted","Low",56,42,14,75
+"Result","Winners","359",359,"Sighted","Low",41,25,16,61
+"Result","Winners","402",402,"Blind","Low",23,15,8,65.2
+"Result","Winners","404",404,"Sighted","Low",18,14,4,77.8
+"Result","Winners","405",405,"Sighted","Low",12,0,12,0
+"Result","Winners","408",408,"Sighted","Low",34,31,3,91.2
+"Result","Winners","411",411,"Sighted","Low",111,77,34,69.4
+"Result","Winners","413",413,"Sighted","Low",47,28,19,59.6
+"Result","Winners","414",414,"Sighted","Low",15,0,15,0
+"Result","Winners","425",425,"Sighted","Low",25,25,0,100
+"Result","Winners","428",428,"Sighted","Low",9,3,6,33.3
+"Result","Winners","429",429,"Sighted","Low",45,38,7,84.4
+"Result","Winners","431",431,"Sighted","Low",23,12,11,52.2
+"Result","Winners","434",434,"Sighted","Low",19,19,0,100
+"Result","Winners","438",438,"Sighted","Low",19,19,0,100
+"Result","Winners","440",440,"Sighted","Low",49,33,16,67.3
+"Result","Winners","445",445,"Sighted","Low",33,26,7,78.8
+"Result","Winners","446",446,"Sighted","Low",77,66,11,85.7
+"Result","Winners","447",447,"Sighted","Low",25,13,12,52
+"Result","Winners","448",448,"Sighted","Low",134,83,51,61.9
+"Result","Winners","449",449,"Sighted","Low",34,18,16,52.9
+"Result","Winners","455",455,"Blind","Low",20,7,13,35
+"Result","Winners","478",478,"Blind","Low",19,6,13,31.6
+"Result","Winners","498",498,"Sighted","High",36,35,1,97.2
+"Result","Winners","501",501,"Sighted","High",19,13,6,68.4
+"Result","Winners","502",502,"Sighted","High",22,0,22,0
+"Result","Winners","521",521,"Sighted","High",21,21,0,100
+"Result","Winners","528",528,"Blind","High",23,23,0,100
+"Result","Winners","533",533,"Blind","High",13,8,5,61.5
+"Result","Winners","548",548,"Blind","High",19,17,2,89.5
+"Result","Winners","551",551,"Blind","High",16,4,12,25
+"Result","Winners","552",552,"Blind","High",13,10,3,76.9
+"Result","Winners","0554_1Para20 - Res",554,"Blind","High",40,40,0,100
+"Result","Winners","0554_1Para24 - Res",554,"Blind","High",114,88,26,77.2
+"Result","Winners","556",556,"Blind","High",13,13,0,100
+"Result","Winners","0558_1Para20_shotput - Res",558,"Blind","Low",10,10,0,100
+"Result","Winners","0558_1Para24 - Res",558,"Blind","Low",40,25,15,62.5
+"Result","Winners","560",560,"Blind","High",14,14,0,100
+"Result","Winners","565",565,"Blind","High",18,14,4,77.8
+"Result","Winners","571",571,"Blind","High",44,20,24,45.5
+"Result","Winners","0573_2Para20 - Res",573,"Blind","High",20,20,0,100
+"Result","Winners","0573_2Para24 - Res",573,"Blind","High",47,30,17,63.8
+"Result","Winners","575",575,"Blind","High",17,15,2,88.2
+"Result","Winners","577",577,"Blind","High",13,12,1,92.3
+"Result","Winners","579",579,"Blind","High",12,10,2,83.3
+"Result","Winners","581",581,"Sighted","Low",19,2,17,10.5
+"Result","Winners","582",582,"Blind","High",22,9,13,40.9
+"Result","Winners","585",585,"Blind","High",21,7,14,33.3
+"Result","Winners","586",586,"Blind","High",23,13,10,56.5
+"Result","Winners","588",588,"Blind","High",12,12,0,100
+"Result","Winners","590",590,"Blind","High",13,5,8,38.5
+"Result","Winners","0598_2Para20_200m - Res",598,"Blind","High",72,56,16,77.8
+"Result","Winners","0598_2Para20_400m - Res",598,"Blind","High",34,19,15,55.9
+"Result","Winners","601",601,"Blind","High",41,41,0,100
+"Result","Winners","606",606,"Blind","High",35,22,13,62.9
+"Result","Winners","609",609,"Blind","Low",20,20,0,100
+"Result","Winners","610",610,"Blind","Low",5,5,0,100
+"Result","Winners","0617_2Para16_ - Res",617,"Blind","Low",48,35,13,72.9
+"Result","Winners","618",618,"Blind","Low",48,24,24,50
+"Result","Winners","620",620,"Blind","Low",12,11,1,91.7
+"Result","Winners","635",635,"Blind","Low",11,6,5,54.5
+"Result","Winners","0647_2ParaWCH25_ - Res",647,"Blind","Low",12,12,0,100
+"Result","Winners","0647_2ParaWCHBirmi23 - Res",647,"Blind","Low",12,6,6,50
+"Result","Winners","648",648,"Blind","Low",15,13,2,86.7
+"Result","Winners","649",649,"Blind","Low",12,12,0,100
+"Result","Winners","0664_2ParaGPTibili24_ - Res",664,"Blind","Low",13,3,10,23.1
+"Result","Winners","668",668,"Blind","Low",10,4,6,40
+"Result","Winners","669",669,"Blind","Low",25,8,17,32
+"Result","Winners","711",711,"Blind","Low",13,0,13,0
+"Result","Winners","721",721,"Blind","Low",16,0,16,0
+"Result","Winners","0722_2ParaEuroCHBerl18_ - Res",722,"Blind","Low",26,13,13,50
+"Result","Winners","0732_1ParaEuroCHBerl18_ - Res",732,"Blind","Low",25,15,10,60
+"Result","Winners","0732_1ParaWCHDoha15 - Res",732,"Blind","Low",40,6,34,15
+"Result","Winners","745",745,"Sighted","Low",13,12,1,92.3
+"Result","Winners","746",746,"Sighted","Low",12,11,1,91.7
+"Result","Winners","747",747,"Sighted","Low",39,23,16,59
+"Result","Winners","748",748,"Sighted","Low",12,12,0,100
+"Result","Winners","749",749,"Sighted","Low",12,5,7,41.7
+"Result","Winners","766",766,"Sighted","Low",12,12,0,100
+"Result","Winners","782",782,"Sighted","High",11,10,1,90.9
+"Result","Winners","790",790,"Sighted","High",32,25,7,78.1
+"Result","Winners","805",805,"Sighted","High",8,8,0,100
+"Result","Winners","808",808,"Sighted","High",29,28,1,96.6
+"Result","Winners","812",812,"Sighted","High",8,7,1,87.5
+"Result","Losers","5",5,"Sighted","High",20,17,3,85
+"Result","Losers","6",6,"Sighted","High",18,15,3,83.3
+"Result","Losers","8",8,"Sighted","High",11,0,11,0
+"Result","Losers","11",11,"Sighted","Low",15,15,0,100
+"Result","Losers","12",12,"Sighted","Low",3,0,3,0
+"Result","Losers","14",14,"Sighted","High",39,23,16,59
+"Result","Losers","17",17,"Sighted","High",41,18,23,43.9
+"Result","Losers","18",18,"Sighted","High",9,9,0,100
+"Result","Losers","20",20,"Sighted","High",37,26,11,70.3
+"Result","Losers","24",24,"Sighted","High",44,30,14,68.2
+"Result","Losers","26",26,"Sighted","Low",22,22,0,100
+"Result","Losers","29",29,"Sighted","High",9,0,9,0
+"Result","Losers","30",30,"Sighted","Low",44,42,2,95.5
+"Result","Losers","32",32,"Sighted","Low",48,48,0,100
+"Result","Losers","35",35,"Sighted","Low",9,9,0,100
+"Result","Losers","36",36,"Sighted","High",48,38,10,79.2
+"Result","Losers","38",38,"Sighted","Low",23,23,0,100
+"Result","Losers","41",41,"Sighted","High",53,4,49,7.5
+"Result","Losers","42",42,"Sighted","High",12,6,6,50
+"Result","Losers","44",44,"Sighted","High",21,11,10,52.4
+"Result","Losers","47",47,"Sighted","High",33,7,26,21.2
+"Result","Losers","48",48,"Sighted","High",30,12,18,40
+"Result","Losers","53",53,"Sighted","High",15,15,0,100
+"Result","Losers","54",54,"Sighted","High",36,17,19,47.2
+"Result","Losers","56",56,"Sighted","High",21,7,14,33.3
+"Result","Losers","59",59,"Sighted","Low",8,7,1,87.5
+"Result","Losers","60",60,"Sighted","High",12,10,2,83.3
+"Result","Losers","65",65,"Sighted","High",43,12,31,27.9
+"Result","Losers","66",66,"Sighted","Low",15,14,1,93.3
+"Result","Losers","68",68,"Sighted","High",27,20,7,74.1
+"Result","Losers","72",72,"Sighted","High",10,9,1,90
+"Result","Losers","74",74,"Sighted","High",29,29,0,100
+"Result","Losers","77",77,"Sighted","Low",28,26,2,92.9
+"Result","Losers","78",78,"Sighted","High",17,17,0,100
+"Result","Losers","80",80,"Sighted","High",19,19,0,100
+"Result","Losers","84",84,"Sighted","High",19,17,2,89.5
+"Result","Losers","86",86,"Blind","High",14,6,8,42.9
+"Result","Losers","89",89,"Blind","Low",7,0,7,0
+"Result","Losers","0092_2Para24_ - Res",92,"Blind","Low",20,11,9,55
+"Result","Losers","0096_2Para16_ - Res",96,"Blind","Low",14,14,0,100
+"Result","Losers","0096_2Para20_ - Resultmoment",96,"Blind","Low",15,6,9,40
+"Result","Losers","0096_2Para24_ - Res",96,"Blind","Low",16,0,16,0
+"Result","Losers","0096_2ParaGPAnta24_ - Res_tooshort",96,"Blind","Low",6,1,5,16.7
+"Result","Losers","98",98,"Blind","High",24,14,10,58.3
+"Result","Losers","0099_2ParaWCHBaku22 - Res",99,"Blind","High",25,22,3,88
+"Result","Losers","0100_2Para16_ - Res",100,"Blind","Low",16,16,0,100
+"Result","Losers","101",101,"Blind","High",9,9,0,100
+"Result","Losers","107",107,"Blind","High",13,2,11,15.4
+"Result","Losers","108",108,"Blind","High",25,25,0,100
+"Result","Losers","113",113,"Blind","High",13,13,0,100
+"Result","Losers","116",116,"Blind","High",9,9,0,100
+"Result","Losers","122",122,"Blind","High",33,26,7,78.8
+"Result","Losers","125",125,"Blind","High",16,11,5,68.8
+"Result","Losers","126",126,"Blind","High",34,20,14,58.8
+"Result","Losers","128",128,"Blind","High",18,16,2,88.9
+"Result","Losers","131",131,"Blind","High",11,11,0,100
+"Result","Losers","134",134,"Blind","High",18,5,13,27.8
+"Result","Losers","140",140,"Blind","High",21,14,7,66.7
+"Result","Losers","0145_1Para20_ - Resultmoment",145,"Blind","High",11,10,1,90.9
+"Result","Losers","149",149,"Blind","High",8,4,4,50
+"Result","Losers","150",150,"Blind","High",23,10,13,43.5
+"Result","Losers","155",155,"Blind","High",9,9,0,100
+"Result","Losers","156",156,"Blind","High",21,17,4,81
+"Result","Losers","158",158,"Blind","High",9,6,3,66.7
+"Result","Losers","167",167,"Blind","High",18,15,3,83.3
+"Result","Losers","170",170,"Blind","High",33,16,17,48.5
+"Result","Losers","174",174,"Blind","Low",13,12,1,92.3
+"Result","Losers","182",182,"Sighted","High",20,12,8,60
+"Result","Losers","186",186,"Sighted","Low",82,70,12,85.4
+"Result","Losers","188",188,"Sighted","High",43,38,5,88.4
+"Result","Losers","196",196,"Sighted","Low",6,5,1,83.3
+"Result","Losers","305",305,"Sighted","Low",11,11,0,100
+"Result","Losers","308",308,"Sighted","Low",15,15,0,100
+"Result","Losers","310",310,"Sighted","Low",16,11,5,68.8
+"Result","Losers","317",317,"Sighted","Low",11,6,5,54.5
+"Result","Losers","333",333,"Sighted","Low",8,8,0,100
+"Result","Losers","335",335,"Sighted","Low",82,26,56,31.7
+"Result","Losers","337",337,"Sighted","Low",89,14,75,15.7
+"Result","Losers","338",338,"Sighted","Low",17,15,2,88.2
+"Result","Losers","343",343,"Sighted","Low",43,25,18,58.1
+"Result","Losers","344",344,"Sighted","Low",12,12,0,100
+"Result","Losers","347",347,"Sighted","Low",23,23,0,100
+"Result","Losers","348",348,"Sighted","Low",44,38,6,86.4
+"Result","Losers","350",350,"Sighted","Low",81,79,2,97.5
+"Result","Losers","352",352,"Sighted","Low",65,33,32,50.8
+"Result","Losers","353",353,"Sighted","Low",67,18,49,26.9
+"Result","Losers","360",360,"Blind","Low",13,12,1,92.3
+"Result","Losers","362",362,"Blind","Low",122,118,4,96.7
+"Result","Losers","412",412,"Sighted","Low",35,33,2,94.3
+"Result","Losers","415",415,"Sighted","Low",16,14,2,87.5
+"Result","Losers","430",430,"Sighted","Low",29,21,8,72.4
+"Result","Losers","432",432,"Sighted","Low",17,17,0,100
+"Result","Losers","433",433,"Sighted","Low",24,24,0,100
+"Result","Losers","439",439,"Sighted","Low",66,7,59,10.6
+"Result","Losers","441",441,"Sighted","Low",14,14,0,100
+"Result","Losers","479",479,"Blind","Low",26,14,12,53.8
+"Result","Losers","497",497,"Sighted","Low",21,0,21,0
+"Result","Losers","503",503,"Sighted","High",11,11,0,100
+"Result","Losers","515",515,"Sighted","High",13,11,2,84.6
+"Result","Losers","518",518,"Sighted","High",13,13,0,100
+"Result","Losers","524",524,"Sighted","High",15,15,0,100
+"Result","Losers","526",526,"Sighted","High",178,165,13,92.7
+"Result","Losers","527",527,"Sighted","High",136,136,0,100
+"Result","Losers","557",557,"Blind","High",11,1,10,9.1
+"Result","Losers","559",559,"Blind","High",23,20,3,87
+"Result","Losers","561",561,"Blind","High",22,15,7,68.2
+"Result","Losers","0574_2Para12_shotput - Res",574,"Blind","Low",30,29,1,96.7
+"Result","Losers","0574_2Para16_ - Res",574,"Blind","Low",13,4,9,30.8
+"Result","Losers","0574_2Para20 - Res",574,"Blind","Low",63,53,10,84.1
+"Result","Losers","576",576,"Blind","High",14,14,0,100
+"Result","Losers","580",580,"Blind","Low",39,21,18,53.8
+"Result","Losers","584",584,"Blind","High",17,7,10,41.2
+"Result","Losers","592",592,"Blind","High",26,10,16,38.5
+"Result","Losers","595",595,"Blind","Low",76,73,3,96.1
+"Result","Losers","596",596,"Blind","High",35,33,2,94.3
+"Result","Losers","597",597,"Blind","High",7,7,0,100
+"Result","Losers","599",599,"Blind","High",26,12,14,46.2
+"Result","Losers","0617_2ParaGPAnta24_ - Res",617,"Blind","Low",16,6,10,37.5
+"Result","Losers","639",639,"Blind","High",13,0,13,0
+"Result","Losers","641",641,"Blind","High",21,0,21,0
+"Result","Losers","660",660,"Blind","Low",18,8,10,44.4
+"Result","Losers","662",662,"Blind","Low",12,9,3,75
+"Result","Losers","0663_2ParaGPAnta24_ - Res_BadQuality",663,"Blind","Low",21,8,13,38.1
+"Result","Losers","0663_2ParaGPTibili24_ - Res",663,"Blind","Low",14,6,8,42.9
+"Result","Losers","0664_2ParaGPAnta24_ - Res_Bad quality",664,"Blind","Low",12,8,4,66.7
+"Result","Losers","665",665,"Blind","Low",10,8,2,80
+"Result","Losers","0722_2ParaEuroChByd21_ - Res",722,"Blind","Low",40,1,39,2.5
+"Result","Losers","733",733,"Blind","Low",12,0,12,0
+"Result","Losers","736",736,"Blind","Low",10,6,4,60
+"Result","Losers","738",738,"Blind","High",11,2,9,18.2
+"Result","Losers","751",751,"Sighted","High",33,30,3,90.9
+"Result","Losers","755",755,"Sighted","High",13,13,0,100
+"Result","Losers","777",777,"Sighted","High",14,9,5,64.3
+"Result","Losers","780",780,"Sighted","High",22,11,11,50
+"Result","Losers","796",796,"Sighted","High",16,16,0,100
+"Result","Losers","800",800,"Sighted","High",13,8,5,61.5
+"Post","Winners","1",1,"Sighted","High",766,647,119,84.5
+"Post","Winners","3",3,"Sighted","High",483,336,147,69.6
+"Post","Winners","4",4,"Sighted","Low",54,34,20,63
+"Post","Winners","7",7,"Sighted","High",256,163,93,63.7
+"Post","Winners","9",9,"Sighted","High",65,64,1,98.5
+"Post","Winners","10",10,"Sighted","High",51,51,0,100
+"Post","Winners","13",13,"Sighted","Low",81,68,13,84
+"Post","Winners","15",15,"Sighted","High",38,32,6,84.2
+"Post","Winners","16",16,"Sighted","High",66,49,17,74.2
+"Post","Winners","19",19,"Sighted","High",709,595,114,83.9
+"Post","Winners","21",21,"Sighted","High",629,564,65,89.7
+"Post","Winners","22",22,"Sighted","High",548,328,220,59.9
+"Post","Winners","25",25,"Sighted","High",286,274,12,95.8
+"Post","Winners","27",27,"Sighted","Low",43,39,4,90.7
+"Post","Winners","28",28,"Sighted","High",152,114,38,75
+"Post","Winners","31",31,"Sighted","Low",592,540,52,91.2
+"Post","Winners","33",33,"Sighted","High",189,180,9,95.2
+"Post","Winners","34",34,"Sighted","High",326,242,84,74.2
+"Post","Winners","37",37,"Sighted","High",963,816,147,84.7
+"Post","Winners","39",39,"Sighted","High",725,580,145,80
+"Post","Winners","40",40,"Sighted","High",685,630,55,92
+"Post","Winners","43",43,"Sighted","High",468,444,24,94.9
+"Post","Winners","45",45,"Sighted","High",99,96,3,97
+"Post","Winners","46",46,"Sighted","High",100,73,27,73
+"Post","Winners","49",49,"Sighted","High",595,518,77,87.1
+"Post","Winners","51",51,"Sighted","High",252,238,14,94.4
+"Post","Winners","52",52,"Sighted","High",247,210,37,85
+"Post","Winners","55",55,"Sighted","High",481,453,28,94.2
+"Post","Winners","57",57,"Sighted","High",162,149,13,92
+"Post","Winners","58",58,"Sighted","High",177,130,47,73.4
+"Post","Winners","63",63,"Sighted","High",54,48,6,88.9
+"Post","Winners","64",64,"Sighted","High",107,101,6,94.4
+"Post","Winners","67",67,"Sighted","High",419,408,11,97.4
+"Post","Winners","69",69,"Sighted","High",233,186,47,79.8
+"Post","Winners","70",70,"Sighted","High",319,299,20,93.7
+"Post","Winners","73",73,"Sighted","High",607,444,163,73.1
+"Post","Winners","75",75,"Sighted","Low",145,94,51,64.8
+"Post","Winners","76",76,"Sighted","High",552,349,203,63.2
+"Post","Winners","79",79,"Sighted","High",252,213,39,84.5
+"Post","Winners","81",81,"Sighted","High",354,348,6,98.3
+"Post","Winners","82",82,"Sighted","High",303,281,22,92.7
+"Post","Winners","0085_2Para20_ - Postmatch",85,"Blind","High",45,11,34,24.4
+"Post","Winners","0085_2Para24_ - Pos",85,"Blind","High",142,93,49,65.5
+"Post","Winners","87",87,"Blind","High",84,49,35,58.3
+"Post","Winners","88",88,"Blind","High",12,12,0,100
+"Post","Winners","93",93,"Blind","High",407,386,21,94.8
+"Post","Winners","97",97,"Blind","High",216,210,6,97.2
+"Post","Winners","0099_2Para24 - 0099_2Para24_Pos",99,"Blind","High",101,86,15,85.1
+"Post","Winners","100",100,"Blind","Low",120,83,37,69.2
+"Post","Winners","0103_2Para24_ - Pos",103,"Blind","High",88,78,10,88.6
+"Post","Winners","105",105,"Blind","High",38,38,0,100
+"Post","Winners","106",106,"Blind","Low",34,29,5,85.3
+"Post","Winners","109",109,"Blind","High",328,283,45,86.3
+"Post","Winners","111",111,"Blind","High",65,62,3,95.4
+"Post","Winners","112",112,"Blind","High",54,50,4,92.6
+"Post","Winners","115",115,"Blind","High",145,141,4,97.2
+"Post","Winners","117",117,"Blind","High",119,77,42,64.7
+"Post","Winners","118",118,"Blind","High",104,74,30,71.2
+"Post","Winners","121",121,"Blind","High",386,170,216,44
+"Post","Winners","123",123,"Blind","High",28,28,0,100
+"Post","Winners","124",124,"Blind","High",13,1,12,7.7
+"Post","Winners","127",127,"Blind","High",775,610,165,78.7
+"Post","Winners","129",129,"Blind","High",441,405,36,91.8
+"Post","Winners","130",130,"Blind","High",425,287,138,67.5
+"Post","Winners","133",133,"Blind","High",54,31,23,57.4
+"Post","Winners","139",139,"Blind","High",378,327,51,86.5
+"Post","Winners","0141_1Para24_ - 0141_1Para24_Pos",141,"Blind","Low",81,74,7,91.4
+"Post","Winners","0141_1ParaGPHeide24_ - Pos",141,"Blind","Low",13,3,10,23.1
+"Post","Winners","142",142,"Blind","High",145,109,36,75.2
+"Post","Winners","0145_1Para24_ - Pos",145,"Blind","High",333,306,27,91.9
+"Post","Winners","147",147,"Blind","High",116,81,35,69.8
+"Post","Winners","148",148,"Blind","High",83,60,23,72.3
+"Post","Winners","151",151,"Blind","High",344,337,7,98
+"Post","Winners","153",153,"Blind","High",95,73,22,76.8
+"Post","Winners","154",154,"Blind","High",93,90,3,96.8
+"Post","Winners","163",163,"Blind","High",337,212,125,62.9
+"Post","Winners","165",165,"Blind","High",57,42,15,73.7
+"Post","Winners","166",166,"Blind","Low",134,63,71,47
+"Post","Winners","169",169,"Blind","High",244,236,8,96.7
+"Post","Winners","171",171,"Blind","High",143,128,15,89.5
+"Post","Winners","172",172,"Blind","High",86,70,16,81.4
+"Post","Winners","175",175,"Blind","High",157,142,15,90.4
+"Post","Winners","178",178,"Blind","Low",79,64,15,81
+"Post","Winners","181",181,"Sighted","High",257,231,26,89.9
+"Post","Winners","183",183,"Sighted","High",108,107,1,99.1
+"Post","Winners","185",185,"Sighted","High",305,271,34,88.9
+"Post","Winners","187",187,"Sighted","High",186,167,19,89.8
+"Post","Winners","189",189,"Sighted","Low",538,469,69,87.2
+"Post","Winners","193",193,"Sighted","Low",258,231,27,89.5
+"Post","Winners","199",199,"Sighted","Low",208,118,90,56.7
+"Post","Winners","201",201,"Sighted","High",354,333,21,94.1
+"Post","Winners","203",203,"Sighted","Low",245,184,61,75.1
+"Post","Winners","211",211,"Sighted","Low",52,51,1,98.1
+"Post","Winners","0301_1Oly24_100m - 0301_1Oly24_Post",301,"Sighted","Low",475,276,199,58.1
+"Post","Winners","0301_1Oly24_200m - 0301_1Oly24_Post",301,"Sighted","Low",382,258,124,67.5
+"Post","Winners","302",302,"Sighted","Low",242,119,123,49.2
+"Post","Winners","307",307,"Sighted","Low",185,108,77,58.4
+"Post","Winners","309",309,"Sighted","Low",287,268,19,93.4
+"Post","Winners","311",311,"Sighted","Low",152,134,18,88.2
+"Post","Winners","0313_1Oly24_Bro5000 - Pos",313,"Sighted","Low",105,104,1,99
+"Post","Winners","0313_1Oly24_WBro10000 - Pos",313,"Sighted","Low",213,182,31,85.4
+"Post","Winners","318",318,"Sighted","Low",263,143,120,54.4
+"Post","Winners","319",319,"Sighted","Low",407,279,128,68.6
+"Post","Winners","320",320,"Sighted","Low",477,261,216,54.7
+"Post","Winners","321",321,"Sighted","Low",422,298,124,70.6
+"Post","Winners","326",326,"Sighted","Low",113,78,35,69
+"Post","Winners","327",327,"Sighted","Low",163,109,54,66.9
+"Post","Winners","328",328,"Sighted","Low",118,95,23,80.5
+"Post","Winners","329",329,"Sighted","Low",136,116,20,85.3
+"Post","Winners","334",334,"Sighted","Low",207,175,32,84.5
+"Post","Winners","336",336,"Sighted","Low",828,654,174,79
+"Post","Winners","342",342,"Sighted","Low",303,293,10,96.7
+"Post","Winners","346",346,"Sighted","Low",141,99,42,70.2
+"Post","Winners","349",349,"Sighted","Low",328,266,62,81.1
+"Post","Winners","351",351,"Sighted","Low",100,19,81,19
+"Post","Winners","355",355,"Sighted","Low",236,212,24,89.8
+"Post","Winners","356",356,"Sighted","Low",221,71,150,32.1
+"Post","Winners","357",357,"Sighted","Low",71,31,40,43.7
+"Post","Winners","359",359,"Sighted","Low",198,136,62,68.7
+"Post","Winners","0404_2Oly24_Relay - Pos",404,"Sighted","Low",192,176,16,91.7
+"Post","Winners","0405_2Oly24_100m - Pos",405,"Sighted","Low",31,15,16,48.4
+"Post","Winners","0405_2Oly24_Relay - Pos",405,"Sighted","Low",108,95,13,88
+"Post","Winners","407",407,"Sighted","Low",187,172,15,92
+"Post","Winners","408",408,"Sighted","Low",35,34,1,97.1
+"Post","Winners","413",413,"Sighted","Low",58,55,3,94.8
+"Post","Winners","416",416,"Sighted","Low",277,240,37,86.6
+"Post","Winners","418",418,"Sighted","Low",248,230,18,92.7
+"Post","Winners","420",420,"Sighted","Low",49,37,12,75.5
+"Post","Winners","422",422,"Sighted","Low",146,128,18,87.7
+"Post","Winners","425",425,"Sighted","Low",104,90,14,86.5
+"Post","Winners","426",426,"Sighted","Low",87,70,17,80.5
+"Post","Winners","427",427,"Sighted","Low",73,69,4,94.5
+"Post","Winners","428",428,"Sighted","Low",121,93,28,76.9
+"Post","Winners","429",429,"Sighted","Low",15,11,4,73.3
+"Post","Winners","434",434,"Sighted","Low",35,8,27,22.9
+"Post","Winners","438",438,"Sighted","Low",31,15,16,48.4
+"Post","Winners","440",440,"Sighted","Low",296,285,11,96.3
+"Post","Winners","442",442,"Sighted","Low",239,223,16,93.3
+"Post","Winners","445",445,"Sighted","Low",154,72,82,46.8
+"Post","Winners","446",446,"Sighted","Low",67,42,25,62.7
+"Post","Winners","447",447,"Sighted","Low",80,61,19,76.2
+"Post","Winners","448",448,"Sighted","Low",17,9,8,52.9
+"Post","Winners","449",449,"Sighted","Low",16,16,0,100
+"Post","Winners","450",450,"Sighted","Low",45,36,9,80
+"Post","Winners","451",451,"Sighted","Low",74,58,16,78.4
+"Post","Winners","455",455,"Blind","Low",33,25,8,75.8
+"Post","Winners","456",456,"Blind","Low",27,18,9,66.7
+"Post","Winners","0477_2Para24_WBro - Pos",477,"Blind","Low",130,117,13,90
+"Post","Winners","478",478,"Blind","Low",294,271,23,92.2
+"Post","Winners","494",494,"Blind","Low",179,134,45,74.9
+"Post","Winners","498",498,"Sighted","High",23,20,3,87
+"Post","Winners","499",499,"Sighted","High",40,35,5,87.5
+"Post","Winners","502",502,"Sighted","High",11,10,1,90.9
+"Post","Winners","0507_1Para20_ - Pos",507,"Blind","High",25,25,0,100
+"Post","Winners","0507_1Para24_ - Pos",507,"Blind","High",27,2,25,7.4
+"Post","Winners","509",509,"Blind","High",12,8,4,66.7
+"Post","Winners","510",510,"Blind","High",11,11,0,100
+"Post","Winners","514",514,"Sighted","High",285,235,50,82.5
+"Post","Winners","516",516,"Sighted","High",217,189,28,87.1
+"Post","Winners","517",517,"Sighted","High",302,252,50,83.4
+"Post","Winners","519",519,"Sighted","High",305,284,21,93.1
+"Post","Winners","521",521,"Sighted","High",198,193,5,97.5
+"Post","Winners","0528_2Para20 - Post",528,"Blind","High",82,82,0,100
+"Post","Winners","0528_2Para24_ - Pos",528,"Blind","High",186,129,57,69.4
+"Post","Winners","530",530,"Blind","High",294,226,68,76.9
+"Post","Winners","531",531,"Blind","High",285,198,87,69.5
+"Post","Winners","533",533,"Blind","High",349,328,21,94
+"Post","Winners","0548_1Para20_ - Pos",548,"Blind","High",129,127,2,98.4
+"Post","Winners","0548_1Para24 - Post",548,"Blind","High",88,77,11,87.5
+"Post","Winners","551",551,"Blind","High",133,101,32,75.9
+"Post","Winners","552",552,"Blind","High",92,61,31,66.3
+"Post","Winners","554",554,"Blind","High",298,227,71,76.2
+"Post","Winners","556",556,"Blind","High",239,162,77,67.8
+"Post","Winners","0558_1Para20_shotput - Pos",558,"Blind","Low",60,54,6,90
+"Post","Winners","0558_1Para24 - Post",558,"Blind","Low",108,107,1,99.1
+"Post","Winners","560",560,"Blind","High",187,184,3,98.4
+"Post","Winners","563",563,"Blind","High",71,68,3,95.8
+"Post","Winners","565",565,"Blind","High",58,19,39,32.8
+"Post","Winners","566",566,"Blind","High",39,17,22,43.6
+"Post","Winners","568",568,"Blind","High",79,74,5,93.7
+"Post","Winners","569",569,"Blind","High",127,127,0,100
+"Post","Winners","571",571,"Blind","High",114,94,20,82.5
+"Post","Winners","0573_2Para20 - Pos",573,"Blind","High",135,103,32,76.3
+"Post","Winners","0573_2Para24 - Post",573,"Blind","High",12,12,0,100
+"Post","Winners","575",575,"Blind","High",17,15,2,88.2
+"Post","Winners","577",577,"Blind","High",188,152,36,80.9
+"Post","Winners","579",579,"Blind","High",96,85,11,88.5
+"Post","Winners","0580_2WParaDehli25_ - Pos",580,"Blind","Low",12,10,2,83.3
+"Post","Winners","581",581,"Sighted","Low",170,152,18,89.4
+"Post","Winners","0582_1Para20_ - PostMatch",582,"Blind","High",17,11,6,64.7
+"Post","Winners","0582_2Para24_ - Pos",582,"Blind","High",139,128,11,92.1
+"Post","Winners","586",586,"Blind","High",19,5,14,26.3
+"Post","Winners","588",588,"Blind","High",51,51,0,100
+"Post","Winners","589",589,"Blind","High",32,32,0,100
+"Post","Winners","590",590,"Blind","High",12,9,3,75
+"Post","Winners","0598_2Para20_400m - Post",598,"Blind","High",85,85,0,100
+"Post","Winners","601",601,"Blind","High",176,143,33,81.2
+"Post","Winners","604",604,"Blind","High",58,44,14,75.9
+"Post","Winners","606",606,"Blind","High",16,16,0,100
+"Post","Winners","0609_1ParaGPSao23_ - Pos",609,"Blind","Low",19,19,0,100
+"Post","Winners","0609_1ParaWorld23_ - Pos",609,"Blind","Low",114,77,37,67.5
+"Post","Winners","0610_1ParaGPSao23_ - Pos",610,"Blind","Low",36,29,7,80.6
+"Post","Winners","0610_1ParaWorld23_ - pos",610,"Blind","Low",92,64,28,69.6
+"Post","Winners","0617_2Para16_ - Pos",617,"Blind","Low",73,69,4,94.5
+"Post","Winners","620",620,"Blind","Low",12,10,2,83.3
+"Post","Winners","621",621,"Blind","Low",29,29,0,100
+"Post","Winners","0635_1ParaGPGiza25_ - Pos",635,"Blind","Low",76,57,19,75
+"Post","Winners","646",646,"Blind","Low",39,39,0,100
+"Post","Winners","647",647,"Blind","Low",39,17,22,43.6
+"Post","Winners","0648_2ParaWCH25_ - Pos",648,"Blind","Low",145,145,0,100
+"Post","Winners","0648_2ParaWCHBirmi23 - Pos",648,"Blind","Low",454,37,417,8.1
+"Post","Winners","0649_2ParaWCH25_ - Pos",649,"Blind","Low",23,23,0,100
+"Post","Winners","0649_2ParaWCHBirmi23 - Pos",649,"Blind","Low",157,139,18,88.5
+"Post","Winners","654",654,"Blind","Low",122,104,18,85.2
+"Post","Winners","655",655,"Blind","Low",63,44,19,69.8
+"Post","Winners","656",656,"Blind","Low",16,16,0,100
+"Post","Winners","0657_1ParaWCH25_ - Pos",657,"Blind","Low",23,22,1,95.7
+"Post","Winners","0662_2ParaGPAnta24_ - Pos",662,"Blind","Low",151,151,0,100
+"Post","Winners","0664_2ParaGPTibili24_ - Pos",664,"Blind","Low",115,103,12,89.6
+"Post","Winners","667",667,"Blind","Low",20,2,18,10
+"Post","Winners","668",668,"Blind","Low",20,20,0,100
+"Post","Winners","0669_1ParaGPSao23_ - Pos",669,"Blind","Low",14,13,1,92.9
+"Post","Winners","0669_1ParaWorld23_ - Pos",669,"Blind","Low",40,30,10,75
+"Post","Winners","711",711,"Blind","Low",222,25,197,11.3
+"Post","Winners","0722_2ParaEuroCHBerl18_ - Pos",722,"Blind","Low",15,11,4,73.3
+"Post","Winners","732",732,"Blind","Low",90,88,2,97.8
+"Post","Winners","741",741,"Sighted","Low",16,16,0,100
+"Post","Winners","743",743,"Sighted","Low",14,14,0,100
+"Post","Winners","744",744,"Sighted","Low",12,12,0,100
+"Post","Winners","745",745,"Sighted","Low",20,20,0,100
+"Post","Winners","746",746,"Sighted","Low",16,16,0,100
+"Post","Winners","747",747,"Sighted","Low",26,26,0,100
+"Post","Winners","748",748,"Sighted","Low",12,12,0,100
+"Post","Winners","749",749,"Sighted","Low",14,13,1,92.9
+"Post","Winners","750",750,"Sighted","Low",22,18,4,81.8
+"Post","Winners","762",762,"Sighted","Low",14,13,1,92.9
+"Post","Winners","763",763,"Sighted","Low",14,14,0,100
+"Post","Winners","764",764,"Sighted","Low",30,29,1,96.7
+"Post","Winners","765",765,"Sighted","Low",13,13,0,100
+"Post","Winners","766",766,"Sighted","Low",16,16,0,100
+"Post","Winners","767",767,"Sighted","Low",17,17,0,100
+"Post","Winners","768",768,"Sighted","Low",11,11,0,100
+"Post","Winners","769",769,"Sighted","Low",24,21,3,87.5
+"Post","Winners","770",770,"Sighted","Low",17,17,0,100
+"Post","Winners","782",782,"Sighted","High",22,15,7,68.2
+"Post","Winners","784",784,"Sighted","High",62,19,43,30.6
+"Post","Winners","785",785,"Sighted","High",24,17,7,70.8
+"Post","Winners","786",786,"Sighted","High",14,9,5,64.3
+"Post","Winners","787",787,"Sighted","High",14,13,1,92.9
+"Post","Winners","788",788,"Sighted","High",22,15,7,68.2
+"Post","Winners","789",789,"Sighted","High",11,5,6,45.5
+"Post","Winners","790",790,"Sighted","High",15,7,8,46.7
+"Post","Winners","791",791,"Sighted","High",14,6,8,42.9
+"Post","Winners","792",792,"Sighted","High",13,6,7,46.2
+"Post","Winners","806",806,"Sighted","High",6,6,0,100
+"Post","Winners","808",808,"Sighted","High",28,15,13,53.6
+"Post","Winners","811",811,"Sighted","High",13,5,8,38.5
+"Post","Winners","813",813,"Sighted","High",28,19,9,67.9
+"Post","Losers","2",2,"Sighted","High",501,427,74,85.2
+"Post","Losers","8",8,"Sighted","High",41,23,18,56.1
+"Post","Losers","11",11,"Sighted","Low",24,13,11,54.2
+"Post","Losers","12",12,"Sighted","Low",28,12,16,42.9
+"Post","Losers","14",14,"Sighted","High",20,18,2,90
+"Post","Losers","17",17,"Sighted","High",67,61,6,91
+"Post","Losers","20",20,"Sighted","High",515,449,66,87.2
+"Post","Losers","24",24,"Sighted","High",47,25,22,53.2
+"Post","Losers","26",26,"Sighted","Low",104,51,53,49
+"Post","Losers","29",29,"Sighted","High",35,31,4,88.6
+"Post","Losers","30",30,"Sighted","Low",77,59,18,76.6
+"Post","Losers","35",35,"Sighted","Low",15,15,0,100
+"Post","Losers","38",38,"Sighted","Low",524,387,137,73.9
+"Post","Losers","41",41,"Sighted","High",68,66,2,97.1
+"Post","Losers","42",42,"Sighted","High",31,31,0,100
+"Post","Losers","44",44,"Sighted","High",70,52,18,74.3
+"Post","Losers","47",47,"Sighted","High",23,15,8,65.2
+"Post","Losers","48",48,"Sighted","High",25,0,25,0
+"Post","Losers","50",50,"Sighted","High",269,235,34,87.4
+"Post","Losers","53",53,"Sighted","High",15,5,10,33.3
+"Post","Losers","54",54,"Sighted","High",18,16,2,88.9
+"Post","Losers","56",56,"Sighted","High",128,108,20,84.4
+"Post","Losers","59",59,"Sighted","Low",17,17,0,100
+"Post","Losers","60",60,"Sighted","High",23,21,2,91.3
+"Post","Losers","65",65,"Sighted","High",9,8,1,88.9
+"Post","Losers","66",66,"Sighted","Low",41,14,27,34.1
+"Post","Losers","68",68,"Sighted","High",243,196,47,80.7
+"Post","Losers","71",71,"Sighted","High",61,47,14,77
+"Post","Losers","72",72,"Sighted","High",40,27,13,67.5
+"Post","Losers","74",74,"Sighted","High",440,345,95,78.4
+"Post","Losers","77",77,"Sighted","Low",32,18,14,56.2
+"Post","Losers","78",78,"Sighted","High",53,6,47,11.3
+"Post","Losers","80",80,"Sighted","High",268,226,42,84.3
+"Post","Losers","83",83,"Sighted","High",22,22,0,100
+"Post","Losers","84",84,"Sighted","High",30,30,0,100
+"Post","Losers","0086_2Para20_ - Postmatch",86,"Blind","High",21,18,3,85.7
+"Post","Losers","0086_2Para24_ - Pos",86,"Blind","High",96,74,22,77.1
+"Post","Losers","89",89,"Blind","Low",44,37,7,84.1
+"Post","Losers","95",95,"Blind","High",17,14,3,82.4
+"Post","Losers","98",98,"Blind","High",313,291,22,93
+"Post","Losers","0099_2ParaWCHBaku22 - Pos",99,"Blind","High",15,15,0,100
+"Post","Losers","0101_2Para24 - 0101_2Para24_Pos",101,"Blind","High",31,29,2,93.5
+"Post","Losers","0101_2ParaWCHBaku22 - Pos",101,"Blind","High",19,19,0,100
+"Post","Losers","0103_2Para20_ - Pos",103,"Blind","High",20,20,0,100
+"Post","Losers","0104_2Para24_ - Pos",104,"Blind","High",50,50,0,100
+"Post","Losers","0104_2ParaWCH22_ - Pos",104,"Blind","High",29,14,15,48.3
+"Post","Losers","107",107,"Blind","High",14,12,2,85.7
+"Post","Losers","108",108,"Blind","High",19,17,2,89.5
+"Post","Losers","110",110,"Blind","High",138,118,20,85.5
+"Post","Losers","116",116,"Blind","High",105,102,3,97.1
+"Post","Losers","119",119,"Blind","High",21,15,6,71.4
+"Post","Losers","122",122,"Blind","High",83,70,13,84.3
+"Post","Losers","128",128,"Blind","High",438,366,72,83.6
+"Post","Losers","131",131,"Blind","High",26,16,10,61.5
+"Post","Losers","140",140,"Blind","High",187,147,40,78.6
+"Post","Losers","0141_1ParaGPTibili24_ - Pos",141,"Blind","Low",129,116,13,89.9
+"Post","Losers","0145_1Para20_ - Postmatch",145,"Blind","High",12,0,12,0
+"Post","Losers","146",146,"Blind","Low",112,90,22,80.4
+"Post","Losers","149",149,"Blind","High",10,3,7,30
+"Post","Losers","150",150,"Blind","High",59,59,0,100
+"Post","Losers","152",152,"Blind","High",49,46,3,93.9
+"Post","Losers","164",164,"Blind","High",110,62,48,56.4
+"Post","Losers","170",170,"Blind","High",72,67,5,93.1
+"Post","Losers","176",176,"Blind","High",80,80,0,100
+"Post","Losers","182",182,"Sighted","High",146,108,38,74
+"Post","Losers","186",186,"Sighted","Low",222,172,50,77.5
+"Post","Losers","202",202,"Sighted","High",240,211,29,87.9
+"Post","Losers","303",303,"Sighted","Low",371,186,185,50.1
+"Post","Losers","308",308,"Sighted","Low",71,30,41,42.3
+"Post","Losers","310",310,"Sighted","Low",111,97,14,87.4
+"Post","Losers","314",314,"Sighted","Low",170,147,23,86.5
+"Post","Losers","322",322,"Sighted","Low",371,253,118,68.2
+"Post","Losers","323",323,"Sighted","Low",228,169,59,74.1
+"Post","Losers","324",324,"Sighted","Low",214,144,70,67.3
+"Post","Losers","0325_1Oly24_ - Pos",325,"Sighted","Low",257,173,84,67.3
+"Post","Losers","0325_1Oly24_LBro - Pos",325,"Sighted","Low",257,173,84,67.3
+"Post","Losers","335",335,"Sighted","Low",691,523,168,75.7
+"Post","Losers","337",337,"Sighted","Low",521,361,160,69.3
+"Post","Losers","338",338,"Sighted","Low",56,44,12,78.6
+"Post","Losers","343",343,"Sighted","Low",85,75,10,88.2
+"Post","Losers","347",347,"Sighted","Low",69,53,16,76.8
+"Post","Losers","350",350,"Sighted","Low",528,363,165,68.8
+"Post","Losers","352",352,"Sighted","Low",167,34,133,20.4
+"Post","Losers","353",353,"Sighted","Low",90,56,34,62.2
+"Post","Losers","354",354,"Sighted","Low",16,8,8,50
+"Post","Losers","358",358,"Sighted","Low",202,169,33,83.7
+"Post","Losers","360",360,"Blind","Low",176,161,15,91.5
+"Post","Losers","362",362,"Blind","Low",130,115,15,88.5
+"Post","Losers","0404_1Oly24_ - Pos",404,"Sighted","Low",207,172,35,83.1
+"Post","Losers","406",406,"Sighted","Low",43,42,1,97.7
+"Post","Losers","409",409,"Sighted","Low",56,51,5,91.1
+"Post","Losers","412",412,"Sighted","Low",73,48,25,65.8
+"Post","Losers","419",419,"Sighted","Low",45,15,30,33.3
+"Post","Losers","423",423,"Sighted","Low",47,45,2,95.7
+"Post","Losers","424",424,"Sighted","Low",58,53,5,91.4
+"Post","Losers","433",433,"Sighted","Low",47,41,6,87.2
+"Post","Losers","441",441,"Sighted","Low",115,106,9,92.2
+"Post","Losers","443",443,"Sighted","Low",113,108,5,95.6
+"Post","Losers","452",452,"Sighted","Low",33,25,8,75.8
+"Post","Losers","453",453,"Sighted","Low",25,23,2,92
+"Post","Losers","454",454,"Sighted","Low",59,35,24,59.3
+"Post","Losers","0477_2Para20 - Post",477,"Blind","Low",91,26,65,28.6
+"Post","Losers","497",497,"Sighted","Low",51,51,0,100
+"Post","Losers","503",503,"Sighted","High",11,7,4,63.6
+"Post","Losers","504",504,"Sighted","High",16,3,13,18.8
+"Post","Losers","505",505,"Sighted","High",12,0,12,0
+"Post","Losers","506",506,"Sighted","High",16,5,11,31.2
+"Post","Losers","515",515,"Sighted","High",175,160,15,91.4
+"Post","Losers","520",520,"Sighted","High",202,191,11,94.6
+"Post","Losers","522",522,"Sighted","High",241,235,6,97.5
+"Post","Losers","524",524,"Sighted","High",147,93,54,63.3
+"Post","Losers","526",526,"Sighted","High",35,35,0,100
+"Post","Losers","529",529,"Blind","High",162,146,16,90.1
+"Post","Losers","532",532,"Blind","High",164,123,41,75
+"Post","Losers","534",534,"Blind","High",295,279,16,94.6
+"Post","Losers","544",544,"Blind","High",243,218,25,89.7
+"Post","Losers","545",545,"Blind","High",176,161,15,91.5
+"Post","Losers","549",549,"Blind","High",204,147,57,72.1
+"Post","Losers","555",555,"Blind","High",186,114,72,61.3
+"Post","Losers","0557_1Para20 - Pos",557,"Blind","High",37,37,0,100
+"Post","Losers","0557_1Para24 - Post",557,"Blind","High",204,180,24,88.2
+"Post","Losers","0558_1Para16 - Pos",558,"Blind","Low",14,7,7,50
+"Post","Losers","559",559,"Blind","High",139,139,0,100
+"Post","Losers","562",562,"Blind","High",142,142,0,100
+"Post","Losers","0574_2Para16_ - Pos",574,"Blind","Low",12,4,8,33.3
+"Post","Losers","0574_2Para20 - Pos",574,"Blind","Low",54,48,6,88.9
+"Post","Losers","578",578,"Blind","High",60,60,0,100
+"Post","Losers","0580_2ParaWCHByd21 - Pos",580,"Blind","Low",11,4,7,36.4
+"Post","Losers","584",584,"Blind","High",11,11,0,100
+"Post","Losers","587",587,"Blind","High",37,32,5,86.5
+"Post","Losers","593",593,"Blind","High",15,14,1,93.3
+"Post","Losers","597",597,"Blind","High",9,9,0,100
+"Post","Losers","0598_2Para20_100m - Pos",598,"Blind","High",18,18,0,100
+"Post","Losers","599",599,"Blind","High",96,73,23,76
+"Post","Losers","608",608,"Blind","High",17,17,0,100
+"Post","Losers","0609_1Para24 - Pos",609,"Blind","Low",35,35,0,100
+"Post","Losers","0610_1Para24 - Pos",610,"Blind","Low",26,26,0,100
+"Post","Losers","611",611,"Blind","Low",23,23,0,100
+"Post","Losers","612",612,"Blind","Low",23,23,0,100
+"Post","Losers","613",613,"Blind","Low",14,14,0,100
+"Post","Losers","0617_2ParaGPAnta24_ - Pos",617,"Blind","Low",53,24,29,45.3
+"Post","Losers","0635_1JWC25 - Pos",635,"Blind","Low",12,12,0,100
+"Post","Losers","642",642,"Blind","High",11,2,9,18.2
+"Post","Losers","652",652,"Blind","Low",14,6,8,42.9
+"Post","Losers","653",653,"Blind","Low",14,14,0,100
+"Post","Losers","0657_1ParaGPTok19_ - Pos",657,"Blind","Low",35,31,4,88.6
+"Post","Losers","660",660,"Blind","Low",11,11,0,100
+"Post","Losers","0662_2ParaGPHeide24_ - Pos",662,"Blind","Low",13,9,4,69.2
+"Post","Losers","0664_2ParaGPAnta24_ - Pos",664,"Blind","Low",130,120,10,92.3
+"Post","Losers","665",665,"Blind","Low",12,8,4,66.7
+"Post","Losers","700",700,"Blind","Low",210,209,1,99.5
+"Post","Losers","701",701,"Blind","Low",22,22,0,100
+"Post","Losers","702",702,"Blind","Low",11,11,0,100
+"Post","Losers","710",710,"Blind","High",11,11,0,100
+"Post","Losers","0722_2ParaEuroChByd21_ - Pos",722,"Blind","Low",24,5,19,20.8
+"Post","Losers","737",737,"Blind","High",22,18,4,81.8
+"Post","Losers","751",751,"Sighted","High",14,14,0,100
+"Post","Losers","753",753,"Sighted","High",11,10,1,90.9
+"Post","Losers","754",754,"Sighted","High",20,8,12,40
+"Post","Losers","755",755,"Sighted","High",18,9,9,50
+"Post","Losers","756",756,"Sighted","High",15,10,5,66.7
+"Post","Losers","757",757,"Sighted","High",16,2,14,12.5
+"Post","Losers","760",760,"Sighted","High",14,11,3,78.6
+"Post","Losers","761",761,"Sighted","High",12,12,0,100
+"Post","Losers","794",794,"Sighted","High",13,9,4,69.2
+"Post","Losers","795",795,"Sighted","High",14,14,0,100
+"Post","Losers","796",796,"Sighted","High",22,21,1,95.5
+"Post","Losers","798",798,"Sighted","High",41,40,1,97.6
+"Post","Losers","799",799,"Sighted","High",17,11,6,64.7
+"Post","Losers","800",800,"Sighted","High",32,32,0,100
+"Post","Losers","803",803,"Sighted","High",53,45,8,84.9

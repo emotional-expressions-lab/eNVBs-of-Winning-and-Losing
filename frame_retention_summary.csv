@@ -1,0 +1,9 @@
+"Timepoint","Study","n_participants","n_with_frames","total_frames_sum","valid_frames_sum","valid_pct_mean","valid_pct_sd","valid_pct_min","valid_frames_min","valid_frames_med"
+"Mid","Losers",199,199,18476,13820,69.5,29.4,0,0,20
+"Mid","Winners",212,212,20906,15383,69.8,31.2,0,0,22.5
+"Post","Losers",171,171,16894,13303,76.9,24.4,0,0,35
+"Post","Winners",258,258,42029,33607,79.5,20.5,7.4,1,78
+"Pre","Losers",287,287,16445,13368,82.8,23.3,0,0,36
+"Pre","Winners",290,290,17963,13763,78.3,27.1,0,0,39
+"Result","Losers",136,136,3617,2476,67.6,32.3,0,0,13
+"Result","Winners",180,180,6615,4603,70.5,26.6,0,0,19

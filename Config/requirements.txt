@@ -1,0 +1,28 @@
+# Dependencies for the full data pipeline (scripts/).
+# For an exact, restorable R environment use renv.lock (renv::restore());
+# this file is a manual-install fallback and a map of which package is
+# needed for which script.
+
+# --- R: technical_validation.R ---
+# install.packages(c("readxl","dplyr","tidyr","car","effsize","BayesFactor","MANOVA.RM"))
+readxl        # read the .xlsx data files
+dplyr         # data manipulation
+tidyr         # drop_na and reshaping
+car           # Levene's test
+effsize       # Cohen's d
+BayesFactor   # Bayesian t-test
+MANOVA.RM     # robust MANOVA (MATS, bootstrap p-value)
+
+# --- R: frame_retention_per_participant.R ---
+# Confirm this list against the script's own library() calls before relying on it;
+# not re-verified against source this pass. At minimum expects readxl and dplyr
+# (already listed above) to join the analysis-ready roster against aggregator output.
+
+# --- Python: extract_frx_mapping.py ---
+# Standard library only (zipfile, xml.etree.ElementTree, csv, pathlib). No install needed.
+
+# --- Python: relabel_raw_export.py, inject_v6_results.py, faceReader_aggregator.py ---
+# pip install pandas numpy openpyxl --break-system-packages
+pandas        # read/write the frame-level Excel exports
+numpy         # numeric coercion and NaN handling in the aggregator
+openpyxl      # Excel engine pandas uses for .xlsx read/write

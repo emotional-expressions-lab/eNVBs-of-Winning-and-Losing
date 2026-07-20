@@ -37,8 +37,21 @@ preferred-citation:
   type: article
   title: "Facial-emotion measures of Olympic and Paralympic athletes across match timepoints"
   authors:
-    - given-names: ""
-      family-names: ""
+    - family-names: Mehta
+      given-names: Saumya
+      affiliation: "German Sport University Cologne"
+    - family-names: Thies
+      given-names: Noemi
+      affiliation: "German Sport University Cologne"
+    - family-names: Pallare-Herbeck
+      given-names: Max
+      affiliation: "German Sport University Cologne"
+    - family-names: Memmert
+      given-names: Daniel
+      affiliation: "German Sport University Cologne"
+    - family-names: Furley
+      given-names: Philip
+      affiliation: "German Sport University Cologne"
   journal: "Scientific Data"
   year: 2026
   # doi: 10.1038/s41597-XXX-XXXXX-X

@@ -27,9 +27,15 @@ GitHub URL, which is the working copy and may change.
 ├── LICENSE                                MIT (code) + CC BY 4.0 (data/docs)
 ├── CITATION.cff                           Citation metadata
 ├── renv.lock                              Exact R package versions for reproducibility
-├── requirements.txt                       Package list (summary of renv.lock)
+├── requirements.txt                       Package list (summary of renv.lock), covers full pipeline
 ├── .gitignore
 ├── scripts/
+│   ├── extract_frx_mapping.py             Step 1: event mapping from .frx project files
+│   ├── relabel_raw_export.py              Step 2: relabel raw export for multi-event athletes
+│   ├── inject_v6_results.py               Step 3: inject verified Win/Loss, apply exclusions
+│   ├── faceReader_aggregator.py           Step 4: pool frames to one value per athlete-event
+│   ├── make_analysis_ready.py             Step 5: split into Study1_Winners / Study2_Losers
+│   ├── FaceReader_Pipeline.ipynb          Single sequence of steps 1-5, single config cell (Python)
 │   ├── technical_validation.R             Reproduces all validation tables from the data
 │   └── frame_retention_per_participant.R  Frame yield per analysed participant
 ├── data/
@@ -37,18 +43,48 @@ GitHub URL, which is the working copy and may change.
 │   ├── Mid_Analysed_Participants.xlsx
 │   ├── Result_Analysed_Participants.xlsx
 │   ├── Post_Analysed_Participants.xlsx
-│   └── (aggregator outputs *_PROCESSED_v9_PY.xlsx, for the frame-yield script)
+│   └── (aggregator outputs *_PROCESSED_v9_PY.xlsx, produced by the Python aggregator)
 ├── results/                               Output written by the scripts (created on run)
 │   ├── univariate_results.csv
 │   ├── manova_results.csv
 │   ├── frame_retention_per_participant.csv
-│   └── frame_retention_summary.csv
+│   ├── frame_retention_summary.csv
+│   └── FaceReader_Results_StudyWise Outputs/  Descriptive HTML tables per Study x Timepoint
+│       (Emotions/AU breakdowns, sample breakdowns, summary appendix, Analysed_Participants_Final.xlsx)
+├── FACS/                                  Supplementary manual FACS annotations (see note below)
+├── BAPCS/                                 Supplementary manual BAPCS annotations (see note below)
 └── docs/
     ├── data_dictionary.md                 Column-by-column description of the data
     ├── preprocessing.md                   How the data was produced (pipeline)
-    ├── CHANGELOG.md                        Version history of the released dataset
-    └── REGENERATE_RENV.md                  How to finalize renv.lock before release
+    └── CHANGELOG.md                       Version history of the released dataset
 ```
+
+## FaceReader study-wise outputs
+
+`results/FaceReader_Results_StudyWise Outputs/` contains descriptive HTML
+tables generated per Study (Winners/Losers) x Timepoint (Pre/Mid/Result/Post)
+x channel type (Emotions/AU), plus per-study sample-breakdown tables and a
+summary appendix (`Appendix_FaceReader_Emotion_Tables.html`). These are
+reporting output, not pipeline input — they are generated from the
+analysis-ready files, not consumed by any script.
+
+> **Check before pushing:** `Analysed_Participants_Final.xlsx` in this folder
+> has a name close enough to the four `data/*_Analysed_Participants.xlsx`
+> files that it's worth confirming whether it's the same data (in which case
+> one copy is redundant) or a distinct, earlier/final-only snapshot (in which
+> case the naming should be more clearly differentiated).
+
+## Supplementary manual annotations (FACS, BAPCS)
+
+`FACS/` and `BAPCS/` contain manual coding carried out independently of the
+automated FaceReader pipeline described above: expert-rater Facial Action
+Coding System (FACS) annotations and Body Action and Posture Coding System
+(BAPCS) gesture codes, with their own descriptive and inferential outputs
+(`FACS/Study 1_FACS Descriptives.xlsx`, `FACS/Study 2_FACS Descriptives.xlsx`,
+`BAPCS/BAPCS_submitfiles/BAPCS_analysis.R`, and associated results). These are
+supplementary reference material reported alongside the FaceReader findings in
+the Data Descriptor; they are not inputs to, and do not feed back into, any
+step of the automated FaceReader pipeline in `scripts/`.
 
 ## Data records
 
@@ -58,6 +94,30 @@ athlete-event; columns give participant identifiers, group memberships, the nine
 FaceReader affect channels (seven basic emotions plus valence and arousal), and
 the twenty combined Action Units. Full column definitions are in
 [`docs/data_dictionary.md`](docs/data_dictionary.md).
+
+## Code availability
+
+All code used to produce and validate this dataset is in `scripts/` and archived
+with the dataset on Zenodo. The pipeline from raw FaceReader exports to the
+analysis-ready files is documented step by step in
+[`docs/preprocessing.md`](docs/preprocessing.md); in brief:
+
+1. `extract_frx_mapping.py` — recovers event identity from the FaceReader `.frx` project file
+2. `relabel_raw_export.py` — relabels multi-event athletes in the raw frame-level export
+3. `inject_v6_results.py` — injects the verified Win/Loss result, applies sample exclusions
+4. `faceReader_aggregator.py` — pools valid frames to one value per athlete-event
+5. `make_analysis_ready.py` — splits the pooled data into Study1_Winners / Study2_Losers
+6. `technical_validation.R` — reproduces the Technical Validation tables (below)
+7. `frame_retention_per_participant.R` — reports data completeness for the analysed sample
+
+Steps 1-5 run in Python; `FaceReader_Pipeline.ipynb` runs all five from a single
+configuration cell. Steps 6-7 run in R on the analysis-ready files. The
+`*_PROCESSED_v9_PY.xlsx` files in `data/` are the output of step 4.
+
+The raw FaceReader Excel exports and the intermediate per-timepoint reference
+files are archived with the Zenodo record rather than in this repository, owing
+to their size; the analysis-ready and aggregator output files needed to
+reproduce every reported result are included here in `data/`.
 
 ## Reproducing the technical validation
 

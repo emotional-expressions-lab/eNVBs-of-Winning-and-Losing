@@ -23,7 +23,7 @@ preprocessing documentation for the full FaceReader configuration.
 | `Gender` | text | `Female` or `Male`. |
 | `Competition` | text | Competition name. `Olympic` denotes the sighted sample; all other (Paralympic and para-sport) competitions denote the visually impaired sample. |
 | `Vision` | text | `Sighted` (Olympic) or `Blind` (visually impaired). Derived from Competition per the sampling-frame rule. |
-| `Blindness Status` | text | Blindness classification for the visually impaired sample (e.g. congenital, acquired, unknown); `N/A (Sighted)` for the Olympic sample. |
+| `Blindness Status` | text | Descriptive attribute for the visually impaired sample; `N/A (Sighted)` for the Olympic sample and a placeholder (`Unknown`) for the visually impaired sample in the released files. Not used in any statistic: the analysis groups only by Vision x PD. |
 | `PD` | text | Cultural Power Distance group of the athlete's nationality: `High` or `Low`. |
 | `Result` | text | `Win` (Study 1 sheet) or `Loss` (Study 2 sheet). Derived from the competition video file names. |
 
@@ -86,9 +86,21 @@ section of the Data Descriptor.
 
 ## Notes on the analysed sample
 
-The technical-validation script additionally excludes a fixed list of
-non-blind para-sport athletes (by serial number) so that the `Blind` group
-comprises only visually impaired athletes. Panel sample sizes may therefore fall
-a few below the group totals where an athlete has a missing Power Distance value
-and drops from a Power Distance contrast. This is expected and documented in the
-Data Descriptor.
+The released files contain the full sample. The technical-validation script
+excludes a fixed list of non-blind para-sport athletes (by serial number) at
+read time, so that the `Blind` group comprises only visually impaired athletes;
+these rows remain in the data files for completeness and are not removed on disk.
+Panel sample sizes may therefore fall a few below the group totals where an
+athlete has a missing Power Distance value and drops from a Power Distance
+contrast. This is expected and documented in the Data Descriptor.
+
+## Aggregator output files (`*_PROCESSED_v9_PY.xlsx`)
+
+These are the intermediate, un-split aggregated files that the
+`*_Analysed_Participants.xlsx` files are derived from. Each has three sheets:
+
+| Sheet | Grain | Key columns |
+|---|---|---|
+| `Pooled_By_Participant` | one row per athlete-event | identifier/grouping columns as above, plus `<Channel>_AllAnalyses` (pooled mean across all valid frames) and `<Channel>_AllAnalyses_NFrames` (valid frame count behind that mean), for every affect channel and Action Unit including left/right sub-channels |
+| `Analysis_Quality` | one row per athlete-event × Analysis Index | `Total_Frames`, `Valid_Frames`, `Invalid_Frames`, `Invalid_Pct`, `Flagged_30pct`, `Flagged_50pct` (yes/no; informational only, nothing is excluded from `Pooled_By_Participant` on this basis) |
+| `Verification` | one row per athlete-event | `<Channel>_Sum` and `<Channel>_Count` alongside the mean in `Pooled_By_Participant`, so `Sum / Count` can be checked against `_AllAnalyses` |
